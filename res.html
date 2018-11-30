@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<meta charset="utf-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="pandoc" />
+
+
+
+
+<title>Research</title>
+
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/flatly.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+
+<style type="text/css">code{white-space: pre;}</style>
+<style type="text/css">
+  pre:not([class]) {
+    background-color: white;
+  }
+</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+<style type="text/css">
+h1 {
+  font-size: 34px;
+}
+h1.title {
+  font-size: 38px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+</style>
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+
+</head>
+
+<body>
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+  height: auto;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+</style>
+
+
+<style type="text/css">
+/* padding for bootstrap navbar */
+body {
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+/* offset scroll position for anchor links (for fixed navbar)  */
+.section h1 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+
+.section h2 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+.section h3 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+.section h4 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+.section h5 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+.section h6 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+</style>
+
+<script>
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.parent().addClass('active');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+});
+</script>
+
+
+<div class="container-fluid main-container">
+
+<!-- tabsets -->
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+</script>
+
+<!-- code folding -->
+
+
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Tsung-Heng Tsai</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">Home</a>
+</li>
+<li>
+  <a href="res.html">Research</a>
+</li>
+<li>
+  <a href="pubs.html">Publications</a>
+</li>
+<li>
+  <a href="talk.html">Talks</a>
+</li>
+<li>
+  <a href="teach.html">Teaching</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div class="fluid-row" id="header">
+
+
+
+<h1 class="title toc-ignore">Research</h1>
+
+</div>
+
+
+<p>Bayesian inference, bioinformatics, computational biology, statistical proteomics</p>
+<div id="projects" class="section level2">
+<h2>Projects</h2>
+<hr />
+<div id="statistical-characterization-of-therapeutic-protein-modifications" class="section level3">
+<h3>Statistical characterization of therapeutic protein modifications</h3>
+<p>This study addresses three primary goals of therapeutic protein characterization: (1) the objective estimation of site occupancyin a particularcondition, (2) the determination of systematic changes in site occupancies (i.e., differential site occupancy) between conditions, and (3) the estimation of combined occupancy over multiple sites. We demonstrated the importance of appropriate statistical modeling, for reproducible, accurate and efficient site occupancy estimation and differential analysis. Please see our Scientific Reports paper for details.</p>
+<hr />
+</div>
+<div id="bayesian-alignment-model-for-analysis-of-lc-ms-based-omic-data" class="section level3">
+<h3>Bayesian alignment model for analysis of LC-MS based omic data</h3>
+<p>Retention time alignment is crucial for the analysis of LC-MS based omic data. The proposed Bayesian alignment model provides estimates of the retention time variability along with uncertainty measures, enabling integration of multiple sources of information including internal standards and clustered chromatograms. This model has been successfully applied to data from LC-MS proteomic, metabolomic and glycomic studies. Please see our Bioinformatics paper and the supplementary web for more details.</p>
+<hr />
+</div>
+<div id="profile-based-lc-ms-data-alignment" class="section level3">
+<h3>Profile-based LC-MS data alignment</h3>
+<p>This study provides methodological foundation for the Bayesian alignment model and demonstrates a proof of concept for profile-based data alignment. The proposed model uses Markov chain Monte Carlo (MCMC) methods to draw inference on model parameters and improves on existing MCMC based alignment methods through 1) the implementation of an efficient MCMC sampler and 2) an adaptive selection of knots using stochastic search variable selection (SSVS). Please see our IEEE TCBB paper for more details.</p>
+<hr />
+</div>
+<div id="lc-ms-based-serum-glycomics-for-hcc-biomarker-discovery" class="section level3">
+<h3>LC-MS based serum glycomics for HCC biomarker discovery</h3>
+<p>Hepatocellular carcinoma (HCC) is the third leading cause of cancer mortality worldwide with five-year survival rate less than 15%. Glycosylation has important implications in the development and progression of cancer. In collaboration with analytical chemists at TTU, we used two complementary LC-MS methods, global profiling and targeted quantitation, to analyze serum N-glycans from hundreds of participants recruited in Egypt and the US, and identified candidate biomarkers that distinguishing HCC cases from patients with liver cirrhosis. In this study, I led the effort on quantitative analysis including development of preprocessing pipelines and statistical analysis. Please see our JPR paper for more details.</p>
+<hr />
+</div>
+<div id="lc-ms-based-serum-proteomics-for-hcc-biomarker-discovery" class="section level3">
+<h3>LC-MS based serum proteomics for HCC biomarker discovery</h3>
+<p>In this proteomic study, I led the effort on study design and data analysis including initial assessment of different analytical protocols and platforms. We identified candidate protein biomarkers through LC-MS/MS based untargeted analysis of sera. These proteins were further evaluated by targeted quantitation using MRM. Our findings independently confirmed several previously reported HCC protein biomarkers and revealed a number of new candidate biomarkers. Among these, there were 21 candidate protein biomarkers found significant in our two study cohorts in Egypt and the US. Furthermore, through multivariate analysis we identified a panel of six protein biomarkers, which yielded better performance than alpha-fetoprotein (AFP), the HCC biomarker in current use. Please see our Proteomics paper for more details.</p>
+<hr />
+</div>
+<div id="lc-ms-based-serum-metabolomics-for-hcc-biomarker-discovery" class="section level3">
+<h3>LC-MS based serum metabolomics for HCC biomarker discovery</h3>
+<p>I contributed to the analysis of LC-MS metabolomic data for HCC biomarker discovery through development of outlier screening method using the Stahel-Donoho robust estimator and application of XCMS preprocessing pipelines. As in our glycomic and proteomic studies, the metabolomic analysis was performed on two study cohorts in Egypt and the US. The three types of omic measurements conducted on the same subjects present an interesting yet challenging opportunity to integrate multi-omic signatures for a more comprehensive characterization of HCC. Please see our ACA and JPR papers for more details.</p>
+<hr />
+</div>
+<div id="spike-in-experiment-for-evaluation-of-preprocessing-pipelines" class="section level3">
+<h3>Spike-in experiment for evaluation of preprocessing pipelines</h3>
+<p>Prior to our HCC biomarker discovery studies, we conducted critical assessment on existing preprocessing pipelines for LC-MS data analysis. We simulated a simple model with “presence” and “absence” condition using spike-in experiments, and evaluated tools on the basis of their capabilities to identify the true differences. This study highlights critical preprocessing steps and helps prioritize improvement on relevant analytical and computational approaches, which has greatly facilitated our subsequent omic studies for biomarker discovery. Please see our PS paper for details.</p>
+</div>
+</div>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>
