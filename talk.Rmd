@@ -1,30 +1,30 @@
 ---
-title: "Talks"
+title: ""
 ---
 
 ### Invited Talks
 
-* _Statistical Methods for Quantitative Proteomics_, CIBI/OpenMS User Meeting, Berlin, Germany, September 2018
+* _Statistical Methods for Quantitative Proteomics_, [CIBI/OpenMS User Meeting](https://sites.google.com/view/cibi-user-meeting-2018/home), Berlin, Germany, September 2018
 
-* _Feature Selection for Relative Protein Quantification in Mass Spectrometry-based Proteomics_, Aebersold Lab, ETH Zurich, Switzerland, July 2018
+* _Feature Selection for Relative Protein Quantification in Mass Spectrometry-based Proteomics_, [Aebersold Lab](http://www.imsb.ethz.ch/research/aebersold.html), ETH Zurich, Switzerland, July 2018
 
-* _Extensions of MSstats Framework for Mass Spectrometry-based Proteomics_, Biognosys AG, Zurich, Switzerland, July 2018
+* _Extensions of MSstats Framework for Mass Spectrometry-based Proteomics_, [Biognosys AG](https://biognosys.com/), Zurich, Switzerland, July 2018
 
-* _Statistical Characterization of Therapeutic Protein Modifications_, Genentech Inc., South San Francisco, CA, September 2016
+* _Statistical Characterization of Therapeutic Protein Modifications_, [Genentech Inc.](https://www.gene.com/), South San Francisco, CA, September 2016
 
-* _Statistical Methods in Quantitative Proteomics_, Targeted Proteomics International Symposium, Mumbai, India, December 2015
+* _Statistical Methods in Quantitative Proteomics_, [Targeted Proteomics International Symposium](http://www.bio.iitb.ac.in/~sanjeeva/itpws/symposium/), Mumbai, India, December 2015
 
-* _Bayesian Alignment Model for LC-MS-based Omics_, Department of Bioinformatics and Computational Biology, MD Anderson Cancer Center, March 2014
+* _Bayesian Alignment Model for LC-MS-based Omics_, [Department of Bioinformatics and Computational Biology](https://www.mdanderson.org/research/departments-labs-institutes/departments-divisions/bioinformatics-and-computational-biology.html), MD Anderson Cancer Center, March 2014
 
-* _Bayesian Alignment Model for LC-MS-based Omics_, Neurological Research Institute, Baylor College of Medicine, February 2014
+* _Bayesian Alignment Model for LC-MS-based Omics_, [Neurological Research Institute](https://nri.texaschildrens.org/), Baylor College of Medicine, February 2014
 
 * _Bayesian Alignment Model for LC-MS Data_, Department of Pathology, Johns Hopkins University, March 2012
 
-* _Bayesian Alignment Model for LC-MS Data_, Virginia Tech Research Center --- Arlington, November 2011
+* _Bayesian Alignment Model for LC-MS Data_, [Virginia Tech Research Center --- Arlington](https://www.ncr.vt.edu/discovery/research_center_arlington.html), November 2011
 
 ### Contributed Talks
 
-* _A Statistical Framework for Relative Quantification of Post-translational Modifications in Global Proteomics Experiments_, Annual World Congress of the Human Proteome Organization (HUPO), Orlando, FL, September 2018
+* _A Statistical Framework for Relative Quantification of Post-translational Modifications in Global Proteomics Experiments_, [Annual World Congress of the Human Proteome Organization (HUPO)](https://www.hupo2018.org/), Orlando, FL, September 2018
 
 * _gMODs: an Open Source Data Analysis Tool for Quantifying the Differential Site Occupancy of Therapeutic Protein Modifications_, Annual Conference of the US Human Proteome Organization (US HUPO), Boston, MA, March 2016
 

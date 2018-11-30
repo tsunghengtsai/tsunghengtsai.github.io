@@ -1,8 +1,6 @@
 ---
-title: "Research"
+title: ""
 ---
-
-Bayesian inference, bioinformatics, computational biology, statistical proteomics
 
 ## Projects
 
