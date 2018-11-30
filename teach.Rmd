@@ -2,11 +2,30 @@
 title: "Teaching"
 ---
 
-## [Short Courses]
+### Short Courses
 
-* DIA/SWATH Course
+* Co-instructor, _DIA/SWATH Course_ (1 week), ETH Zurich, Switzerland, July 2018
 
+* Co-designer and co-instructor, _Advanced R_ (3 days) of the 2-week May Institute, Northeastern University, Boston, MA, May 2018
 
-## [Guest Lectures]
+* Invited speaker, _Proteomics_ (2 weeks), Cold Spring Harbor Laboratory, Cold Spring Harbor, NY, August 2017
 
-* Tidyverse
+* Co-designer and co-instructor, _Advanced R_ (3 days) of the 2-week May Institute, Northeastern University, Boston, MA, May 2017
+
+* Co-instructor, _Targeted Proteomics_ (1 week), Buck Institute, Novato, CA, February 2017
+
+* Co-instructor, _Proteomics_ (2 weeks), Cold Spring Harbor Laboratory, Cold Spring Harbor, NY, June 2016
+
+* Co-instructor , _Computation \& Statistics for Targeted Proteomics_ (1 week), Northeastern University, Boston, MA, May 2016
+
+* Co-instructor, _Targeted Proteomics_ (1 week), Buck Institute, Novato, CA, March 2016
+
+* Co-instructor, _Targeted Proteomics_ (1 week), Institute of Technology Bombay, India, December 2015
+
+### Guest Lectures
+
+* _Introduction to Tidy Data_, DS 5110 Introduction to Data Management and Processing, Northeastern University, September 2017 
+
+* _Data Wrangling and Visualization with R_, CS 7280 Topics in statistics and data analysis, Northeastern University, November 2016 
+
+* _Data Wrangling with R_, CS 7280 Topics in statistics and data analysis, Northeastern University, February 2016 
