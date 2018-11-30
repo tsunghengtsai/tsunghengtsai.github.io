@@ -1,0 +1,18 @@
+name: "thtsai-website"
+output_dir: "."
+navbar:
+  title: "Tsung-Heng Tsai"
+  left:
+    - text: "Home"
+      href: index.html
+    - text: "Publications"
+      href: pubs.html
+    - text: "Talks"
+      href: talk.html
+    - text: "Teaching"
+      href: teach.html
+
+output:
+  html_document:
+    theme: flatly
+    css: style.css

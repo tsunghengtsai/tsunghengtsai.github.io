@@ -1,0 +1,19 @@
+---
+title: "Publications"
+---
+
+## [Journal Papers]
+
+* \textbf{T-H Tsai}, Z Hao, Q Hong, B Moore, C Stella, JH Zhang, Y Chen, M Kim, T Koulis, GA Ryslik, E Verschueren, F Jacobson, WE Haskins, and O Vitek (2017). Statistical characterization of therapeutic protein modifications. \textit{Scientific Reports}, 7(1):7896. 
+* M Wang, \textbf{T-H Tsai}, C Di Poto, A Ferrarini, G Yu, and HW Ressom (2016). Topic model-based mass spectrometric data analysis in cancer biomarker discovery studies. \textit{BMC Genomics}, 17(Suppl 4):545.
+* \textbf{T-H Tsai}, E Song, Z Rui, C Di Poto, M Wang, Y Luo, RS Varghese, MG Tadesse, DH Ziada, CS Desai, K Shetty, Y Mechref, and HW Ressom (2015). LC-MS/MS based serum proteomics for identification of candidate biomarkers for hepatocellular carcinoma. \textit{Proteomics}, 15(13):2369--2381.
+* \textbf{T-H Tsai}, M Wang, C Di Poto, Y Hu, S Zhou, Y Zhao, RS Varghese, Y Luo, MG Tadesse, DH Ziada, CS Desai, K Shetty, Y Mechref, and HW Ressom (2014). LC-MS profiling of N-glycans derived from human serum samples for biomarker discovery in hepatocellular carcinoma. \textit{Journal of Proteome Research}, 13(11):4859--4868.
+* \textbf{T-H Tsai}, MG Tadesse, C Di~Poto, LK Pannell, Y Mechref, Y Wang, and HW Ressom (2013). Multi-profile Bayesian alignment model for LC-MS data analysis with integration of internal standards. \textit{Bioinformatics}, 29(21):2774--2780.
+* \textbf{T-H Tsai}, MG Tadesse, Y Wang, and HW Ressom (2013). Profile-based LC-MS data alignment --- A Bayesian approach. \textit{IEEE/ACM Transactions on Computational Biology and Bioinformatics}, 10(2):494--503. 
+* JF Xiao, RS Varghese, B Zhou, MR Ranjbar, Y Zhao, \textbf{T-H Tsai}, C Di Poto, J Wang, D Goerlitz, Y Luo, AK Cheema, N Sarhan, H Soliman, MG Tadesse, DH Ziada, and HW Ressom (2012). LC-MS based serum metabolomics for identification of hepatocellular carcinoma biomarkers in Egyptian cohort. \textit{Journal of Proteome Research}, 11(12):5914--5923. 
+* HW Ressom, JF Xiao, L Tuli, RS Varghese, B Zhou, \textbf{T-H Tsai}, MR Ranjbar, Y Zhao, J Wang, C Di Poto, AK Cheema, MG Tadesse, R Goldman, and K Shetty (2012). Utilization of metabolomics to identify serum biomarkers for hepatocellular carcinoma in patients with liver cirrhosis. \textit{Analytica Chimica Acta}, 743:90--100. 
+* L Tuli, \textbf{T-H Tsai}, RS Varghese, JF Xiao, AK Cheema, and HW Ressom (2012). Using a spike-in experiment to evaluate analysis of LC-MS data. \textit{Proteome Science}, 10(13). 
+* GK Befekadu, MG Tadesse, \textbf{T-H Tsai}, and HW Ressom (2011). Probabilistic mixture regression models for alignment of LC-MS data. \textit{IEEE/ACM Transactions on Computational Biology and Bioinformatics}, 8(5):1417--1424. 
+* T-T Liu, Y-H Lin, C-S Hung, T-J Liu, Y Chen, Y-C Huang, \textbf{T-H Tsai}, H-H Wang, D-W Wang, J-K Wang, Y-L Wang, and C-H Lin (2009). A high speed detection platform based on surface-enhanced Raman scattering for monitoring antibiotic-induced chemical changes in bacteria cell wall. \textit{PLoS One}, 4(5):e5470. 
+* Y-H Yi, P-Y Ho, T-W Chen, W-J Lin, V Gukassyan, \textbf{T-H Tsai}, D-W Wang, T-S Liu, C-Y Tang, SJ Lo, T-Y Chen, F-J Kao, and C-H Lin (2009). Membrane targeting and coupling of NHE1-integrin$\alpha_{\text{IIb}}\beta_{3}$-NCX1 by lipid rafts following integrin-ligand interactions trigger Ca$^{2+}$ oscillations. \textit{Journal of Biological Chemistry}, 284(6):3855--3864.
+
