@@ -4,28 +4,28 @@ title: ""
 
 ### Short Courses
 
-* Co-instructor, _DIA/SWATH Course_ (1 week), ETH Zurich, Switzerland, July 2018
+* Co-instructor, [DIA/SWATH Course](http://dia-swath-course.ethz.ch/) (1 week), ETH Zurich, Switzerland, July 2018
 
-* Co-designer and co-instructor, _Advanced R_ (3 days) of the 2-week May Institute, Northeastern University, Boston, MA, May 2018
+* Co-designer and co-instructor, [Advanced R](https://computationalproteomics2018.ccis.northeastern.edu/programs/intermediateadvanced-r/) (3 days) of the 2-week [May Institute](https://computationalproteomics2018.ccis.northeastern.edu/), Northeastern University, Boston, MA, May 2018
 
-* Invited speaker, _Proteomics_ (2 weeks), Cold Spring Harbor Laboratory, Cold Spring Harbor, NY, August 2017
+* Speaker, [Proteomics Course](https://meetings.cshl.edu/courses.aspx?course=C-PROTEO&year=17) (2 weeks), Cold Spring Harbor Laboratory, Cold Spring Harbor, NY, August 2017
 
-* Co-designer and co-instructor, _Advanced R_ (3 days) of the 2-week May Institute, Northeastern University, Boston, MA, May 2017
+* Co-designer and co-instructor, [Advanced R](https://olga-vitek-lab.ccis.northeastern.edu/courses-taught/2017-may-institute/program/may-3-5-advanced-r/) (3 days) of the 2-week [May Institute](https://olga-vitek-lab.ccis.northeastern.edu/courses-taught/2017-may-institute/), Northeastern University, Boston, MA, May 2017
 
-* Co-instructor, _Targeted Proteomics_ (1 week), Buck Institute, Novato, CA, February 2017
+* Co-instructor, [Targeted Proteomics Course](https://skyline.ms/project/home/software/Skyline/events/2017%20Buck%20Institute%20Course/begin.view?) (1 week), Buck Institute, Novato, CA, February 2017
 
-* Co-instructor, _Proteomics_ (2 weeks), Cold Spring Harbor Laboratory, Cold Spring Harbor, NY, June 2016
+* Co-instructor, [Proteomics Course](https://meetings.cshl.edu/courses.aspx?course=C-PROTEO&year=16) (2 weeks), Cold Spring Harbor Laboratory, Cold Spring Harbor, NY, June 2016
 
-* Co-instructor , _Computation \& Statistics for Targeted Proteomics_ (1 week), Northeastern University, Boston, MA, May 2016
+* Co-instructor, Computation \& Statistics for Targeted Proteomics (1 week), Northeastern University, Boston, MA, May 2016
 
-* Co-instructor, _Targeted Proteomics_ (1 week), Buck Institute, Novato, CA, March 2016
+* Co-instructor, [Targeted Proteomics Course](https://skyline.ms/project/home/software/Skyline/events/2016%20Buck%20Institute%20Course/begin.view?) (1 week), Buck Institute, Novato, CA, March 2016
 
-* Co-instructor, _Targeted Proteomics_ (1 week), Institute of Technology Bombay, India, December 2015
+* Co-instructor, [Targeted Proteomics Course](http://www.bio.iitb.ac.in/~sanjeeva/itpws/targeted/) (1 week), Indian Institute of Technology Bombay, India, December 2015
 
 ### Guest Lectures
 
-* _Introduction to Tidy Data_, DS 5110 Introduction to Data Management and Processing, Northeastern University, September 2017 
+* "_Introduction to Tidy Data_," DS 5110 Introduction to Data Management and Processing, Northeastern University, September 2017 
 
-* _Data Wrangling and Visualization with R_, CS 7280 Topics in statistics and data analysis, Northeastern University, November 2016 
+* "_Data Wrangling and Visualization with R_," CS 7280 Topics in statistics and data analysis, Northeastern University, November 2016 
 
-* _Data Wrangling with R_, CS 7280 Topics in statistics and data analysis, Northeastern University, February 2016 
+* "_Data Wrangling with R_," CS 7280 Topics in statistics and data analysis, Northeastern University, February 2016 

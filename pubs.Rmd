@@ -12,7 +12,7 @@ title: ""
 
 * __T-H Tsai__, M Wang, C Di Poto, Y Hu, S Zhou, Y Zhao, RS Varghese, Y Luo, MG Tadesse, DH Ziada, CS Desai, K Shetty, Y Mechref, and HW Ressom (2014). [LC-MS profiling of N-glycans derived from human serum samples for biomarker discovery in hepatocellular carcinoma](http://www.ncbi.nlm.nih.gov/pubmed/25077556). _Journal of Proteome Research_, 13(11):4859--4868.
 
-* __T-H Tsai__, MG Tadesse, C Di~Poto, LK Pannell, Y Mechref, Y Wang, and HW Ressom (2013). [Multi-profile Bayesian alignment model for LC-MS data analysis with integration of internal standards](http://www.ncbi.nlm.nih.gov/pubmed/24013927). _Bioinformatics_, 29(21):2774--2780.
+* __T-H Tsai__, MG Tadesse, C Di Poto, LK Pannell, Y Mechref, Y Wang, and HW Ressom (2013). [Multi-profile Bayesian alignment model for LC-MS data analysis with integration of internal standards](http://www.ncbi.nlm.nih.gov/pubmed/24013927). _Bioinformatics_, 29(21):2774--2780.
 
 * __T-H Tsai__, MG Tadesse, Y Wang, and HW Ressom (2013). [Profile-based LC-MS data alignment --- A Bayesian approach](http://www.ncbi.nlm.nih.gov/pubmed/23929872). _IEEE/ACM Transactions on Computational Biology and Bioinformatics_, 10(2):494--503. 
 
