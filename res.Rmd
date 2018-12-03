@@ -6,6 +6,32 @@ title: ""
 
 ---
 
+#### Selection of informative features for relative protein quantification
+
+<div class="row">
+<div class="column-left">
+![](images/uninf.png)
+</div>
+<div class="column-right">
+Bottom-up mass spectrometry-based proteomics workflows quantify proteins by summarizing the abundances of all the spectral features of the protein (e.g., precursor ions, transitions or fragments) in a single value per protein per run. Situations where abundances of some features are inconsistent with the overall protein profile undermine the protein-level summaries and the downstream conclusions. We propose a statistical approach to automatically detect spectral features with such inconsistent patterns. The detected features can be separately investigated, and if necessary removed from the dataset. The approach is implemented as an option in the open-source R-based software MSstats.
+</div>
+</div>
+
+---
+
+#### Statistical characterization of post-translational modifications
+
+<div class="row">
+<div class="column-left">
+![](images/ptm.png)
+</div>
+<div class="column-right">
+Interpretation of changes at a single PTM site in a typical bottom-up proteomics workflow is complicated by sparse PTM coverage and confounded by both changes in overall protein abundance and variability in enrichment efficiency. We propose an alternative statistical approach to model relative abundance changes for modification sites, which explicitly incorporates major sources of variability and confounding factors present in PTM experiments. The general statistical framework underlying the proposed approach also allows for natural extensions to complex experimental designs including multiple conditions and multiple batches. All algorithms and statistical tests are implemented in the MSstatsPTM R package.
+</div>
+</div>
+
+---
+
 #### Statistical characterization of therapeutic protein modifications
 
 <div class="row">
@@ -75,7 +101,7 @@ In this proteomic study, I led the effort on study design and data analysis incl
 
 <div class="row">
 <div class="column-left">
-![](images/rob.png)
+![](images/metabo.png)
 </div>
 <div class="column-right">
 I contributed to the analysis of LC-MS metabolomic data for HCC biomarker discovery through development of outlier screening method using the Stahel-Donoho robust estimator and application of XCMS preprocessing pipelines. As in our glycomic and proteomic studies, the metabolomic analysis was performed on two study cohorts in Egypt and the US. The three types of omic measurements conducted on the same subjects present an interesting yet challenging opportunity to integrate multi-omic signatures for a more comprehensive characterization of HCC. Please see our [ACA](https://www.ncbi.nlm.nih.gov/pubmed/22882828) and [JPR](https://www.ncbi.nlm.nih.gov/pubmed/23078175) papers for more details. 
