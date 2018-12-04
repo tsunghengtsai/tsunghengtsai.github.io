@@ -18,7 +18,7 @@ title: ""
 
 * "_Bayesian Alignment Model for LC-MS-based Omics_," [Neurological Research Institute](https://nri.texaschildrens.org/), Baylor College of Medicine, February 2014
 
-* "_Bayesian Alignment Model for LC-MS Data_," Department of Pathology, Johns Hopkins University, March 2012
+* "_Bayesian Alignment Model for LC-MS Data_," [Center for Biomarker Discovery and Translation](https://www.biomarkercenter.org/), Johns Hopkins University, March 2012
 
 * "_Bayesian Alignment Model for LC-MS Data_," [Virginia Tech Research Center --- Arlington](https://www.ncr.vt.edu/discovery/research_center_arlington.html), November 2011
 
