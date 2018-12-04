@@ -1,0 +1,29 @@
+---
+title: ""
+---
+
+### Education
+
+* PhD, Electrical Engineering, Virginia Tech
+* MS, Electrical and Control Engineering, National Chiao Tung University, Taiwan
+* BS, Power Mechanical Engineering, National Tsing Hua University, Taiwan
+
+### Research Experience
+
+* Postdoctoral Research Fellow (2014-2015), Department of Translational Molecular Pathology, University of Texas MD Anderson Cancer Center
+* Graduate Research Assistant (2009-2014), Department of Oncology, Georgetown Lombardi Comprehensive Cancer Center
+* Research Assistant (2007-2009), Institute of Information Science, Academia Sinica
+
+### Professional Activity
+
+* Reviewer for Journals: Bioinformatics (1), BMC Bioinformatics (1), Computational Statistics and Data Analysis (1), EURASIP Journal on Bioinformatics and Systems Biology (1), IEEE/ACM Transactions on Computational Biology and Bioinformatics (3), Journal of Applied Statistics (1), Journal of Chromatography A (1), Nature Communications (1)
+* Reviewer for Conferences: BIBM (2013), BMEI (2008), ICASSP (2011, 2012), iCBBE (2009), ISBI (2011, 2012), ISCAS (2011), ISMB (2018), MLSP (2011)
+* Program Committee Member: BIBM (2014, 2015)
+
+### Award
+
+* William A. Blackwell Award, Virginia Tech (2014)
+* Phi-Tau-Phi Honorary Member, National Chiao Tung University (2005)
+* Mr. Feng-Chang Lu Memorial Scholarship, National Tsing Hua University (2002)
+* Chun-Tsung Scholarship, sponsored by Nobel Laureate Dr. Tsung-Dao Lee (2002)
+* Yung Tuan Memorial Scholarship, National Tsing Hua University (2001) 

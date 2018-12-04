@@ -13,6 +13,8 @@ navbar:
       href: talk.html
     - text: "Teaching"
       href: teach.html
+    - text: "CV"
+      href: cv.html
 
 output:
   html_document:
