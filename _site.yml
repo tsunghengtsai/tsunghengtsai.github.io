@@ -18,5 +18,5 @@ navbar:
 
 output:
   html_document:
-    theme: flatly
+    theme: spacelab
     css: style.css
