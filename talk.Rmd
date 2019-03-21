@@ -4,6 +4,10 @@ title: ""
 
 ### Invited Talks
 
+* "_Statistical Methods for Quantitative Mass Spectrometry-based Proteomics_," [Department of Mathematical Sciences](https://www.kent.edu/math), Kent State University, March 2019
+
+* "_Statistical Methods for Reproducible Quantitative Omics Experiments_," [Quantitative Methods Core Seminar](https://www.umassmed.edu/pqhs/qmc/), University of Massachusetts Medical School, March 2019
+
 * "_Statistical Methods for Quantitative Proteomics_," [CIBI/OpenMS User Meeting](https://sites.google.com/view/cibi-user-meeting-2018/home), Berlin, Germany, September 2018
 
 * "_Feature Selection for Relative Protein Quantification in Mass Spectrometry-based Proteomics_," [Aebersold Lab](http://www.imsb.ethz.ch/research/aebersold.html), ETH Zurich, Switzerland, July 2018
