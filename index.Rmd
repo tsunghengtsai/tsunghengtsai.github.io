@@ -2,7 +2,7 @@
 title: "Tsung-Heng Tsai"
 ---
 
-I am a postdoctoral research associate in the [Khoury College of Computer and Information Sciences](https://www.khoury.northeastern.edu/) at [Northeastern University](http://www.northeastern.edu/), working with Professor Olga Vitek. My current research is focused on the development of statistical and computational methods for mass spectrometry-based proteomics. Prior to the current position, I was a postdoctoral fellow at [MD Anderson Cancer Center](https://www.mdanderson.org/), where I developed genomic chemopredictors for breast cancer prognosis and response to treatment. I received my PhD in [Electrical Engineering](https://ece.vt.edu/) from [Virginia Tech](https://vt.edu/) in 2014.
+I am a postdoctoral research associate in the [Khoury College of Computer Sciences](https://www.khoury.northeastern.edu/) at [Northeastern University](http://www.northeastern.edu/), working with Professor Olga Vitek. My current research is focused on the development of statistical and computational methods for mass spectrometry-based proteomics. Prior to the current position, I was a postdoctoral fellow at [MD Anderson Cancer Center](https://www.mdanderson.org/), where I developed genomic chemopredictors for breast cancer prognosis and response to treatment. I received my PhD in [Electrical Engineering](https://ece.vt.edu/) from [Virginia Tech](https://vt.edu/) in 2014.
 
 ---
 E-mail: t.tsai@northeastern.edu
