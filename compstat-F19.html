@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<meta charset="utf-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="pandoc" />
+
+
+
+
+<title>MATH 40024/50024: Computational Statistics,</title>
+
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/spacelab.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+
+<style type="text/css">code{white-space: pre;}</style>
+<style type="text/css">
+  pre:not([class]) {
+    background-color: white;
+  }
+</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+<style type="text/css">
+h1 {
+  font-size: 34px;
+}
+h1.title {
+  font-size: 38px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+</style>
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+  height: auto;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+</style>
+
+
+<style type="text/css">
+/* padding for bootstrap navbar */
+body {
+  padding-top: 52px;
+  padding-bottom: 40px;
+}
+/* offset scroll position for anchor links (for fixed navbar)  */
+.section h1 {
+  padding-top: 57px;
+  margin-top: -57px;
+}
+.section h2 {
+  padding-top: 57px;
+  margin-top: -57px;
+}
+.section h3 {
+  padding-top: 57px;
+  margin-top: -57px;
+}
+.section h4 {
+  padding-top: 57px;
+  margin-top: -57px;
+}
+.section h5 {
+  padding-top: 57px;
+  margin-top: -57px;
+}
+.section h6 {
+  padding-top: 57px;
+  margin-top: -57px;
+}
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #ffffff;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script>
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.parent().addClass('active');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Tsung-Heng Tsai</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">Home</a>
+</li>
+<li>
+  <a href="res.html">Research</a>
+</li>
+<li>
+  <a href="pubs.html">Publications</a>
+</li>
+<li>
+  <a href="talk.html">Talks</a>
+</li>
+<li>
+  <a href="teach.html">Teaching</a>
+</li>
+<li>
+  <a href="cv.html">CV</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div class="fluid-row" id="header">
+
+
+
+<h1 class="title toc-ignore">MATH 40024/50024: Computational Statistics,</h1>
+
+</div>
+
+
+<div id="fall-2019-aug-22-2019---dec-8-2019" class="section level3">
+<h3>Fall 2019 (Aug 22, 2019 - Dec 8, 2019)</h3>
+<p><strong>Lecture times:</strong> Mondays/Wednesdays/Fridays 11:00 am - 11:50am</p>
+<p><strong>Location:</strong> MSB 158</p>
+<p><strong>Instructor:</strong> Tsung-Heng Tsai | <a href="mailto:ttsai1@kent.edu">ttsai1@kent.edu</a> | Office Hours: Thursday 2:00 pm - 3:00 pm or by appointment</p>
+<p><strong>Administration:</strong> Questions and homework postings are handled via Piazza</p>
+<p><strong>Textbooks:</strong> R for Data Science by Wickham and Grolemund, Advanced R by Wickham, Introduction to Data Science by Rafa Irrizary</p>
+<p><strong>Academic integrity:</strong> Be familiar with the university’s academic integrity policy on cheating and plagiarism. (<a href="https://www.kent.edu/policyreg/administrative-policy-regarding-student-cheating-and-plagiarism" class="uri">https://www.kent.edu/policyreg/administrative-policy-regarding-student-cheating-and-plagiarism</a>)</p>
+<p><strong>Syllabus:</strong> here.</p>
+<hr />
+</div>
+<div id="schedule" class="section level3">
+<h3>Schedule</h3>
+<p><em>(subject to change)</em></p>
+<ul>
+<li><p><strong>Week 0 (Fri Aug 23).</strong> Introduction.</p></li>
+<li><p><strong>Week 1 (Mon Aug 26 - Fri Aug 30).</strong> Basic data structures.</p></li>
+<li><p><strong>Week 2 (Mon Sept 02 - Fri Sept 06).</strong> Indexing and iteration. <em>No class Monday: Labor Day.</em></p></li>
+<li><p><strong>Week 3 (Mon Sept 09 - Fri Sept 13).</strong> Text manipulation.</p></li>
+<li><p><strong>Week 4 (Mon Sept 16 - Fri Sept 20).</strong> Data frames and apply.</p></li>
+<li><p><strong>Week 5 (Mon Sept 23 - Fri Sept 27).</strong> Plotting. | Data visualization</p></li>
+<li><p><strong>Week 6 (Mon Sept 30 - Fri Oct 04).</strong> Functions.</p></li>
+<li><p><strong>Week 7 (Mon Oct 07 - Fri Oct 11).</strong> Simulation. <em>No class Friday: Fall Break.</em></p></li>
+<li><p><strong>Week 8 (Mon Oct 14 - Fri Oct 18).</strong> Reading in data.</p></li>
+<li><p><strong>Week 9 (Mon Oct 21 - Fri Oct 25).</strong> Fitting models to data.</p></li>
+<li><p><strong>Week 10 (Mon Oct 28 - Fri Nov 01).</strong> Tidyverse I: Pipes and dplyr. | Data Transformation</p></li>
+<li><p><strong>Week 11 (Mon Nov 04 - Fri Nov 08).</strong> Tidyverse II: Tidyr and advanced dplyr. | Importing and tidying</p></li>
+<li><p><strong>Week 12 (Mon Nov 11 - Fri Nov 15).</strong> Debugging and testing. <em>No class Monday: Veterans Day Observed.</em></p></li>
+<li><p><strong>Week 13 (Mon Nov 18 - Fri Nov 22).</strong> Version control and Git.</p></li>
+<li><p><strong>Week 14 (Mon Nov 25 - Fri Nov 29).</strong> Relational databases. <em>No class Wednesday and Friday: Thanksgiving Break.</em></p></li>
+<li><p><strong>Week 15 (Mon Dec 02 - Fri Dec 06).</strong> Statistical prediction.</p></li>
+</ul>
+<p>Introduction - Course expectations - Reproducible research - R, Rstudio, Rmarkdown</p>
+<ol style="list-style-type: decimal">
+<li>R basics (2)</li>
+</ol>
+<ul>
+<li>Basic data structures</li>
+<li>Indexing and iteration</li>
+<li>Function</li>
+<li>Readable and efficient R code</li>
+</ul>
+<ol start="2" style="list-style-type: decimal">
+<li>Data visualization (1)</li>
+</ol>
+<ul>
+<li>ggplot2</li>
+<li>Layered grammar of graphics</li>
+<li>Practice and principle</li>
+</ul>
+<ol start="3" style="list-style-type: decimal">
+<li>Data transformation (2)</li>
+</ol>
+<ul>
+<li>Introduction to tidyverse</li>
+<li>dplyr</li>
+<li>Exploratory data analysis</li>
+</ul>
+<ol start="4" style="list-style-type: decimal">
+<li>Importing and tidying (2)</li>
+</ol>
+<ul>
+<li>Tidy data</li>
+<li>tidyr</li>
+<li>readr</li>
+<li>rvest?</li>
+</ul>
+<ol start="5" style="list-style-type: decimal">
+<li><ol start="2" style="list-style-type: decimal">
+<li>Data wrangling</li>
+</ol></li>
+</ol>
+<ul>
+<li>date-time</li>
+<li>factor</li>
+<li>string</li>
+</ul>
+<ol start="6" style="list-style-type: decimal">
+<li><ol start="2" style="list-style-type: decimal">
+<li>Random variable</li>
+</ol></li>
+</ol>
+<ul>
+<li>Random number generator</li>
+<li>Simulation</li>
+</ul>
+<ol start="7" style="list-style-type: decimal">
+<li><ol start="2" style="list-style-type: decimal">
+<li>Probability and Statistics in R</li>
+</ol></li>
+<li><ol start="2" style="list-style-type: decimal">
+<li>Optimization</li>
+</ol></li>
+<li><ol start="2" style="list-style-type: decimal">
+<li>EM</li>
+</ol></li>
+<li><ol start="2" style="list-style-type: decimal">
+<li>Markov chain Monte Carlo</li>
+</ol></li>
+</ol>
+<ul>
+<li>Gibbs</li>
+<li>Metropolis-Hastings</li>
+</ul>
+<ol start="11" style="list-style-type: decimal">
+<li><ol start="2" style="list-style-type: decimal">
+<li>Many models</li>
+</ol></li>
+</ol>
+<ul>
+<li>broom</li>
+<li>Model selection</li>
+</ul>
+<ol start="12" style="list-style-type: decimal">
+<li><ol style="list-style-type: decimal">
+<li>Resampling methods</li>
+</ol></li>
+</ol>
+<ul>
+<li>Bootstrap</li>
+<li>Jackknife</li>
+</ul>
+<ol start="13" style="list-style-type: decimal">
+<li><ol start="2" style="list-style-type: decimal">
+<li>Statistical prediction (machine learning)</li>
+</ol></li>
+</ol>
+<ul>
+<li>Training and test sets</li>
+<li>Feature selection (in the loop)</li>
+<li>Parameter tuning</li>
+<li>Cross-validation</li>
+</ul>
+<ol start="14" style="list-style-type: decimal">
+<li><ol style="list-style-type: decimal">
+<li>Unsupervised analysis [Thanksgiving]</li>
+</ol></li>
+</ol>
+<ul>
+<li>PCA</li>
+<li>SVD</li>
+<li>Clustering</li>
+</ul>
+<ol start="15" style="list-style-type: decimal">
+<li><ol start="2" style="list-style-type: decimal">
+<li>Reproducible research</li>
+</ol></li>
+</ol>
+<ul>
+<li>Git, GitHub</li>
+<li>R package</li>
+<li>Project management</li>
+</ul>
+<p>EM</p>
+<p>MCMC</p>
+<p>Unsupervised analyiss</p>
+<p>Functions, functional programming</p>
+<p>Modeling</p>
+<p>Many models - broom</p>
+<p>Optimization, EM</p>
+<p>Simulation - Random number generator</p>
+<p>More simulation - Markov chain Monte Carlo</p>
+<p>Reproducible research (git, github, etc.)</p>
+<p>Resampling methods</p>
+<p>GIF: <a href="https://simplystatistics.org/2017/08/08/code-for-my-educational-gifs/" class="uri">https://simplystatistics.org/2017/08/08/code-for-my-educational-gifs/</a></p>
+<p>plots: <a href="https://hopstat.wordpress.com/2016/02/18/how-i-build-up-a-ggplot2-figure/" class="uri">https://hopstat.wordpress.com/2016/02/18/how-i-build-up-a-ggplot2-figure/</a> <a href="https://simplystatistics.org/2017/10/02/creating-an-expository-graph-for-a-talk/" class="uri">https://simplystatistics.org/2017/10/02/creating-an-expository-graph-for-a-talk/</a> <a href="https://www.biostat.wisc.edu/~kbroman/presentations/graphs2017.pdf" class="uri">https://www.biostat.wisc.edu/~kbroman/presentations/graphs2017.pdf</a></p>
+<p>GWAS: <a href="https://simplystatistics.org/2017/06/20/lowering-the-gwas-threshold-would-save-millions-of-dollars/" class="uri">https://simplystatistics.org/2017/06/20/lowering-the-gwas-threshold-would-save-millions-of-dollars/</a></p>
+<p>datasets: <a href="https://simplystatistics.org/2018/01/22/the-dslabs-package-provides-datasets-for-teaching-data-science/" class="uri">https://simplystatistics.org/2018/01/22/the-dslabs-package-provides-datasets-for-teaching-data-science/</a> <a href="https://simplystatistics.org/2019/07/19/more-datasets-for-teaching-data-science-the-expanded-dslabs-package/" class="uri">https://simplystatistics.org/2019/07/19/more-datasets-for-teaching-data-science-the-expanded-dslabs-package/</a></p>
+<p>Hurricane: <a href="https://simplystatistics.org/2017/12/03/data-do-not-agree-with-hurricane-official-death-count/" class="uri">https://simplystatistics.org/2017/12/03/data-do-not-agree-with-hurricane-official-death-count/</a> <a href="https://simplystatistics.org/2018/06/08/a-first-look-at-recently-released-official-puerto-rico-death-count-data/" class="uri">https://simplystatistics.org/2018/06/08/a-first-look-at-recently-released-official-puerto-rico-death-count-data/</a></p>
+<hr />
+<p>This course is about the use of computational tools to manage, explore, summarize, and visualize data, as well as the computational underpinnings of fitting statistical models. It uses mostly the statistical computation language R, but also other languages like Python and Matlab. It also covers: simulation and random number generation, computationally intensive methods like the bootstrap and permutation tests, Expectation-Maximization and related algorithms, and dimensionality reduction via matrix decomposition.</p>
+<p>Computationally intensive methods have become widely used in statistical inference. The objective of this course is to teach students important computational techniques used in statistical inference (evaluation of statistical methods, MLE and Bayesian inference). After learning this course, students are expected to gain understanding of algorithms behind statistical inferential methods, be able to develop new statistical methods, be able to use computer to investigate the properties of statistical methods, and be able to implement a combination of standard statistical toolkits for analyzing real data sets.</p>
+<p>Computational data analysis is an essential part of modern statistics. Competent statisticians must not just be able to run existing programs, but to understand the principles on which they work. They must also be able to read, modify and write code, so that they can assemble the computational tools needed to solve their data-analysis problems, rather than distorting problems to fit tools provided by others. This class is an introduction to programming, targeted at statistics majors with minimal programming knowledge, which will give them the skills to grasp how statistical software works, tweak it to suit their needs, recombine existing pieces of code, and when needed create their own programs.</p>
+<p>Students will learn the core of ideas of programming — functions, objects, data structures, flow control, input and output, debugging, logical design and abstraction — through writing code to assist in numerical and graphical statistical analyses. Students will in particular learn how to write maintainable code, and to test code for correctness. They will then learn how to set up stochastic simulations, how to parallelize data analyses, how to employ numerical optimization algorithms and diagnose their limitations, and how to work with and filter large data sets. Since code is also an important form of communication among scientists, students will learn how to comment and organize code.</p>
+<p>The class will be taught in the R language.</p>
+<p>Computational data analysis is an essential part of modern statistics. Competent statisticians must not just be able to run existing programs, but to understand the principles on which they work. They must also be able to read, modify, and write code, so that they can assemble the computational tools needed to solve their data analysis problems, rather than distorting problems to fit tools provided by others. This class is an introduction to statistically-oriented programming, targeted at statistics majors, without assuming extensive programming background.</p>
+<p>Students will learn the core of ideas of programming—data structures, functions, iteration, input and output, debugging, logical design, and abstraction—through writing code to assist in statistical analyses. Students will learn how to write maintainable code, as well as debug and test code for correctness. They will learn how to set up and run stochastic simulations, how to fit basic statistical models and assess the results, and how to work with and filter large data sets. Since code is an important form of communication among scientists, students will also learn how to comment and organize code.</p>
+<p>The class will be taught in the R programming language.</p>
+<p>This course discusses the practical issues and techniques for data importing, tidying, transforming, and modeling. It offers a gentle introduction to techniques for processing big data. Programming is a cross-cutting aspect of the course. Students will gain experience with data science tools through short assignments. The course work includes a term project based on real-world data. Required topics include: Data management and processing: definition &amp; background; Data transformation; Data import; Data cleaning; Data modeling; Relational and analytic databases; Basics of SQL; Programming in R; MapReduce fundamentals and distributed data management; Data processing pipelines, connecting multiple data management and analysis components; Interaction between the capabilities and requirements of data analysis methods (data structures, algorithms, memory requirements) and the choice of data storage and management tools; Repeatable and reproducible data analysis.</p>
+<p>Computational statistics is a branch of mathematical sciences concerned with efficient methods for obtaining numerical solutions to statistically formulated problems. This course will introduce students to a variety of computationally intensive statistical techniques and the role of computation as a tool of discovery. Topics include numerical optimization in statistical inference [expectation-maximization (EM) algorithm, Fisher scoring, etc.], random number generation, Monte Carlo methods, randomization methods, jackknife methods, bootstrap methods, tools for identification of structure in data, estimation of functions (orthogonal polynomials, splines, etc.), and graphical methods. Additional topics may vary. Coursework will include computer assignments.</p>
+<p>Classical statistical procedures arise where closed-form mathematical expressions are available for various inference summaries (e.g. linear regression; analysis of variance). A major emphasis of modern statistics is the development of inference principles in cases where both more complex data structures are involved and where more elaborate computations are required. Topics from numerical linear algebra, optimization, Monte Carlo (including Markov chain Monte Carlo), and graph theory are developed, especially as they relate to statistical inference (e.g., bootstrapping, permutation, Bayesian inference, EM algorithm, multivariate analysis).</p>
+</div>
+<div id="homework" class="section level3">
+<h3>Homework</h3>
+<hr />
+</div>
+<div id="exams" class="section level3">
+<h3>Exams</h3>
+<hr />
+</div>
+<div id="project" class="section level3">
+<h3>Project</h3>
+<hr />
+</div>
+<div id="grading" class="section level3">
+<h3>Grading</h3>
+<hr />
+</div>
+<div id="supplementary-materials" class="section level3">
+<h3>Supplementary materials</h3>
+<p>Supplementary textbooks on R programming:</p>
+<ul>
+<li><p>The R Cookbook, by Paul Teetor</p></li>
+<li><p>The R Graphics Cookbook, by Winston Chang</p></li>
+<li><p>The Art of R Programming: A Tour of Statistical Software Design, by Norman Matloff</p></li>
+<li><p>Software for Data Analysis: Programming with R, by John Chambers</p></li>
+<li><p>R for Data Science, by Hadley Wickham</p></li>
+</ul>
+<p>Online resources for R programming:</p>
+<ul>
+<li><p>R Fundamentals and Programming Techniques, by Thomas Lumley</p></li>
+<li><p>Google’s R Style Guide</p></li>
+<li><p>RStudio Cheat Sheets</p></li>
+</ul>
+</div>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

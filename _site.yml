@@ -14,7 +14,7 @@ navbar:
     - text: "Teaching"
       href: teach.html
     - text: "CV"
-      href: tsai-cv.pdf
+      href: cv.html
 
 output:
   html_document:

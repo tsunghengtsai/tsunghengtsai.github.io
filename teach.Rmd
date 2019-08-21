@@ -2,6 +2,13 @@
 title: ""
 ---
 
+### KSU Courses
+
+#### Fall 2019
+
+* MATH 40024/50024: Computational Statistics
+
+
 ### Short Courses
 
 * Co-instructor, [DIA/SWATH Course](http://dia-swath-course.ethz.ch/) (1 week), ETH Zurich, Switzerland, July 2018
