@@ -6,7 +6,7 @@ title: ""
 
 #### Fall 2019
 
-* MATH 40024/50024: Computational Statistics
+* [MATH 40024/50024: Computational Statistics](compstat-F19.html)
 
 
 ### Short Courses
