@@ -11,7 +11,7 @@
 
 
 
-<title>MATH 40024/50024: Computational Statistics,</title>
+<title>MATH 40024/50024: Computational Statistics</title>
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -314,225 +314,198 @@ $(document).ready(function () {
 
 
 
-<h1 class="title toc-ignore">MATH 40024/50024: Computational Statistics,</h1>
+<h1 class="title toc-ignore">MATH 40024/50024: Computational Statistics</h1>
 
 </div>
 
 
 <div id="fall-2019-aug-22-2019---dec-8-2019" class="section level3">
 <h3>Fall 2019 (Aug 22, 2019 - Dec 8, 2019)</h3>
-<p><strong>Lecture times:</strong> Mondays/Wednesdays/Fridays 11:00 am - 11:50am</p>
+<p><strong>Lecture times:</strong> Mondays/Wednesdays/Fridays 11:00AM-11:50AM</p>
 <p><strong>Location:</strong> MSB 158</p>
-<p><strong>Instructor:</strong> Tsung-Heng Tsai | <a href="mailto:ttsai1@kent.edu">ttsai1@kent.edu</a> | Office Hours: Thursday 2:00 pm - 3:00 pm or by appointment</p>
-<p><strong>Administration:</strong> Questions and homework postings are handled via Piazza</p>
-<p><strong>Textbooks:</strong> R for Data Science by Wickham and Grolemund, Advanced R by Wickham, Introduction to Data Science by Rafa Irrizary</p>
-<p><strong>Academic integrity:</strong> Be familiar with the university’s academic integrity policy on cheating and plagiarism. (<a href="https://www.kent.edu/policyreg/administrative-policy-regarding-student-cheating-and-plagiarism" class="uri">https://www.kent.edu/policyreg/administrative-policy-regarding-student-cheating-and-plagiarism</a>)</p>
-<p><strong>Syllabus:</strong> here.</p>
+<p><strong>Instructor:</strong> Tsung-Heng Tsai | <a href="mailto:ttsai1@kent.edu">ttsai1@kent.edu</a> | Office Hours: Mondays/Wednesdays/Fridays 12PM-1PM or by appointment</p>
+<p><strong>Textbooks:</strong> There is no required textbook but course notes will be provided throughout the course. Useful references are:</p>
+<ol style="list-style-type: decimal">
+<li><a href="https://jdstorey.github.io/fas/"><em>Foundations of Applied Statistics</em></a>, J. Storey, 2019</li>
+<li><a href="https://r4ds.had.co.nz"><em>R for Data Science</em></a>, H. Wickham and G. Grolemund, 2017</li>
+</ol>
+<p><strong>Plagiarism:</strong> Be familiar with the university’s academic integrity policy on cheating and plagiarism. (<a href="https://www.kent.edu/policyreg/administrative-policy-regarding-student-cheating-and-plagiarism" class="uri">https://www.kent.edu/policyreg/administrative-policy-regarding-student-cheating-and-plagiarism</a>)</p>
+<p><strong>Syllabus:</strong> <a href="MATH50024-F19-syllabus.pdf">here</a>.</p>
+<hr />
+</div>
+<div id="course-objectives" class="section level3">
+<h3>Course Objectives</h3>
+<p>Computation plays an essential role in modern statistics and machine learning. This course aims to develop a broad working knowledge of modern computational statistics. The topics include tools for exploratory data analysis, simulation, computational techniques for optimization, numerical integration, statistical modeling, statistical inference, and statistical prediction.</p>
+<p>The course will use the programming language R. In many cases the course will rely on the existing implementations of statistical methods, but some programming effort will also be required.</p>
+<p>After successful completion of the course, the students will understand the underlying principles of modern computational methods used in statistics, and be able to (1) use computational techniques to organize, explore, summarize, and analyze data, (2) use computation as a tool to investigate the properties of statistical methods, and (3) appropriately apply and/or develop computational methods to solve statistical problems.</p>
 <hr />
 </div>
 <div id="schedule" class="section level3">
 <h3>Schedule</h3>
-<p><em>(subject to change)</em></p>
+<p><em>(Subject to change.)</em></p>
+<div id="week-1-fri-aug-23-introduction" class="section level4">
+<h4>Week 1 (Fri Aug 23): Introduction</h4>
 <ul>
-<li><p><strong>Week 0 (Fri Aug 23).</strong> Introduction.</p></li>
-<li><p><strong>Week 1 (Mon Aug 26 - Fri Aug 30).</strong> Basic data structures.</p></li>
-<li><p><strong>Week 2 (Mon Sept 02 - Fri Sept 06).</strong> Indexing and iteration. <em>No class Monday: Labor Day.</em></p></li>
-<li><p><strong>Week 3 (Mon Sept 09 - Fri Sept 13).</strong> Text manipulation.</p></li>
-<li><p><strong>Week 4 (Mon Sept 16 - Fri Sept 20).</strong> Data frames and apply.</p></li>
-<li><p><strong>Week 5 (Mon Sept 23 - Fri Sept 27).</strong> Plotting. | Data visualization</p></li>
-<li><p><strong>Week 6 (Mon Sept 30 - Fri Oct 04).</strong> Functions.</p></li>
-<li><p><strong>Week 7 (Mon Oct 07 - Fri Oct 11).</strong> Simulation. <em>No class Friday: Fall Break.</em></p></li>
-<li><p><strong>Week 8 (Mon Oct 14 - Fri Oct 18).</strong> Reading in data.</p></li>
-<li><p><strong>Week 9 (Mon Oct 21 - Fri Oct 25).</strong> Fitting models to data.</p></li>
-<li><p><strong>Week 10 (Mon Oct 28 - Fri Nov 01).</strong> Tidyverse I: Pipes and dplyr. | Data Transformation</p></li>
-<li><p><strong>Week 11 (Mon Nov 04 - Fri Nov 08).</strong> Tidyverse II: Tidyr and advanced dplyr. | Importing and tidying</p></li>
-<li><p><strong>Week 12 (Mon Nov 11 - Fri Nov 15).</strong> Debugging and testing. <em>No class Monday: Veterans Day Observed.</em></p></li>
-<li><p><strong>Week 13 (Mon Nov 18 - Fri Nov 22).</strong> Version control and Git.</p></li>
-<li><p><strong>Week 14 (Mon Nov 25 - Fri Nov 29).</strong> Relational databases. <em>No class Wednesday and Friday: Thanksgiving Break.</em></p></li>
-<li><p><strong>Week 15 (Mon Dec 02 - Fri Dec 06).</strong> Statistical prediction.</p></li>
+<li>Course expectations</li>
+<li>Reproducible research</li>
+<li>R, Rstudio, R Markdown</li>
 </ul>
-<p>Introduction - Course expectations - Reproducible research - R, Rstudio, Rmarkdown</p>
-<ol style="list-style-type: decimal">
-<li>R basics (2)</li>
-</ol>
+</div>
+<div id="week-2-mon-aug-26---fri-aug-30-fundamentals-of-r" class="section level4">
+<h4>Week 2 (Mon Aug 26 - Fri Aug 30): Fundamentals of R</h4>
 <ul>
 <li>Basic data structures</li>
 <li>Indexing and iteration</li>
 <li>Function</li>
 <li>Readable and efficient R code</li>
 </ul>
-<ol start="2" style="list-style-type: decimal">
-<li>Data visualization (1)</li>
-</ol>
-<ul>
-<li>ggplot2</li>
-<li>Layered grammar of graphics</li>
-<li>Practice and principle</li>
-</ul>
-<ol start="3" style="list-style-type: decimal">
-<li>Data transformation (2)</li>
-</ol>
+</div>
+<div id="week-3-mon-sept-02---fri-sept-06-data-tidying" class="section level4">
+<h4>Week 3 (Mon Sept 02 - Fri Sept 06): Data tidying</h4>
+<p><em>No class Monday: Labor Day.</em></p>
 <ul>
 <li>Introduction to tidyverse</li>
-<li>dplyr</li>
-<li>Exploratory data analysis</li>
-</ul>
-<ol start="4" style="list-style-type: decimal">
-<li>Importing and tidying (2)</li>
-</ol>
-<ul>
 <li>Tidy data</li>
-<li>tidyr</li>
-<li>readr</li>
-<li>rvest?</li>
+<li>Data tidying with <code>tidyr</code></li>
 </ul>
-<ol start="5" style="list-style-type: decimal">
-<li><ol start="2" style="list-style-type: decimal">
-<li>Data wrangling</li>
-</ol></li>
-</ol>
+</div>
+<div id="week-4-mon-sept-09---fri-sept-13-data-transformation" class="section level4">
+<h4>Week 4 (Mon Sept 09 - Fri Sept 13): Data transformation</h4>
 <ul>
-<li>date-time</li>
-<li>factor</li>
-<li>string</li>
+<li>Pipes <code>%&gt;%</code></li>
+<li>Data transformation with <code>dplyr</code></li>
+<li>Split-apply-combine</li>
+<li>Relational data</li>
 </ul>
-<ol start="6" style="list-style-type: decimal">
-<li><ol start="2" style="list-style-type: decimal">
-<li>Random variable</li>
-</ol></li>
-</ol>
+</div>
+<div id="week-5-mon-sept-16---fri-sept-20-data-visualization" class="section level4">
+<h4>Week 5 (Mon Sept 16 - Fri Sept 20): Data Visualization</h4>
+<ul>
+<li>Visualization with <code>ggplot2</code></li>
+<li>Layered grammar of graphics</li>
+<li>Principles and practice</li>
+</ul>
+</div>
+<div id="week-6-mon-sept-23---fri-sept-27-data-wrangling" class="section level4">
+<h4>Week 6 (Mon Sept 23 - Fri Sept 27) Data wrangling</h4>
+<ul>
+<li>Strings, factors, date-times</li>
+<li>Exploratory data analysis</li>
+<li>More on data visualization and transformation</li>
+</ul>
+</div>
+<div id="week-7-mon-sept-30---fri-oct-04-random-variable-and-simulation" class="section level4">
+<h4>Week 7 (Mon Sept 30 - Fri Oct 04): Random variable and simulation</h4>
 <ul>
 <li>Random number generator</li>
 <li>Simulation</li>
 </ul>
-<ol start="7" style="list-style-type: decimal">
-<li><ol start="2" style="list-style-type: decimal">
-<li>Probability and Statistics in R</li>
-</ol></li>
-<li><ol start="2" style="list-style-type: decimal">
-<li>Optimization</li>
-</ol></li>
-<li><ol start="2" style="list-style-type: decimal">
-<li>EM</li>
-</ol></li>
-<li><ol start="2" style="list-style-type: decimal">
-<li>Markov chain Monte Carlo</li>
-</ol></li>
-</ol>
+</div>
+<div id="week-8-mon-oct-07---fri-oct-11-midterm-exam" class="section level4">
+<h4>Week 8 (Mon Oct 07 - Fri Oct 11): Midterm Exam</h4>
+<p><em>No class Friday: Fall Break.</em></p>
 <ul>
-<li>Gibbs</li>
-<li>Metropolis-Hastings</li>
+<li>Review for midterm exam</li>
+<li><strong>Midterm exam</strong> (in class) on <strong>Wednesday Oct 9</strong></li>
 </ul>
-<ol start="11" style="list-style-type: decimal">
-<li><ol start="2" style="list-style-type: decimal">
-<li>Many models</li>
-</ol></li>
-</ol>
+</div>
+<div id="week-9-mon-oct-14---fri-oct-18-statistical-modeling-i" class="section level4">
+<h4>Week 9 (Mon Oct 14 - Fri Oct 18): Statistical modeling I</h4>
 <ul>
-<li>broom</li>
-<li>Model selection</li>
+<li>Fitting models to data</li>
+<li>Tidying model objects with <code>broom</code></li>
+<li>Evaluating models</li>
 </ul>
-<ol start="12" style="list-style-type: decimal">
-<li><ol style="list-style-type: decimal">
+</div>
+<div id="week-10-mon-oct-21---fri-oct-25-statistical-modeling-ii" class="section level4">
+<h4>Week 10 (Mon Oct 21 - Fri Oct 25): Statistical modeling II</h4>
+<ul>
+<li>Working with large numbers of models</li>
 <li>Resampling methods</li>
-</ol></li>
-</ol>
-<ul>
-<li>Bootstrap</li>
-<li>Jackknife</li>
 </ul>
-<ol start="13" style="list-style-type: decimal">
-<li><ol start="2" style="list-style-type: decimal">
-<li>Statistical prediction (machine learning)</li>
-</ol></li>
-</ol>
+</div>
+<div id="week-11-mon-oct-28---fri-nov-01-maximum-likelihood-estimation" class="section level4">
+<h4>Week 11 (Mon Oct 28 - Fri Nov 01): Maximum likelihood estimation</h4>
+<ul>
+<li>General optimization</li>
+<li>Univariate and multivariate optimization</li>
+<li>Expectation-maximization (EM) algorithm</li>
+</ul>
+</div>
+<div id="week-12-mon-nov-04---fri-nov-08-numerical-integration" class="section level4">
+<h4>Week 12 (Mon Nov 04 - Fri Nov 08): Numerical integration</h4>
+<ul>
+<li>Numerical quadrature</li>
+<li>Monte Carlo methods</li>
+</ul>
+</div>
+<div id="week-13-mon-nov-11---fri-nov-15-markov-chain-monte-carlo" class="section level4">
+<h4>Week 13 (Mon Nov 11 - Fri Nov 15): Markov chain Monte Carlo</h4>
+<p><em>No class Monday: Veterans Day Observed.</em></p>
+<ul>
+<li>Gibbs sampling</li>
+<li>Metropolis-Hastings methods</li>
+</ul>
+</div>
+<div id="week-14-mon-nov-18---fri-nov-22-statistical-prediction" class="section level4">
+<h4>Week 14 (Mon Nov 18 - Fri Nov 22): Statistical prediction</h4>
 <ul>
 <li>Training and test sets</li>
-<li>Feature selection (in the loop)</li>
 <li>Parameter tuning</li>
 <li>Cross-validation</li>
 </ul>
-<ol start="14" style="list-style-type: decimal">
-<li><ol style="list-style-type: decimal">
-<li>Unsupervised analysis [Thanksgiving]</li>
-</ol></li>
-</ol>
+</div>
+<div id="week-15-mon-nov-25---fri-nov-29-reproducible-research" class="section level4">
+<h4>Week 15 (Mon Nov 25 - Fri Nov 29): Reproducible research</h4>
+<p><em>No class Wednesday and Friday: Thanksgiving Break.</em></p>
 <ul>
-<li>PCA</li>
-<li>SVD</li>
-<li>Clustering</li>
-</ul>
-<ol start="15" style="list-style-type: decimal">
-<li><ol start="2" style="list-style-type: decimal">
-<li>Reproducible research</li>
-</ol></li>
-</ol>
-<ul>
-<li>Git, GitHub</li>
+<li>Version control, Git, GitHub</li>
 <li>R package</li>
-<li>Project management</li>
 </ul>
-<p>EM</p>
-<p>MCMC</p>
-<p>Unsupervised analyiss</p>
-<p>Functions, functional programming</p>
-<p>Modeling</p>
-<p>Many models - broom</p>
-<p>Optimization, EM</p>
-<p>Simulation - Random number generator</p>
-<p>More simulation - Markov chain Monte Carlo</p>
-<p>Reproducible research (git, github, etc.)</p>
-<p>Resampling methods</p>
-<p>GIF: <a href="https://simplystatistics.org/2017/08/08/code-for-my-educational-gifs/" class="uri">https://simplystatistics.org/2017/08/08/code-for-my-educational-gifs/</a></p>
-<p>plots: <a href="https://hopstat.wordpress.com/2016/02/18/how-i-build-up-a-ggplot2-figure/" class="uri">https://hopstat.wordpress.com/2016/02/18/how-i-build-up-a-ggplot2-figure/</a> <a href="https://simplystatistics.org/2017/10/02/creating-an-expository-graph-for-a-talk/" class="uri">https://simplystatistics.org/2017/10/02/creating-an-expository-graph-for-a-talk/</a> <a href="https://www.biostat.wisc.edu/~kbroman/presentations/graphs2017.pdf" class="uri">https://www.biostat.wisc.edu/~kbroman/presentations/graphs2017.pdf</a></p>
-<p>GWAS: <a href="https://simplystatistics.org/2017/06/20/lowering-the-gwas-threshold-would-save-millions-of-dollars/" class="uri">https://simplystatistics.org/2017/06/20/lowering-the-gwas-threshold-would-save-millions-of-dollars/</a></p>
-<p>datasets: <a href="https://simplystatistics.org/2018/01/22/the-dslabs-package-provides-datasets-for-teaching-data-science/" class="uri">https://simplystatistics.org/2018/01/22/the-dslabs-package-provides-datasets-for-teaching-data-science/</a> <a href="https://simplystatistics.org/2019/07/19/more-datasets-for-teaching-data-science-the-expanded-dslabs-package/" class="uri">https://simplystatistics.org/2019/07/19/more-datasets-for-teaching-data-science-the-expanded-dslabs-package/</a></p>
-<p>Hurricane: <a href="https://simplystatistics.org/2017/12/03/data-do-not-agree-with-hurricane-official-death-count/" class="uri">https://simplystatistics.org/2017/12/03/data-do-not-agree-with-hurricane-official-death-count/</a> <a href="https://simplystatistics.org/2018/06/08/a-first-look-at-recently-released-official-puerto-rico-death-count-data/" class="uri">https://simplystatistics.org/2018/06/08/a-first-look-at-recently-released-official-puerto-rico-death-count-data/</a></p>
-<hr />
-<p>This course is about the use of computational tools to manage, explore, summarize, and visualize data, as well as the computational underpinnings of fitting statistical models. It uses mostly the statistical computation language R, but also other languages like Python and Matlab. It also covers: simulation and random number generation, computationally intensive methods like the bootstrap and permutation tests, Expectation-Maximization and related algorithms, and dimensionality reduction via matrix decomposition.</p>
-<p>Computationally intensive methods have become widely used in statistical inference. The objective of this course is to teach students important computational techniques used in statistical inference (evaluation of statistical methods, MLE and Bayesian inference). After learning this course, students are expected to gain understanding of algorithms behind statistical inferential methods, be able to develop new statistical methods, be able to use computer to investigate the properties of statistical methods, and be able to implement a combination of standard statistical toolkits for analyzing real data sets.</p>
-<p>Computational data analysis is an essential part of modern statistics. Competent statisticians must not just be able to run existing programs, but to understand the principles on which they work. They must also be able to read, modify and write code, so that they can assemble the computational tools needed to solve their data-analysis problems, rather than distorting problems to fit tools provided by others. This class is an introduction to programming, targeted at statistics majors with minimal programming knowledge, which will give them the skills to grasp how statistical software works, tweak it to suit their needs, recombine existing pieces of code, and when needed create their own programs.</p>
-<p>Students will learn the core of ideas of programming — functions, objects, data structures, flow control, input and output, debugging, logical design and abstraction — through writing code to assist in numerical and graphical statistical analyses. Students will in particular learn how to write maintainable code, and to test code for correctness. They will then learn how to set up stochastic simulations, how to parallelize data analyses, how to employ numerical optimization algorithms and diagnose their limitations, and how to work with and filter large data sets. Since code is also an important form of communication among scientists, students will learn how to comment and organize code.</p>
-<p>The class will be taught in the R language.</p>
-<p>Computational data analysis is an essential part of modern statistics. Competent statisticians must not just be able to run existing programs, but to understand the principles on which they work. They must also be able to read, modify, and write code, so that they can assemble the computational tools needed to solve their data analysis problems, rather than distorting problems to fit tools provided by others. This class is an introduction to statistically-oriented programming, targeted at statistics majors, without assuming extensive programming background.</p>
-<p>Students will learn the core of ideas of programming—data structures, functions, iteration, input and output, debugging, logical design, and abstraction—through writing code to assist in statistical analyses. Students will learn how to write maintainable code, as well as debug and test code for correctness. They will learn how to set up and run stochastic simulations, how to fit basic statistical models and assess the results, and how to work with and filter large data sets. Since code is an important form of communication among scientists, students will also learn how to comment and organize code.</p>
-<p>The class will be taught in the R programming language.</p>
-<p>This course discusses the practical issues and techniques for data importing, tidying, transforming, and modeling. It offers a gentle introduction to techniques for processing big data. Programming is a cross-cutting aspect of the course. Students will gain experience with data science tools through short assignments. The course work includes a term project based on real-world data. Required topics include: Data management and processing: definition &amp; background; Data transformation; Data import; Data cleaning; Data modeling; Relational and analytic databases; Basics of SQL; Programming in R; MapReduce fundamentals and distributed data management; Data processing pipelines, connecting multiple data management and analysis components; Interaction between the capabilities and requirements of data analysis methods (data structures, algorithms, memory requirements) and the choice of data storage and management tools; Repeatable and reproducible data analysis.</p>
-<p>Computational statistics is a branch of mathematical sciences concerned with efficient methods for obtaining numerical solutions to statistically formulated problems. This course will introduce students to a variety of computationally intensive statistical techniques and the role of computation as a tool of discovery. Topics include numerical optimization in statistical inference [expectation-maximization (EM) algorithm, Fisher scoring, etc.], random number generation, Monte Carlo methods, randomization methods, jackknife methods, bootstrap methods, tools for identification of structure in data, estimation of functions (orthogonal polynomials, splines, etc.), and graphical methods. Additional topics may vary. Coursework will include computer assignments.</p>
-<p>Classical statistical procedures arise where closed-form mathematical expressions are available for various inference summaries (e.g. linear regression; analysis of variance). A major emphasis of modern statistics is the development of inference principles in cases where both more complex data structures are involved and where more elaborate computations are required. Topics from numerical linear algebra, optimization, Monte Carlo (including Markov chain Monte Carlo), and graph theory are developed, especially as they relate to statistical inference (e.g., bootstrapping, permutation, Bayesian inference, EM algorithm, multivariate analysis).</p>
 </div>
-<div id="homework" class="section level3">
-<h3>Homework</h3>
+<div id="week-16-mon-dec-02---fri-dec-06-unsupervised-analysis" class="section level4">
+<h4>Week 16 (Mon Dec 02 - Fri Dec 06): Unsupervised analysis</h4>
+<ul>
+<li>Principal component analysis (PCA)</li>
+<li>Singular value decomposition (SVD)</li>
+<li>Clustering</li>
+<li><strong>Fianl exam</strong> (take-home) released on <strong>Friday Dec 06</strong></li>
+</ul>
 <hr />
 </div>
-<div id="exams" class="section level3">
-<h3>Exams</h3>
-<hr />
 </div>
-<div id="project" class="section level3">
-<h3>Project</h3>
+<div id="course-operation" class="section level3">
+<h3>Course operation</h3>
+<p>Each week, there will be lectures on Monday and Wednesday, and an in-class lab on Friday. The instructor will be available in the lab session for help. Unless otherwise noted, the lab will be due 11:59PM on Sunday (the end of the week). Attendance to labs is optional, but highly encouraged. There will also be an in-class midterm exam (on Wednesday Oct 9), and a final take-home exam (assigned on Friday Dec 6).</p>
 <hr />
 </div>
 <div id="grading" class="section level3">
 <h3>Grading</h3>
-<hr />
+<p>Grades will be calculated as follows:</p>
+<ul>
+<li>Labs: 60%</li>
+<li>Midterm exam: 20%</li>
+<li>Final exam: 20%</li>
+</ul>
+<p>The final letter grades will follow the usual scale:</p>
+<ul>
+<li>90-100 = A-range (i.e., A+, A or A-)</li>
+<li>80-89 = B-range (i.e., B+, B or B-)</li>
+<li>70-79 = C-range (i.e., C+, C or C-)</li>
+<li>60-69 = D</li>
+<li>0-59 = F</li>
+</ul>
+<p>The cutoffs for “+” and “-” will be determined at the end of the semester, at the discretion of the intructor. This scale is subject to change at the discretion of the instructor</p>
 </div>
-<div id="supplementary-materials" class="section level3">
-<h3>Supplementary materials</h3>
-<p>Supplementary textbooks on R programming:</p>
-<ul>
-<li><p>The R Cookbook, by Paul Teetor</p></li>
-<li><p>The R Graphics Cookbook, by Winston Chang</p></li>
-<li><p>The Art of R Programming: A Tour of Statistical Software Design, by Norman Matloff</p></li>
-<li><p>Software for Data Analysis: Programming with R, by John Chambers</p></li>
-<li><p>R for Data Science, by Hadley Wickham</p></li>
-</ul>
-<p>Online resources for R programming:</p>
-<ul>
-<li><p>R Fundamentals and Programming Techniques, by Thomas Lumley</p></li>
-<li><p>Google’s R Style Guide</p></li>
-<li><p>RStudio Cheat Sheets</p></li>
-</ul>
+<div id="labs" class="section level3">
+<h3>Labs</h3>
+<p>Each lab will consist of a set of hands-on exercises, and will be completed in R Markdown format (with Rmd extension). An Rmd file contains a combination of content with simple text and R code chunks. Labs will be turned in through Blackboard, due 11:59pm on Sunday (the end of the week). Each lab must be submitted as an R Markdown source file and the resulting PDF output (generated by calling “Knit to PDF”).</p>
+<p>Students may choose to discuss and collaborate with friends on the labs, but your submitted work must be your own. Sharing of solutions will not be tolerated and will be considered cheating.</p>
+<p>No late work will be accepted. Extensions may be given individually if requested at least 48 hours in advance of the due date with a reasonable justification. The two lowest lab scores of the semester will be dropped.</p>
+</div>
+<div id="exams" class="section level3">
+<h3>Exams</h3>
+<p>One in-class midterm exam, and one take-home final exam. No collaboration with peers is allowed.</p>
 </div>
 
 
