@@ -1,6 +1,6 @@
 ---
 title: 'MATH 40024/50024: Computational Statistics'
-output: pdf_document
+output: html_document
 ---
 
 ### Fall 2019 (Aug 22, 2019 - Dec 8, 2019)
@@ -13,8 +13,8 @@ __Instructor:__ Tsung-Heng Tsai | ttsai1@kent.edu | Office Hours: Mondays/Wednes
 
 __Textbooks:__ There is no required textbook but course notes will be provided throughout the course. Useful references are: 
 
-1. [_Foundations of Applied Statistics_](https://jdstorey.github.io/fas/), J. Storey, 2019
-2. [_R for Data Science_](https://r4ds.had.co.nz), H. Wickham and G. Grolemund, 2017
+1. [_Foundations of Applied Statistics_](https://jdstorey.github.io/fas/), John D. Storey, 2019
+2. [_R for Data Science_](https://r4ds.had.co.nz), Hadley Wickham and Garrett Grolemund, 2017
 
 __Plagiarism:__ Be familiar with the university’s academic integrity policy on cheating and plagiarism. (https://www.kent.edu/policyreg/administrative-policy-regarding-student-cheating-and-plagiarism)
 
@@ -121,14 +121,11 @@ _No class Wednesday and Friday: Thanksgiving Break._
 - Clustering
 - __Fianl exam__ (take-home) released on __Friday Dec 06__
 
-
-
 ---
 
 ### Course operation
 
 Each week, there will be lectures on Monday and Wednesday, and an in-class lab on Friday. The instructor will be available in the lab session for help. Unless otherwise noted, the lab will be due 11:59PM on Sunday (the end of the week). Attendance to labs is optional, but highly encouraged. There will also be an in-class midterm exam (on Wednesday Oct 9), and a final take-home exam (assigned on Friday Dec 6).
-
 
 ---
 
@@ -162,3 +159,17 @@ No late work will be accepted. Extensions may be given individually if requested
 
 One in-class midterm exam, and one take-home final exam. No collaboration with peers is allowed. 
 
+---
+
+### Supplementary materials
+
+Supplementary textbooks for R programming: 
+
+- [Hands-On Programming with R](https://rstudio-education.github.io/hopr/), by Garrett Grolemund
+- [R Programming for Data Science](https://leanpub.com/rprogramming), by Roger D. Peng
+- [Advanced R](https://adv-r.hadley.nz), by Hadley Wickham
+
+Online resources for R programming:
+
+- [An introduction to R](cran.r-project.org/doc/manuals/R-intro.html), by R Core Team
+- [simpleR](cran.r-project.org/doc/contrib/Verzani-SimpleR.pdf), by John Verzani
