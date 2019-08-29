@@ -4,6 +4,8 @@ title: ""
 
 ### Journal Papers
 
+* BV Sinn, C Fu, R Lau, J Litton, __T-H Tsai__, R Murthy, A Tam, E Andreopoulou, Y Gong, R Murthy, R Gould, Y Zhang, TA King, A Viale, V Andrade, D Giri, R Salgado, I Laios, C Sotiriou, C Marginean, DN Kwiatkowski, R Layman, D Booser, C Hatzis, V Valero, and WF Symmans (2019). [SET$_{\text{ER/PR}}$ - A robust 18-gene predictor for sensitivity to endocrine therapy for metastatic breast cancer](https://www.ncbi.nlm.nih.gov/pubmed/31231679). _npj Breast Cancer_, 5:16. 
+
 * __T-H Tsai__, Z Hao, Q Hong, B Moore, C Stella, JH Zhang, Y Chen, M Kim, T Koulis, GA Ryslik, E Verschueren, F Jacobson, WE Haskins, and O Vitek (2017). [Statistical characterization of therapeutic protein modifications](https://www.ncbi.nlm.nih.gov/pubmed/28801661). _Scientific Reports_, 7(1):7896.
 
 * M Wang, __T-H Tsai__, C Di Poto, A Ferrarini, G Yu, and HW Ressom (2016). [Topic model-based mass spectrometric data analysis in cancer biomarker discovery studies](http://www.ncbi.nlm.nih.gov/pubmed/27535232). _BMC Genomics_, 17(Suppl 4):545.
@@ -31,7 +33,6 @@ title: ""
 ### Preprints
 
 * __T-H Tsai__, M Choi, B Banfai, Y Liu, T Dunkley, and O Vitek (2018). Selection of features with consistent profiles improves relative protein quantification in mass spectrometry experiments. 
-* BV Sinn, C Fu, R Lau, J Litton, __T-H Tsai__, R Murthy, A Tam, E Andreopoulou, Y Gong, R Murthy, R Gould, Y Zhang, TA King, A Viale, V Andrade, D Giri, R Salgado, I Laios, C Sotiriou, C Marginean, DN Kwiatkowski, R Layman, D Booser, C Hatzis, V Valero, and WF Symmans (2018). SET$_{\text{ER/PR}}$ - A robust 18-gene predictor for sensitivity to endocrine therapy for metastatic breast cancer.
 
 ### Book Chapters
 
