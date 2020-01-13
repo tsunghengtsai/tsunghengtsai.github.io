@@ -4,6 +4,10 @@ title: ""
 
 ### KSU Courses
 
+#### Spring 2020
+
+* [MATH 49995/57091: Introduction to Data Science](datasci-S20.html)
+
 #### Fall 2019
 
 * [MATH 40024/50024: Computational Statistics](compstat-F19.html)

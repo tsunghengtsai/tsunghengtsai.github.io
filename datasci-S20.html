@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<meta charset="utf-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="pandoc" />
+
+
+
+
+<title>MATH 49995/57091: Introduction to Data Science</title>
+
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/spacelab.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+
+<style type="text/css">code{white-space: pre;}</style>
+<style type="text/css">
+  pre:not([class]) {
+    background-color: white;
+  }
+</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+<style type="text/css">
+h1 {
+  font-size: 34px;
+}
+h1.title {
+  font-size: 38px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+</style>
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+  height: auto;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+</style>
+
+
+<style type="text/css">
+/* padding for bootstrap navbar */
+body {
+  padding-top: 52px;
+  padding-bottom: 40px;
+}
+/* offset scroll position for anchor links (for fixed navbar)  */
+.section h1 {
+  padding-top: 57px;
+  margin-top: -57px;
+}
+.section h2 {
+  padding-top: 57px;
+  margin-top: -57px;
+}
+.section h3 {
+  padding-top: 57px;
+  margin-top: -57px;
+}
+.section h4 {
+  padding-top: 57px;
+  margin-top: -57px;
+}
+.section h5 {
+  padding-top: 57px;
+  margin-top: -57px;
+}
+.section h6 {
+  padding-top: 57px;
+  margin-top: -57px;
+}
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #ffffff;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script>
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.parent().addClass('active');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Tsung-Heng Tsai</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">Home</a>
+</li>
+<li>
+  <a href="res.html">Research</a>
+</li>
+<li>
+  <a href="pubs.html">Publications</a>
+</li>
+<li>
+  <a href="talk.html">Talks</a>
+</li>
+<li>
+  <a href="teach.html">Teaching</a>
+</li>
+<li>
+  <a href="cv.html">CV</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div class="fluid-row" id="header">
+
+
+
+<h1 class="title toc-ignore">MATH 49995/57091: Introduction to Data Science</h1>
+
+</div>
+
+
+<div id="spring-2020-jan-13-2020---apr-28-2020" class="section level3">
+<h3>Spring 2020 (Jan 13, 2020 - Apr 28, 2020)</h3>
+<p><strong>Lecture times:</strong> Mondays and Wednesdays 2:15PM–3:30PM</p>
+<p><strong>Location:</strong> MSB 158</p>
+<p><strong>Instructor:</strong> Tsung-Heng Tsai | <a href="mailto:ttsai1@kent.edu">ttsai1@kent.edu</a> | Office Hours: Mondays and Wednesdays 3:30PM–5PM or by appointment</p>
+<p><strong>Textbooks:</strong> There is no required textbook but course notes will be provided throughout the course. Useful references are:</p>
+<ol style="list-style-type: decimal">
+<li><a href="https://rafalab.github.io/dsbook/"><em>Introduction to Data Science: Data Analysis and Prediction Algorithms with R</em></a>, Rafael A. Irizarry, CRC Press, 1st Edition, 2019</li>
+<li><a href="https://r4ds.had.co.nz"><em>R for Data Science: Import, Tidy, Transform, Visualize, and Model Data</em></a>, Hadley Wickham and Garrett Grolemund, O’Reilly Media, 1st Edition, 2017</li>
+</ol>
+<p>Further reading will be recommended to support weekly class material.</p>
+<p><strong>Plagiarism:</strong> Be familiar with the university’s academic integrity policy on cheating and plagiarism. (<a href="https://www.kent.edu/policyreg/administrative-policy-regarding-student-cheating-and-plagiarism" class="uri">https://www.kent.edu/policyreg/administrative-policy-regarding-student-cheating-and-plagiarism</a>)</p>
+<p><strong>Syllabus:</strong> <a href="MATH57091-S20-syllabus.pdf">here</a>.</p>
+<hr />
+</div>
+<div id="course-objectives" class="section level3">
+<h3>Course Objectives</h3>
+<p>This course offers a gentle introduction to the field of data science. The goal of this course is to teach students how to answer questions with data. We will cover topics of data wrangling, exploratory data analysis, statistical inference and modeling, and statistical learning. We will also teach the necessary skills to gather, organize, explore and analyze data, and to develop data products to facilitate effective communication and reproducible research. The programming language R will be used extensively. The course will rely on the existing implementations of statistical methods in many cases, but some programming efforts will also be required.</p>
+<hr />
+</div>
+<div id="schedule" class="section level3">
+<h3>Schedule</h3>
+<p><em>This schedule is tentative and subject to change.</em></p>
+<ul>
+<li>Mon Jan 13. Introduction to data science and the course
+<ul>
+<li>Reading: <a href="https://www.tandfonline.com/doi/full/10.1080/10618600.2017.1384734">50 Years of Data Science</a></li>
+</ul></li>
+<li>Wed Jan 15. R, RStudio, R Markdown
+<ul>
+<li>Reading: <a href="https://rmarkdown.rstudio.com/">R Markdown guide</a>, <a href="http://www.stat.cmu.edu/~cshalizi/rmarkdown/">Using R Markdown for Class Reports</a></li>
+</ul></li>
+<li>Mon Jan 20. <em>No class - Martin Luther King Jr. Day</em></li>
+<li>Wed Jan 22. Basic R</li>
+<li>Mon Jan 27. Basic R</li>
+<li>Wed Jan 29. Basic R</li>
+<li>Mon Feb 3. Layered grammar of graphics</li>
+<li>Wed Feb 5. Data visualization with ggplot2</li>
+<li>Mon Feb 10. Principles of data visualization</li>
+<li>Wed Feb 12. Data transformation</li>
+<li>Mon Feb 17. Tidy data</li>
+<li>Wed Feb 19. Data importing</li>
+<li>Mon Feb 24. Data wrangling</li>
+<li>Wed Feb 26. Exploratory data analysis</li>
+<li>Mon Mar 2. Statistical inference</li>
+<li>Wed Mar 4. Resampling techniques</li>
+<li>Mon Mar 9. Review</li>
+<li>Wed Mar 11. Midterm exam (in class)</li>
+<li>Mon Mar 16. Statistical modeling</li>
+<li>Wed Mar 18. Advanced modeling</li>
+<li>Mon Mar 23. <em>No class - Spring Break</em></li>
+<li>Wed Mar 25. <em>No class - Spring Break</em></li>
+<li>Mon Mar 30. Version control, git, and GitHub</li>
+<li>Wed Apr 1. Building R Shiny apps</li>
+<li>Mon Apr 6. Statistical prediction</li>
+<li>Wed Apr 8. Model evaluation and cross validation</li>
+<li>Mon Apr 13. Dimensionality reduction</li>
+<li>Wed Apr 15. Clustering</li>
+<li>Mon Apr 20. Databases</li>
+<li>Wed Apr 22. R package</li>
+<li>Mon Apr 27. Student presentations on final projects</li>
+</ul>
+<hr />
+</div>
+<div id="grading" class="section level3">
+<h3>Grading</h3>
+<p>Grades will be calculated as follows:</p>
+<ul>
+<li>6 homeworks: 30% (the lowest grade dropped)</li>
+<li>Midterm exam: 30%</li>
+<li>Final project: 40%</li>
+</ul>
+<p>The final letter grades will follow the usual scale:</p>
+<ul>
+<li>90–100 = A-range (i.e., A or A-)</li>
+<li>80–89 = B-range (i.e., B+, B or B-)</li>
+<li>70–79 = C-range (i.e., C+, C or C-)</li>
+<li>60–69 = D</li>
+<li>0–59 = F</li>
+</ul>
+<p>The cutoffs for “+” and “-” will be determined at the end of the semester, at the discretion of the instructor. This scale is subject to change at the discretion of the instructor</p>
+</div>
+<div id="homework" class="section level3">
+<h3>Homework</h3>
+<p>There will be six homework assignments. Each homework is due before class on the day it is listed, and should be completed in R Markdown format (with Rmd extension). An Rmd file contains a combination of content with simple text and R code chunks. Both the R Markdown source file and the resulting PDF output (generated by calling “Knit to PDF”) must be turned in through Blackboard.</p>
+<p>Students may discuss and collaborate with friends, but your submitted work must be your own. Sharing of solutions will not be tolerated and will be considered cheating.</p>
+<p>No late work will be accepted. Extensions may be given individually if requested at least 48 hours in advance of the due date with a reasonable justification. The lowest homework grade will be dropped.</p>
+</div>
+<div id="exam" class="section level3">
+<h3>Exam</h3>
+<p>There will be an in-class midterm exam that counts for 30% of your grade. No collaboration with peers is allowed.</p>
+</div>
+<div id="final-project" class="section level3">
+<h3>Final project</h3>
+<p>There will be a final project that counts for 40% of your grade. More details will be posted and discussed later in the semester.</p>
+<hr />
+</div>
+<div id="supplementary-materials" class="section level3">
+<h3>Supplementary materials</h3>
+<p>Supplementary textbooks:</p>
+<ul>
+<li><a href="https://rstudio-education.github.io/hopr/">Hands-On Programming with R</a>, by Garrett Grolemund</li>
+<li><a href="https://leanpub.com/rprogramming">R Programming for Data Science</a>, by Roger D. Peng</li>
+<li><a href="https://ggplot2-book.org/">ggplot2: Elegant Graphics for Data Analysis</a>, by Hadley Wickham</li>
+<li><a href="https://adv-r.hadley.nz">Advanced R</a>, by Hadley Wickham</li>
+<li><a href="https://r-pkgs.org/">R Packages</a>, by Hadley Wickham and Jennifer Bryan</li>
+</ul>
+<p>Online resources for R programming:</p>
+<ul>
+<li><a href="cran.r-project.org/doc/manuals/R-intro.html">An introduction to R</a>, by R Core Team</li>
+<li><a href="cran.r-project.org/doc/contrib/Verzani-SimpleR.pdf">simpleR</a>, by John Verzani</li>
+</ul>
+</div>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>
