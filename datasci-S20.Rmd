@@ -39,25 +39,28 @@ _This schedule is tentative and subject to change._
     + Reading: R4DS "[Workflow: basics](https://r4ds.had.co.nz/workflow-basics.html)", R4DS "[R Markdown](https://r4ds.had.co.nz/r-markdown.html)", I2DS "[R basics](https://rafalab.github.io/dsbook/r-basics.html)"
 - Mon Jan 20. _No class - Martin Luther King Jr. Day_
 - Wed Jan 22. R basics
+    + Reading: R4DS "[Workflow: scripts](https://r4ds.had.co.nz/workflow-scripts.html)", R4DS "[Vectors](https://r4ds.had.co.nz/vectors.html)", I2DS "[R basics](https://rafalab.github.io/dsbook/r-basics.html)"
 - Mon Jan 27. R basics
+    + Reading: R4DS "[Functions](https://r4ds.had.co.nz/functions.html)", I2DS "[R basics](https://rafalab.github.io/dsbook/r-basics.html)", I2DS "[Programming basics](https://rafalab.github.io/dsbook/programming-basics.html)"
 - Wed Jan 29. R basics
+    + Reading: R4DS "[Iteration](https://r4ds.had.co.nz/iteration.html)", I2DS "[Programming basics](https://rafalab.github.io/dsbook/programming-basics.html)"
 - Mon Feb 3. Layered grammar of graphics
-    + Reading: "[Data visualisation](https://r4ds.had.co.nz/data-visualisation.html)" 
+    + Reading: R4DS "[Data visualisation](https://r4ds.had.co.nz/data-visualisation.html)" 
 - Wed Feb 5. Data visualization with ggplot2
-    + Reading: "[Data visualisation](https://r4ds.had.co.nz/data-visualisation.html)", "[Data visualization in practice](https://rafalab.github.io/dsbook/gapminder.html)"
+    + Reading: R4DS "[Data visualisation](https://r4ds.had.co.nz/data-visualisation.html)", I2DS "[Data visualization in practice](https://rafalab.github.io/dsbook/gapminder.html)"
 - Mon Feb 10. Principles of data visualization
-    + Reading: "[Data visualization principles](https://rafalab.github.io/dsbook/data-visualization-principles.html)", "[Graphics for communication](https://r4ds.had.co.nz/graphics-for-communication.html)"
+    + Reading: I2DS "[Data visualization principles](https://rafalab.github.io/dsbook/data-visualization-principles.html)", R4DS "[Graphics for communication](https://r4ds.had.co.nz/graphics-for-communication.html)"
 - Wed Feb 12. Data transformation
-    + Reading: "[Data transformation](https://r4ds.had.co.nz/transform.html)", 
-"[Tibbles](https://r4ds.had.co.nz/tibbles.html)", "[Pipes](https://r4ds.had.co.nz/pipes.html)"
+    + Reading: R4DS "[Data transformation](https://r4ds.had.co.nz/transform.html)", 
+R4DS "[Tibbles](https://r4ds.had.co.nz/tibbles.html)", R4DS "[Pipes](https://r4ds.had.co.nz/pipes.html)"
 - Mon Feb 17. Tidy data
-    + Reading: "[Tidy data](https://r4ds.had.co.nz/tidy-data.html)"
+    + Reading: R4DS "[Tidy data](https://r4ds.had.co.nz/tidy-data.html)"
 - Wed Feb 19. Data importing
-    + Reading: "[Data import](https://r4ds.had.co.nz/data-import.html)", "[Web scraping](https://rafalab.github.io/dsbook/web-scraping.html)"
+    + Reading: R4DS "[Data import](https://r4ds.had.co.nz/data-import.html)", I2DS "[Web scraping](https://rafalab.github.io/dsbook/web-scraping.html)"
 - Mon Feb 24. Data wrangling
-    + Reading: "[Strings](https://r4ds.had.co.nz/strings.html)", "[Factors](https://r4ds.had.co.nz/factors.html)", "[https://r4ds.had.co.nz/dates-and-times.html](Dates and times)"
+    + Reading: R4DS "[Strings](https://r4ds.had.co.nz/strings.html)", R4DS "[Factors](https://r4ds.had.co.nz/factors.html)", R4DS "[https://r4ds.had.co.nz/dates-and-times.html](Dates and times)"
 - Wed Feb 26. Exploratory data analysis
-    + Reading: "[Exploratory Data Analysis](https://r4ds.had.co.nz/exploratory-data-analysis.html)"
+    + Reading: R4DS "[Exploratory Data Analysis](https://r4ds.had.co.nz/exploratory-data-analysis.html)"
 - Mon Mar 2. Statistical inference
     + Reading: I2DS "[Statistical inference](https://rafalab.github.io/dsbook/inference.html)"
 - Wed Mar 4. Resampling techniques
@@ -70,8 +73,9 @@ _This schedule is tentative and subject to change._
 - Mon Mar 23. _No class - Spring Break_
 - Wed Mar 25. _No class - Spring Break_
 - Mon Mar 30. Version control, git, and GitHub
-    + Reading: I2DS "[Git and GitHub](https://rafalab.github.io/dsbook/git.html)"
+    + Reading: I2DS "[Git and GitHub](https://rafalab.github.io/dsbook/git.html)", [Happy Git and GitHub for the useR](https://happygitwithr.com/)
 - Wed Apr 1. Building R Shiny apps
+    + Reading: [Mastering Shiny](https://mastering-shiny.org/)"
 - Mon Apr 6. Statistical prediction
     + Reading: I2DS "[Introduction to machine learning](https://rafalab.github.io/dsbook/introduction-to-machine-learning.html)"
 - Wed Apr 8. Model evaluation and cross validation
@@ -82,6 +86,7 @@ _This schedule is tentative and subject to change._
     + Reading: I2DS "[Clustering](https://rafalab.github.io/dsbook/clustering.html)"
 - Mon Apr 20. Databases
 - Wed Apr 22. R package 
+    + Reading: [R Packages](https://r-pkgs.org/)
 - Mon Apr 27. Student presentations on final projects
 
 ---
@@ -126,6 +131,7 @@ There will be a final project that counts for 40% of your grade. More details wi
 
 Supplementary textbooks: 
 
+- [An Introduction to Statistical Learning](http://faculty.marshall.usc.edu/gareth-james/ISL/), by Gareth James, Daniela Witten, Trevor Hastie and Robert Tibshirani
 - [Hands-On Programming with R](https://rstudio-education.github.io/hopr/), by Garrett Grolemund
 - [R Programming for Data Science](https://leanpub.com/rprogramming), by Roger D. Peng
 - [ggplot2: Elegant Graphics for Data Analysis](https://ggplot2-book.org/), by Hadley Wickham
