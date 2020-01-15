@@ -36,7 +36,7 @@ _This schedule is tentative and subject to change._
 - Mon Jan 13. Introduction to data science and the course
     + Reading: [50 Years of Data Science](https://www.tandfonline.com/doi/full/10.1080/10618600.2017.1384734)
 - Wed Jan 15. R, RStudio, R Markdown
-    + Reading: I2DS Ch 36, R4DS Ch 6, [R Markdown guide](https://rmarkdown.rstudio.com/)
+    + Reading: R4DS "[Workflow: basics](https://r4ds.had.co.nz/workflow-basics.html)", R4DS "[R Markdown](https://r4ds.had.co.nz/r-markdown.html)", I2DS "[R basics](https://rafalab.github.io/dsbook/r-basics.html)"
 - Mon Jan 20. _No class - Martin Luther King Jr. Day_
 - Wed Jan 22. Basic R
     + Reading: I2DS Ch 2, R4DS Ch 4
