@@ -38,51 +38,48 @@ _This schedule is tentative and subject to change._
 - Wed Jan 15. R, RStudio, R Markdown
     + Reading: R4DS "[Workflow: basics](https://r4ds.had.co.nz/workflow-basics.html)", R4DS "[R Markdown](https://r4ds.had.co.nz/r-markdown.html)", I2DS "[R basics](https://rafalab.github.io/dsbook/r-basics.html)"
 - Mon Jan 20. _No class - Martin Luther King Jr. Day_
-- Wed Jan 22. Basic R
-    + Reading: I2DS Ch 2, R4DS Ch 4
-- Mon Jan 27. Basic R
-    + Reading: I2DS Ch 3
-- Wed Jan 29. Basic R
-    + Reading: I2DS Ch 3 
+- Wed Jan 22. R basics
+- Mon Jan 27. R basics
+- Wed Jan 29. R basics
 - Mon Feb 3. Layered grammar of graphics
-    + Reading: R4DS Ch 3, 
+    + Reading: "[Data visualisation](https://r4ds.had.co.nz/data-visualisation.html)" 
 - Wed Feb 5. Data visualization with ggplot2
-    + Reading: R4DS Ch 3, I2DS Ch7
+    + Reading: "[Data visualisation](https://r4ds.had.co.nz/data-visualisation.html)", "[Data visualization in practice](https://rafalab.github.io/dsbook/gapminder.html)"
 - Mon Feb 10. Principles of data visualization
-    + Reading: R4DS Ch 28, I2DS Ch 9--10
+    + Reading: "[Data visualization principles](https://rafalab.github.io/dsbook/data-visualization-principles.html)", "[Graphics for communication](https://r4ds.had.co.nz/graphics-for-communication.html)"
 - Wed Feb 12. Data transformation
-    + Reading: R4DS Ch 5, 10, 18
+    + Reading: "[Data transformation](https://r4ds.had.co.nz/transform.html)", 
+"[Tibbles](https://r4ds.had.co.nz/tibbles.html)", "[Pipes](https://r4ds.had.co.nz/pipes.html)"
 - Mon Feb 17. Tidy data
-    + Reading: R4DS Ch 12
+    + Reading: "[Tidy data](https://r4ds.had.co.nz/tidy-data.html)"
 - Wed Feb 19. Data importing
-    + Reading: R4DS Ch 11, I2DS Ch 23
+    + Reading: "[Data import](https://r4ds.had.co.nz/data-import.html)", "[Web scraping](https://rafalab.github.io/dsbook/web-scraping.html)"
 - Mon Feb 24. Data wrangling
-    + Reading: R4DS Ch 14--16
+    + Reading: "[Strings](https://r4ds.had.co.nz/strings.html)", "[Factors](https://r4ds.had.co.nz/factors.html)", "[https://r4ds.had.co.nz/dates-and-times.html](Dates and times)"
 - Wed Feb 26. Exploratory data analysis
-    + Reading: R4DS Ch 7
+    + Reading: "[Exploratory Data Analysis](https://r4ds.had.co.nz/exploratory-data-analysis.html)"
 - Mon Mar 2. Statistical inference
-    + Reading: I2DS Ch 15
+    + Reading: I2DS "[Statistical inference](https://rafalab.github.io/dsbook/inference.html)"
 - Wed Mar 4. Resampling techniques
-    + Reading: 
 - Mon Mar 9. Review
 - Wed Mar 11. Midterm exam (in class)
 - Mon Mar 16. Statistical modeling
-    + Reading: I2DS Ch 16--18, R4DS Ch 23
+    + Reading: I2DS "[Statistical models](https://rafalab.github.io/dsbook/models.html)", R4DS "[Model basics](https://r4ds.had.co.nz/model-basics.html)", R4DS "[Model building](https://r4ds.had.co.nz/model-building.html)"
 - Wed Mar 18. Advanced modeling
-    + Reading: R4DS Ch 25
+    + Reading: R4DS "[Many models](https://r4ds.had.co.nz/many-models.html)"
 - Mon Mar 23. _No class - Spring Break_
 - Wed Mar 25. _No class - Spring Break_
 - Mon Mar 30. Version control, git, and GitHub
-    + Reading: I2DS Ch 39
+    + Reading: I2DS "[Git and GitHub](https://rafalab.github.io/dsbook/git.html)"
 - Wed Apr 1. Building R Shiny apps
 - Mon Apr 6. Statistical prediction
-    + Reading: I2DS Ch 27
+    + Reading: I2DS "[Introduction to machine learning](https://rafalab.github.io/dsbook/introduction-to-machine-learning.html)"
 - Wed Apr 8. Model evaluation and cross validation
-    + Reading: I2DS Ch 29--30
+    + Reading: I2DS "[Cross validation](https://rafalab.github.io/dsbook/cross-validation.html)", I2DS "[The caret package](https://rafalab.github.io/dsbook/caret.html)"
 - Mon Apr 13. Dimensionality reduction
-    + Reading: I2DS Ch 33
+    + Reading: I2DS "[Large datasets](https://rafalab.github.io/dsbook/large-datasets.html)"
 - Wed Apr 15. Clustering
-    + Reading: I2DS Ch 34
+    + Reading: I2DS "[Clustering](https://rafalab.github.io/dsbook/clustering.html)"
 - Mon Apr 20. Databases
 - Wed Apr 22. R package 
 - Mon Apr 27. Student presentations on final projects
