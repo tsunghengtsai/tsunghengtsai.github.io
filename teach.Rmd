@@ -15,6 +15,8 @@ title: ""
 
 ### Short Courses
 
+* Speaker, [EMBO Practical Course: Quantitative Proteomics](https://www.embl.de/training/events/2020/QPR20-01/) (1 week), European Molecular Biology Laboratory, Heidelberg, Germany, June 2020
+
 * Co-instructor, [DIA/SWATH Course](http://dia-swath-course.ethz.ch/) (1 week), ETH Zurich, Switzerland, July 2018
 
 * Co-designer and co-instructor, [Advanced R](https://computationalproteomics2018.ccis.northeastern.edu/programs/intermediateadvanced-r/) (3 days) of the 2-week [May Institute](https://computationalproteomics2018.ccis.northeastern.edu/), Northeastern University, Boston, MA, May 2018

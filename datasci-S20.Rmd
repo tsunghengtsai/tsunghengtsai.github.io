@@ -142,3 +142,4 @@ Online resources for R programming:
 
 - [An introduction to R](cran.r-project.org/doc/manuals/R-intro.html), by R Core Team
 - [simpleR](cran.r-project.org/doc/contrib/Verzani-SimpleR.pdf), by John Verzani
+- [MATLAB / R Reference](http://www.math.umaine.edu/~hiebeler/comp/matlabR.pdf), by David Hiebeler

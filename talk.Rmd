@@ -4,6 +4,8 @@ title: ""
 
 ### Invited Talks
 
+* "_Statistical Methods for Quantitative Mass Spectrometry-based Proteomics_," [Department of Computer Science](https://www.kent.edu/cs), Kent State University, February 2020
+
 * "_Statistical Methods for Quantitative Mass Spectrometry-based Proteomics_," [Department of Mathematical Sciences](https://www.kent.edu/math), Kent State University, March 2019
 
 * "_Statistical Methods for Reproducible Quantitative Omics Experiments_," [Quantitative Methods Core Seminar](https://www.umassmed.edu/pqhs/qmc/), University of Massachusetts Medical School, March 2019
@@ -27,6 +29,8 @@ title: ""
 * "_Bayesian Alignment Model for LC-MS Data_," [Virginia Tech Research Center --- Arlington](https://www.ncr.vt.edu/discovery/research_center_arlington.html), November 2011
 
 ### Contributed Talks
+
+* "_Statistical Methods for Relative Quantification of Post-translational Modifications in Global Proteomics Experiments_," [Joint Statistical Meetings (JSM)](https://ww2.amstat.org/meetings/jsm/2020/), Philadelphia, PA, August, 2020
 
 * "_A Statistical Framework for Relative Quantification of Post-translational Modifications in Global Proteomics Experiments_," [Annual World Congress of the Human Proteome Organization (HUPO)](https://www.hupo2018.org/), Orlando, FL, September 2018
 
