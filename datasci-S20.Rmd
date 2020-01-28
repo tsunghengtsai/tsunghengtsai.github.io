@@ -41,8 +41,9 @@ _This schedule is tentative and subject to change._
 - Wed Jan 22. R basics
     + HW 1 out
     + Reading: R4DS "[Workflow: scripts](https://r4ds.had.co.nz/workflow-scripts.html)", R4DS "[Vectors](https://r4ds.had.co.nz/vectors.html)", I2DS "[R basics](https://rafalab.github.io/dsbook/r-basics.html)"
-- Mon Jan 27. R basics
+- Mon Jan 27. Functions
     + Reading: R4DS "[Functions](https://r4ds.had.co.nz/functions.html)", I2DS "[R basics](https://rafalab.github.io/dsbook/r-basics.html)", I2DS "[Programming basics](https://rafalab.github.io/dsbook/programming-basics.html)"
+    + Optional: "[Lexical scoping](https://adv-r.hadley.nz/functions.html#lexical-scoping)", "[Lazy evaluation](https://adv-r.hadley.nz/functions.html#lazy-evaluation)", "[S3](https://adv-r.hadley.nz/s3.html)"
 - Wed Jan 29. R basics
     + Reading: R4DS "[Iteration](https://r4ds.had.co.nz/iteration.html)", I2DS "[Programming basics](https://rafalab.github.io/dsbook/programming-basics.html)"
 - Mon Feb 3. Layered grammar of graphics
