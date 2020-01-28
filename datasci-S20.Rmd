@@ -43,9 +43,10 @@ _This schedule is tentative and subject to change._
     + Reading: R4DS "[Workflow: scripts](https://r4ds.had.co.nz/workflow-scripts.html)", R4DS "[Vectors](https://r4ds.had.co.nz/vectors.html)", I2DS "[R basics](https://rafalab.github.io/dsbook/r-basics.html)"
 - Mon Jan 27. Functions
     + Reading: R4DS "[Functions](https://r4ds.had.co.nz/functions.html)", I2DS "[R basics](https://rafalab.github.io/dsbook/r-basics.html)", I2DS "[Programming basics](https://rafalab.github.io/dsbook/programming-basics.html)"
-    + Optional: "[Lexical scoping](https://adv-r.hadley.nz/functions.html#lexical-scoping)", "[Lazy evaluation](https://adv-r.hadley.nz/functions.html#lazy-evaluation)", "[S3](https://adv-r.hadley.nz/s3.html)"
-- Wed Jan 29. R basics
+    + Optional: AdvR "[Lexical scoping](https://adv-r.hadley.nz/functions.html#lexical-scoping)", AdvR "[Lazy evaluation](https://adv-r.hadley.nz/functions.html#lazy-evaluation)", AdvR "[S3](https://adv-r.hadley.nz/s3.html)"
+- Wed Jan 29. Control flow and iteration
     + Reading: R4DS "[Iteration](https://r4ds.had.co.nz/iteration.html)", I2DS "[Programming basics](https://rafalab.github.io/dsbook/programming-basics.html)"
+    + Optional: AdvR "[Control flow](https://adv-r.hadley.nz/control-flow.html)", AdvR "[Functionals](https://adv-r.hadley.nz/functionals.html)"
 - Mon Feb 3. Layered grammar of graphics
     + HW 1 due
     + Reading: R4DS "[Data visualisation](https://r4ds.had.co.nz/data-visualisation.html)" 
@@ -61,7 +62,7 @@ R4DS "[Tibbles](https://r4ds.had.co.nz/tibbles.html)", R4DS "[Pipes](https://r4d
 - Wed Feb 19. Data importing
     + Reading: R4DS "[Data import](https://r4ds.had.co.nz/data-import.html)", I2DS "[Web scraping](https://rafalab.github.io/dsbook/web-scraping.html)"
 - Mon Feb 24. Data wrangling
-    + Reading: R4DS "[Strings](https://r4ds.had.co.nz/strings.html)", R4DS "[Factors](https://r4ds.had.co.nz/factors.html)", R4DS "[https://r4ds.had.co.nz/dates-and-times.html](Dates and times)"
+    + Reading: R4DS "[Strings](https://r4ds.had.co.nz/strings.html)", R4DS "[Factors](https://r4ds.had.co.nz/factors.html)", R4DS "[Dates and times](https://r4ds.had.co.nz/dates-and-times.html)"
 - Wed Feb 26. Exploratory data analysis
     + Reading: R4DS "[Exploratory Data Analysis](https://r4ds.had.co.nz/exploratory-data-analysis.html)"
 - Mon Mar 2. Statistical inference
