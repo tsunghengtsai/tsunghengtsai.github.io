@@ -34,7 +34,7 @@ This course offers a gentle introduction to the field of data science. The goal 
 _This schedule is tentative and subject to change._
 
 - Mon Jan 13. Introduction to data science and the course
-    + Reading: [50 Years of Data Science](https://www.tandfonline.com/doi/full/10.1080/10618600.2017.1384734)
+    + Reading: [50 Years of Data Science](https://www.tandfonline.com/doi/full/10.1080/10618600.2017.1384734) (David Donoho)
 - Wed Jan 15. R, RStudio, R Markdown
     + Reading: R4DS "[Workflow: basics](https://r4ds.had.co.nz/workflow-basics.html)", R4DS "[R Markdown](https://r4ds.had.co.nz/r-markdown.html)", I2DS "[R basics](https://rafalab.github.io/dsbook/r-basics.html)"
 - Mon Jan 20. _No class - Martin Luther King Jr. Day_
@@ -50,6 +50,7 @@ _This schedule is tentative and subject to change._
 - Mon Feb 3. Layered grammar of graphics
     + HW 1 due
     + Reading: R4DS "[Data visualisation](https://r4ds.had.co.nz/data-visualisation.html)" 
+    + Optional: [A Layered Grammar of Graphics](http://vita.had.co.nz/papers/layered-grammar.pdf) (Hadley Wickham)
 - Wed Feb 5. Data visualization with ggplot2
     + Reading: R4DS "[Data visualisation](https://r4ds.had.co.nz/data-visualisation.html)", I2DS "[Data visualization in practice](https://rafalab.github.io/dsbook/gapminder.html)"
 - Mon Feb 10. Principles of data visualization
