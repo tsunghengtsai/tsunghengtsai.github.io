@@ -53,6 +53,7 @@ _This schedule is tentative and subject to change._
     + Optional: [A Layered Grammar of Graphics](http://vita.had.co.nz/papers/layered-grammar.pdf) (Hadley Wickham)
 - Wed Feb 5. Data visualization with ggplot2
     + Reading: R4DS "[Data visualisation](https://r4ds.had.co.nz/data-visualisation.html)", I2DS "[Data visualization in practice](https://rafalab.github.io/dsbook/gapminder.html)"
+    + HW 2 out
 - Mon Feb 10. Principles of data visualization
     + Reading: I2DS "[Data visualization principles](https://rafalab.github.io/dsbook/data-visualization-principles.html)", R4DS "[Graphics for communication](https://r4ds.had.co.nz/graphics-for-communication.html)"
 - Wed Feb 12. Data transformation
@@ -60,6 +61,7 @@ _This schedule is tentative and subject to change._
 R4DS "[Tibbles](https://r4ds.had.co.nz/tibbles.html)", R4DS "[Pipes](https://r4ds.had.co.nz/pipes.html)"
 - Mon Feb 17. Tidy data
     + Reading: R4DS "[Tidy data](https://r4ds.had.co.nz/tidy-data.html)"
+    + HW 2 due
 - Wed Feb 19. Data importing
     + Reading: R4DS "[Data import](https://r4ds.had.co.nz/data-import.html)", I2DS "[Web scraping](https://rafalab.github.io/dsbook/web-scraping.html)"
 - Mon Feb 24. Data wrangling
