@@ -56,44 +56,52 @@ _This schedule is tentative and subject to change._
     + HW 2 out
 - Mon Feb 10. Principles of data visualization
     + Reading: I2DS "[Data visualization principles](https://rafalab.github.io/dsbook/data-visualization-principles.html)", R4DS "[Graphics for communication](https://r4ds.had.co.nz/graphics-for-communication.html)"
+    + Optional: [Creating Effective Figures and Tables](https://github.com/kbroman/Talk_Graphs) (Karl Broman)
 - Wed Feb 12. Data transformation
-    + Reading: R4DS "[Data transformation](https://r4ds.had.co.nz/transform.html)", 
-R4DS "[Tibbles](https://r4ds.had.co.nz/tibbles.html)", R4DS "[Pipes](https://r4ds.had.co.nz/pipes.html)"
-- Mon Feb 17. Tidy data
-    + Reading: R4DS "[Tidy data](https://r4ds.had.co.nz/tidy-data.html)"
+    + Reading: R4DS "[Data transformation](https://r4ds.had.co.nz/transform.html)"
+- Mon Feb 17. Data transformation II
+    + Reading: R4DS "[Pipes](https://r4ds.had.co.nz/pipes.html)", R4DS "[Relational data](https://r4ds.had.co.nz/relational-data.html)"
     + HW 2 due
-- Wed Feb 19. Data importing
-    + Reading: R4DS "[Data import](https://r4ds.had.co.nz/data-import.html)", I2DS "[Web scraping](https://rafalab.github.io/dsbook/web-scraping.html)"
-- Mon Feb 24. Data wrangling
+- Wed Feb 19. Tidy data
+    + Reading: R4DS "[Tidy data](https://r4ds.had.co.nz/tidy-data.html)"
+- Mon Feb 24. Data importing
+    + Reading: R4DS "[Data import](https://r4ds.had.co.nz/data-import.html)", 
+R4DS "[Tibbles](https://r4ds.had.co.nz/tibbles.html)"
+    + HW 3 out
+- Wed Feb 26. Data wrangling
     + Reading: R4DS "[Strings](https://r4ds.had.co.nz/strings.html)", R4DS "[Factors](https://r4ds.had.co.nz/factors.html)", R4DS "[Dates and times](https://r4ds.had.co.nz/dates-and-times.html)"
-- Wed Feb 26. Exploratory data analysis
+- Mon Mar 2. Exploratory data analysis
     + Reading: R4DS "[Exploratory Data Analysis](https://r4ds.had.co.nz/exploratory-data-analysis.html)"
-- Mon Mar 2. Statistical inference
-    + Reading: I2DS "[Statistical inference](https://rafalab.github.io/dsbook/inference.html)"
-- Wed Mar 4. Resampling techniques
+- Wed Mar 4. Exploratory data analysis II
+    + Reading: R4DS "[Exploratory Data Analysis](https://r4ds.had.co.nz/exploratory-data-analysis.html)", I2DS "[Robust summaries](https://rafalab.github.io/dsbook/robust-summaries.html)", I2DS "[Association is not causation](https://rafalab.github.io/dsbook/association-is-not-causation.html)"
 - Mon Mar 9. Review
+    + HW 3 due
+    + HW 4 out
 - Wed Mar 11. Midterm exam (in class)
-- Mon Mar 16. Statistical modeling
-    + Reading: I2DS "[Statistical models](https://rafalab.github.io/dsbook/models.html)", R4DS "[Model basics](https://r4ds.had.co.nz/model-basics.html)", R4DS "[Model building](https://r4ds.had.co.nz/model-building.html)"
-- Wed Mar 18. Advanced modeling
-    + Reading: R4DS "[Many models](https://r4ds.had.co.nz/many-models.html)"
+- Mon Mar 16. Statistical inference
+    + Reading: I2DS "[Statistical inference](https://rafalab.github.io/dsbook/inference.html)"
+- Wed Mar 18. Resampling techniques
+    + Project proposal due
+    + HW 4 due on March 20
 - Mon Mar 23. _No class - Spring Break_
 - Wed Mar 25. _No class - Spring Break_
 - Mon Mar 30. Version control, git, and GitHub
-    + Reading: I2DS "[Git and GitHub](https://rafalab.github.io/dsbook/git.html)", [Happy Git and GitHub for the useR](https://happygitwithr.com/)
+    + Reading: I2DS "[Git and GitHub](https://rafalab.github.io/dsbook/git.html)", [Excuse me, do you have a moment to talk about version control?](https://peerj.com/preprints/3159v2/) (Jennifer Bryan)
 - Wed Apr 1. Building R Shiny apps
     + Reading: [Mastering Shiny](https://mastering-shiny.org/)"
-- Mon Apr 6. Statistical prediction
+- Mon Apr 6. Statistical modeling
+    + Reading: I2DS "[Statistical models](https://rafalab.github.io/dsbook/models.html)", R4DS "[Model basics](https://r4ds.had.co.nz/model-basics.html)", R4DS "[Model building](https://r4ds.had.co.nz/model-building.html)"
+- Wed Apr 8. Advanced modeling
+    + Reading: R4DS "[Many models](https://r4ds.had.co.nz/many-models.html)"
+- Mon Apr 13. Statistical prediction
     + Reading: I2DS "[Introduction to machine learning](https://rafalab.github.io/dsbook/introduction-to-machine-learning.html)"
-- Wed Apr 8. Model evaluation and cross validation
+- Wed Apr 15. Model evaluation and cross validation
     + Reading: I2DS "[Cross validation](https://rafalab.github.io/dsbook/cross-validation.html)", I2DS "[The caret package](https://rafalab.github.io/dsbook/caret.html)"
-- Mon Apr 13. Dimensionality reduction
+- Mon Apr 20. Dimensionality reduction
     + Reading: I2DS "[Large datasets](https://rafalab.github.io/dsbook/large-datasets.html)"
-- Wed Apr 15. Clustering
+- Wed Apr 22. Clustering
     + Reading: I2DS "[Clustering](https://rafalab.github.io/dsbook/clustering.html)"
-- Mon Apr 20. Databases
-- Wed Apr 22. R package 
-    + Reading: [R Packages](https://r-pkgs.org/)
+    + Project report due on April 26
 - Mon Apr 27. Student presentations on final projects
 
 ---
@@ -144,6 +152,15 @@ Supplementary textbooks:
 - [ggplot2: Elegant Graphics for Data Analysis](https://ggplot2-book.org/), by Hadley Wickham
 - [Advanced R](https://adv-r.hadley.nz), by Hadley Wickham
 - [R Packages](https://r-pkgs.org/), by Hadley Wickham and Jennifer Bryan
+
+Online resources for statistical analysis and data science:
+
+- [Practical Data Science for Stats](https://peerj.com/collections/50-practicaldatascistats/)
+- [Points of Significance](https://www.nature.com/collections/qghhqm/pointsofsignificance)
+- [Happy Git and GitHub for the useR](https://happygitwithr.com/)
+- [Ten Simple Rules for Effective Statistical Practice](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1004961)
+- [Ten Simple Rules for Taking Advantage of Git and GitHub](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1004947)
+- [Good enough practices in scientific computing](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005510)
 
 Online resources for R programming:
 

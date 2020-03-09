@@ -13,7 +13,7 @@ title: ""
 ![](images/uninf.png)
 </div>
 <div class="column-right">
-Bottom-up mass spectrometry-based proteomics workflows quantify proteins by summarizing the abundances of all the spectral features of the protein (e.g., precursor ions, transitions or fragments) in a single value per protein per run. Situations where abundances of some features are inconsistent with the overall protein profile undermine the protein-level summaries and the downstream conclusions. We propose a statistical approach to automatically detect spectral features with such inconsistent patterns. The detected features can be separately investigated, and if necessary removed from the dataset. The approach is implemented as an option in the open-source R-based software MSstats.
+Summaries of protein abundance are undermined by mass spectrometric features inconsistent with the overall protein profile. We develop an automated statistical approach that detects such inconsistent features. These features can be separately investigated, curated, or removed. Accounting for such inconsistent features improves the estimation and the detection of differential protein abundance between conditions. The approach is implemented as an option in the open-source R-based software MSstats
 </div>
 </div>
 

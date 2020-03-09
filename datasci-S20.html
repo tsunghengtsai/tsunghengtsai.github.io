@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
 
 <head>
 
 <meta charset="utf-8" />
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
 
@@ -84,7 +84,6 @@ code {
 }
 img {
   max-width:100%;
-  height: auto;
 }
 .tabbed-pane {
   padding-top: 12px;
@@ -233,6 +232,7 @@ $(document).ready(function () {
   border: none;
   display: inline-block;
   border-radius: 4px;
+  background-color: transparent;
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li {
@@ -244,18 +244,6 @@ $(document).ready(function () {
   display: none;
 }
 </style>
-
-<script>
-$(document).ready(function () {
-  window.buildTabsets("TOC");
-});
-
-$(document).ready(function () {
-  $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
-  });
-});
-</script>
 
 <!-- code folding -->
 
@@ -323,7 +311,7 @@ $(document).ready(function () {
 <h3>Spring 2020 (Jan 13, 2020 - Apr 28, 2020)</h3>
 <p><strong>Lecture times:</strong> Mondays and Wednesdays 2:15PM–3:30PM</p>
 <p><strong>Location:</strong> MSB 158</p>
-<p><strong>Instructor:</strong> Tsung-Heng Tsai | <a href="mailto:ttsai1@kent.edu">ttsai1@kent.edu</a> | Office Hours: Mondays and Wednesdays 3:30PM–5PM or by appointment</p>
+<p><strong>Instructor:</strong> Tsung-Heng Tsai | <a href="mailto:ttsai1@kent.edu" class="email">ttsai1@kent.edu</a> | Office Hours: Mondays and Wednesdays 3:30PM–5PM or by appointment</p>
 <p><strong>Textbooks:</strong> There is no required textbook but course notes will be provided throughout the course. Useful references are:</p>
 <ol style="list-style-type: decimal">
 <li>(I2DS) <a href="https://rafalab.github.io/dsbook/"><em>Introduction to Data Science: Data Analysis and Prediction Algorithms with R</em></a>, Rafael A. Irizarry, CRC Press, 1st Edition, 2019</li>
@@ -351,7 +339,7 @@ $(document).ready(function () {
 <ul>
 <li>Reading: R4DS “<a href="https://r4ds.had.co.nz/workflow-basics.html">Workflow: basics</a>”, R4DS “<a href="https://r4ds.had.co.nz/r-markdown.html">R Markdown</a>”, I2DS “<a href="https://rafalab.github.io/dsbook/r-basics.html">R basics</a>”</li>
 </ul></li>
-<li>Mon Jan 20. <em>No class - Martin Luther King Jr. Day</em></li>
+<li>Mon Jan 20. <em>No class - Martin Luther King Jr. Day</em></li>
 <li>Wed Jan 22. R basics
 <ul>
 <li>HW 1 out</li>
@@ -381,73 +369,87 @@ $(document).ready(function () {
 <li>Mon Feb 10. Principles of data visualization
 <ul>
 <li>Reading: I2DS “<a href="https://rafalab.github.io/dsbook/data-visualization-principles.html">Data visualization principles</a>”, R4DS “<a href="https://r4ds.had.co.nz/graphics-for-communication.html">Graphics for communication</a>”</li>
+<li>Optional: <a href="https://github.com/kbroman/Talk_Graphs">Creating Effective Figures and Tables</a> (Karl Broman)</li>
 </ul></li>
 <li>Wed Feb 12. Data transformation
 <ul>
-<li>Reading: R4DS “<a href="https://r4ds.had.co.nz/transform.html">Data transformation</a>”, R4DS “<a href="https://r4ds.had.co.nz/tibbles.html">Tibbles</a>”, R4DS “<a href="https://r4ds.had.co.nz/pipes.html">Pipes</a>”</li>
+<li>Reading: R4DS “<a href="https://r4ds.had.co.nz/transform.html">Data transformation</a>”</li>
 </ul></li>
-<li>Mon Feb 17. Tidy data
+<li>Mon Feb 17. Data transformation II
 <ul>
-<li>Reading: R4DS “<a href="https://r4ds.had.co.nz/tidy-data.html">Tidy data</a>”</li>
+<li>Reading: R4DS “<a href="https://r4ds.had.co.nz/pipes.html">Pipes</a>”, R4DS “<a href="https://r4ds.had.co.nz/relational-data.html">Relational data</a>”</li>
 <li>HW 2 due</li>
 </ul></li>
-<li>Wed Feb 19. Data importing
+<li>Wed Feb 19. Tidy data
 <ul>
-<li>Reading: R4DS “<a href="https://r4ds.had.co.nz/data-import.html">Data import</a>”, I2DS “<a href="https://rafalab.github.io/dsbook/web-scraping.html">Web scraping</a>”</li>
+<li>Reading: R4DS “<a href="https://r4ds.had.co.nz/tidy-data.html">Tidy data</a>”</li>
 </ul></li>
-<li>Mon Feb 24. Data wrangling
+<li>Mon Feb 24. Data importing
+<ul>
+<li>Reading: R4DS “<a href="https://r4ds.had.co.nz/data-import.html">Data import</a>”, R4DS “<a href="https://r4ds.had.co.nz/tibbles.html">Tibbles</a>”</li>
+<li>HW 3 out</li>
+</ul></li>
+<li>Wed Feb 26. Data wrangling
 <ul>
 <li>Reading: R4DS “<a href="https://r4ds.had.co.nz/strings.html">Strings</a>”, R4DS “<a href="https://r4ds.had.co.nz/factors.html">Factors</a>”, R4DS “<a href="https://r4ds.had.co.nz/dates-and-times.html">Dates and times</a>”</li>
 </ul></li>
-<li>Wed Feb 26. Exploratory data analysis
+<li>Mon Mar 2. Exploratory data analysis
 <ul>
 <li>Reading: R4DS “<a href="https://r4ds.had.co.nz/exploratory-data-analysis.html">Exploratory Data Analysis</a>”</li>
 </ul></li>
-<li>Mon Mar 2. Statistical inference
+<li>Wed Mar 4. Exploratory data analysis II
+<ul>
+<li>Reading: R4DS “<a href="https://r4ds.had.co.nz/exploratory-data-analysis.html">Exploratory Data Analysis</a>”, I2DS “<a href="https://rafalab.github.io/dsbook/robust-summaries.html">Robust summaries</a>”, I2DS “<a href="https://rafalab.github.io/dsbook/association-is-not-causation.html">Association is not causation</a>”</li>
+</ul></li>
+<li>Mon Mar 9. Review
+<ul>
+<li>HW 3 due</li>
+<li>HW 4 out</li>
+</ul></li>
+<li>Wed Mar 11. Midterm exam (in class)</li>
+<li>Mon Mar 16. Statistical inference
 <ul>
 <li>Reading: I2DS “<a href="https://rafalab.github.io/dsbook/inference.html">Statistical inference</a>”</li>
 </ul></li>
-<li>Wed Mar 4. Resampling techniques</li>
-<li>Mon Mar 9. Review</li>
-<li>Wed Mar 11. Midterm exam (in class)</li>
-<li>Mon Mar 16. Statistical modeling
+<li>Wed Mar 18. Resampling techniques
 <ul>
-<li>Reading: I2DS “<a href="https://rafalab.github.io/dsbook/models.html">Statistical models</a>”, R4DS “<a href="https://r4ds.had.co.nz/model-basics.html">Model basics</a>”, R4DS “<a href="https://r4ds.had.co.nz/model-building.html">Model building</a>”</li>
-</ul></li>
-<li>Wed Mar 18. Advanced modeling
-<ul>
-<li>Reading: R4DS “<a href="https://r4ds.had.co.nz/many-models.html">Many models</a>”</li>
+<li>Project proposal due</li>
+<li>HW 4 due on March 20</li>
 </ul></li>
 <li>Mon Mar 23. <em>No class - Spring Break</em></li>
 <li>Wed Mar 25. <em>No class - Spring Break</em></li>
 <li>Mon Mar 30. Version control, git, and GitHub
 <ul>
-<li>Reading: I2DS “<a href="https://rafalab.github.io/dsbook/git.html">Git and GitHub</a>”, <a href="https://happygitwithr.com/">Happy Git and GitHub for the useR</a></li>
+<li>Reading: I2DS “<a href="https://rafalab.github.io/dsbook/git.html">Git and GitHub</a>”, <a href="https://peerj.com/preprints/3159v2/">Excuse me, do you have a moment to talk about version control?</a> (Jennifer Bryan)</li>
 </ul></li>
 <li>Wed Apr 1. Building R Shiny apps
 <ul>
 <li>Reading: <a href="https://mastering-shiny.org/">Mastering Shiny</a>&quot;</li>
 </ul></li>
-<li>Mon Apr 6. Statistical prediction
+<li>Mon Apr 6. Statistical modeling
+<ul>
+<li>Reading: I2DS “<a href="https://rafalab.github.io/dsbook/models.html">Statistical models</a>”, R4DS “<a href="https://r4ds.had.co.nz/model-basics.html">Model basics</a>”, R4DS “<a href="https://r4ds.had.co.nz/model-building.html">Model building</a>”</li>
+</ul></li>
+<li>Wed Apr 8. Advanced modeling
+<ul>
+<li>Reading: R4DS “<a href="https://r4ds.had.co.nz/many-models.html">Many models</a>”</li>
+</ul></li>
+<li>Mon Apr 13. Statistical prediction
 <ul>
 <li>Reading: I2DS “<a href="https://rafalab.github.io/dsbook/introduction-to-machine-learning.html">Introduction to machine learning</a>”</li>
 </ul></li>
-<li>Wed Apr 8. Model evaluation and cross validation
+<li>Wed Apr 15. Model evaluation and cross validation
 <ul>
 <li>Reading: I2DS “<a href="https://rafalab.github.io/dsbook/cross-validation.html">Cross validation</a>”, I2DS “<a href="https://rafalab.github.io/dsbook/caret.html">The caret package</a>”</li>
 </ul></li>
-<li>Mon Apr 13. Dimensionality reduction
+<li>Mon Apr 20. Dimensionality reduction
 <ul>
 <li>Reading: I2DS “<a href="https://rafalab.github.io/dsbook/large-datasets.html">Large datasets</a>”</li>
 </ul></li>
-<li>Wed Apr 15. Clustering
+<li>Wed Apr 22. Clustering
 <ul>
 <li>Reading: I2DS “<a href="https://rafalab.github.io/dsbook/clustering.html">Clustering</a>”</li>
-</ul></li>
-<li>Mon Apr 20. Databases</li>
-<li>Wed Apr 22. R package
-<ul>
-<li>Reading: <a href="https://r-pkgs.org/">R Packages</a></li>
+<li>Project report due on April 26</li>
 </ul></li>
 <li>Mon Apr 27. Student presentations on final projects</li>
 </ul>
@@ -497,6 +499,15 @@ $(document).ready(function () {
 <li><a href="https://adv-r.hadley.nz">Advanced R</a>, by Hadley Wickham</li>
 <li><a href="https://r-pkgs.org/">R Packages</a>, by Hadley Wickham and Jennifer Bryan</li>
 </ul>
+<p>Online resources for statistical analysis and data science:</p>
+<ul>
+<li><a href="https://peerj.com/collections/50-practicaldatascistats/">Practical Data Science for Stats</a></li>
+<li><a href="https://www.nature.com/collections/qghhqm/pointsofsignificance">Points of Significance</a></li>
+<li><a href="https://happygitwithr.com/">Happy Git and GitHub for the useR</a></li>
+<li><a href="https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1004961">Ten Simple Rules for Effective Statistical Practice</a></li>
+<li><a href="https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1004947">Ten Simple Rules for Taking Advantage of Git and GitHub</a></li>
+<li><a href="https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005510">Good enough practices in scientific computing</a></li>
+</ul>
 <p>Online resources for R programming:</p>
 <ul>
 <li><a href="cran.r-project.org/doc/manuals/R-intro.html">An introduction to R</a>, by R Core Team</li>
@@ -522,6 +533,23 @@ $(document).ready(function () {
 
 
 </script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>

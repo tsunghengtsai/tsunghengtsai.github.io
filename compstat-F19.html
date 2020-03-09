@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
 
 <head>
 
 <meta charset="utf-8" />
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
 
@@ -84,7 +84,6 @@ code {
 }
 img {
   max-width:100%;
-  height: auto;
 }
 .tabbed-pane {
   padding-top: 12px;
@@ -233,6 +232,7 @@ $(document).ready(function () {
   border: none;
   display: inline-block;
   border-radius: 4px;
+  background-color: transparent;
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li {
@@ -244,18 +244,6 @@ $(document).ready(function () {
   display: none;
 }
 </style>
-
-<script>
-$(document).ready(function () {
-  window.buildTabsets("TOC");
-});
-
-$(document).ready(function () {
-  $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
-  });
-});
-</script>
 
 <!-- code folding -->
 
@@ -323,7 +311,7 @@ $(document).ready(function () {
 <h3>Fall 2019 (Aug 22, 2019 - Dec 8, 2019)</h3>
 <p><strong>Lecture times:</strong> Mondays/Wednesdays/Fridays 11:00AM-11:50AM</p>
 <p><strong>Location:</strong> MSB 158</p>
-<p><strong>Instructor:</strong> Tsung-Heng Tsai | <a href="mailto:ttsai1@kent.edu">ttsai1@kent.edu</a> | Office Hours: Mondays/Wednesdays/Fridays 12PM-1PM or by appointment</p>
+<p><strong>Instructor:</strong> Tsung-Heng Tsai | <a href="mailto:ttsai1@kent.edu" class="email">ttsai1@kent.edu</a> | Office Hours: Mondays/Wednesdays/Fridays 12PM-1PM or by appointment</p>
 <p><strong>Textbooks:</strong> There is no required textbook but course notes will be provided throughout the course. Useful references are:</p>
 <ol style="list-style-type: decimal">
 <li><a href="https://jdstorey.github.io/fas/"><em>Foundations of Applied Statistics</em></a>, John D. Storey, 2019</li>
@@ -540,6 +528,23 @@ $(document).ready(function () {
 
 
 </script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>

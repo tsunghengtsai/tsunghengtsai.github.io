@@ -36,22 +36,8 @@ title: ""
 
 ### Book Chapters
 
+* Y Fu, __T-H Tsai__, C Mao, SK Mun, HW Ressom, M Wang, Z Zhang, Y Wang (2020). [Biological Computing](https://www.sciencedirect.com/science/article/pii/B9780128160343000031). In _Biomedical Information Technology_ (Ed. D.D. Feng), Academic Press, pp. 81–104.
+
 * Y Zhao, __T-H Tsai__, C Di Poto, LK Pannell, MG Tadesse, HW Ressom (2017). [Variability Assessment of Label-free LC-MS Experiments for Difference Detection](https://link.springer.com/chapter/10.1007/978-3-319-45809-0_9). In _Statistical Analysis of Proteomics, Metabolomics and Lipidomics Data using Mass Spectrometry_ (Eds. S. Datta and B.J.A. Mertens), Springer, pp. 157--176.
 
 * __T-H Tsai__, M Wang, and HW Ressom (2016). [Preprocessing and Analysis of LC-MS-based Proteomic Data](https://www.ncbi.nlm.nih.gov/pubmed/26519169). In _Statistical Analysis in Proteomics_ (Ed. K. Jung), Springer, pp. 63--76.
-
-### Conference Papers
-
-* M Wang, __T-H Tsai__, G Yu, and HW Ressom (2015). Purification of LC/GC-MS based biomolecular expression profiles using a topic model. _Proceedings of IEEE International Conference on Bioinformatics and Biomedicine (BIBM)_, Washington, DC, November 2015. 
-
-* Y Zhao, __T-H Tsai__, C Di Poto, L Pannell, MG Tadesse, and HW Ressom (2012). Variability assessment of LC-MS experiments and its application to experimental design and difference detection. _Proceedings of the 2012 IEEE International Workshop on Genomic Signal Processing and Statistics (GENSIPS)_, Washington, DC, December 2012.
-
-* __T-H Tsai__, MG Tadesse, Y Wang, and HW Ressom (2011). Bayesian alignment model for LC-MS data. _Proceedings of IEEE International Conference on Bioinformatics and Biomedicine (BIBM)_, Atlanta, GA, November 2011. 
-
-* L Tuli, __T-H Tsai__, RS Varghese, AK Cheema, and HW Ressom (2010). Using a spike-in experiment to evaluate analysis of LC-MS data. _Proceedings of the IEEE International Workshop on Computational Proteomics_, Hong Kong, December 2010. 
-
-* C-Y Huang, __T-H Tsai__, B-C Wen, C-W Chung, Y-J Li, Y-C Chuang, W-J Lin, L-L Li, J-K Wang, Y-L Wang, C-H Lin, and D-W Wang (2010). Hybrid SVM/CART classification of pathogenic species of bacterial meningitis with surface-enhanced Raman scattering. _Proceedings of IEEE International Conference on Bioinformatics and Biomedicine (BIBM)_, Hong Kong, December 2010. 
-
-* __T-H Tsai__, D-W Wang, T-T Liu, Y-H Lin, Y-C Huang, T-J Liu, Y Chen, C-H Lin, J-K Wang, and Y-L Wang (2009). Multiscale peak identification for bacteria SERS spectra. _Proceedings of the 3rd International Conference on Bioinformatics and Biomedical Engineering (iCBBE)_, Beijing, China, June 2009. 
-
-* __T-H Tsai__, T-T Liu, Y-C Huang, Y Chen, T-J Liu, Y-H Lin, C-H Lin, Y-L Wang, J-K Wang, and D-W Wang (2008). A multiscale approach for surface-enhanced Raman spectroscopy (SERS) spectrum representation and its application to bacterial discrimination. _Proceedings of International Conference on BioMedical Engineering and Informatics (BMEI)_, Sanya, China, May 2008.
