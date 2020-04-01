@@ -1,8 +1,12 @@
 ---
-title: ""
+title: "PUBLICATIONS"
+---
+
 ---
 
 ### Journal Papers
+
+* __T-H Tsai__, M Choi, B Banfai, Y Liu, B. MacLean, T Dunkley, and O Vitek (2020). [Selection of features with consistent profiles improves relative protein quantification in mass spectrometry experiments](https://doi.org/10.1074/mcp.RA119.001792). _Molecular & Cellular Proteomics_, in press.
 
 * BV Sinn, C Fu, R Lau, J Litton, __T-H Tsai__, R Murthy, A Tam, E Andreopoulou, Y Gong, R Murthy, R Gould, Y Zhang, TA King, A Viale, V Andrade, D Giri, R Salgado, I Laios, C Sotiriou, C Marginean, DN Kwiatkowski, R Layman, D Booser, C Hatzis, V Valero, and WF Symmans (2019). [SET$_{\text{ER/PR}}$ - A robust 18-gene predictor for sensitivity to endocrine therapy for metastatic breast cancer](https://www.ncbi.nlm.nih.gov/pubmed/31231679). _npj Breast Cancer_, 5:16. 
 
@@ -29,10 +33,6 @@ title: ""
 * T-T Liu, Y-H Lin, C-S Hung, T-J Liu, Y Chen, Y-C Huang, __T-H Tsai__, H-H Wang, D-W Wang, J-K Wang, Y-L Wang, and C-H Lin (2009). [A high speed detection platform based on surface-enhanced Raman scattering for monitoring antibiotic-induced chemical changes in bacteria cell wall](http://www.ncbi.nlm.nih.gov/pubmed/19421405). _PLoS One_, 4(5):e5470. 
 
 * Y-H Yi, P-Y Ho, T-W Chen, W-J Lin, V Gukassyan, __T-H Tsai__, D-W Wang, T-S Liu, C-Y Tang, SJ Lo, T-Y Chen, F-J Kao, and C-H Lin (2009). [Membrane targeting and coupling of NHE1-integrin$\alpha_{\text{IIb}}\beta_{3}$-NCX1 by lipid rafts following integrin-ligand interactions trigger Ca$^{2+}$ oscillations](http://www.ncbi.nlm.nih.gov/pubmed/18996841). _Journal of Biological Chemistry_, 284(6):3855--3864.
-
-### Preprints
-
-* __T-H Tsai__, M Choi, B Banfai, Y Liu, T Dunkley, and O Vitek (2018). Selection of features with consistent profiles improves relative protein quantification in mass spectrometry experiments. 
 
 ### Book Chapters
 

@@ -82,25 +82,27 @@ R4DS "[Tibbles](https://r4ds.had.co.nz/tibbles.html)"
     + Reading: I2DS "[Statistical inference](https://rafalab.github.io/dsbook/inference.html)"
 - Wed Mar 18. Resampling techniques
     + Project proposal due
-    + HW 4 due on March 20
 - Mon Mar 23. _No class - Spring Break_
 - Wed Mar 25. _No class - Spring Break_
-- Mon Mar 30. Version control, git, and GitHub
-    + Reading: I2DS "[Git and GitHub](https://rafalab.github.io/dsbook/git.html)", [Excuse me, do you have a moment to talk about version control?](https://peerj.com/preprints/3159v2/) (Jennifer Bryan)
-- Wed Apr 1. Building R Shiny apps
-    + Reading: [Mastering Shiny](https://mastering-shiny.org/)"
-- Mon Apr 6. Statistical modeling
+- Mon Mar 30. Statistical modeling
     + Reading: I2DS "[Statistical models](https://rafalab.github.io/dsbook/models.html)", R4DS "[Model basics](https://r4ds.had.co.nz/model-basics.html)", R4DS "[Model building](https://r4ds.had.co.nz/model-building.html)"
-- Wed Apr 8. Advanced modeling
+    + HW 5 out
+- Wed Apr 1. Model building
+    + Reading: I2DS "[Statistical models](https://rafalab.github.io/dsbook/models.html)", R4DS "[Model basics](https://r4ds.had.co.nz/model-basics.html)", R4DS "[Model building](https://r4ds.had.co.nz/model-building.html)"
+    + HW 4 due
+- Mon Apr 6. Advanced modeling
     + Reading: R4DS "[Many models](https://r4ds.had.co.nz/many-models.html)"
-- Mon Apr 13. Statistical prediction
+- Wed Apr 8. Statistical prediction
     + Reading: I2DS "[Introduction to machine learning](https://rafalab.github.io/dsbook/introduction-to-machine-learning.html)"
-- Wed Apr 15. Model evaluation and cross validation
+- Mon Apr 13. Model evaluation and cross validation
     + Reading: I2DS "[Cross validation](https://rafalab.github.io/dsbook/cross-validation.html)", I2DS "[The caret package](https://rafalab.github.io/dsbook/caret.html)"
-- Mon Apr 20. Dimensionality reduction
-    + Reading: I2DS "[Large datasets](https://rafalab.github.io/dsbook/large-datasets.html)"
-- Wed Apr 22. Clustering
-    + Reading: I2DS "[Clustering](https://rafalab.github.io/dsbook/clustering.html)"
+    + HW 5 due
+- Wed Apr 15. Unsupervised learning
+    + Reading: I2DS "[Large datasets](https://rafalab.github.io/dsbook/large-datasets.html)", I2DS "[Clustering](https://rafalab.github.io/dsbook/clustering.html)"
+- Mon Apr 20. Version control, git, and GitHub
+    + Reading: I2DS "[Git and GitHub](https://rafalab.github.io/dsbook/git.html)", [Excuse me, do you have a moment to talk about version control?](https://peerj.com/preprints/3159v2/) (Jennifer Bryan)
+- Wed Apr 22. Building R Shiny apps
+    + Reading: [Mastering Shiny](https://mastering-shiny.org/)"
     + Project report due on April 26
 - Mon Apr 27. Student presentations on final projects
 
