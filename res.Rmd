@@ -11,7 +11,7 @@ title: "RESEARCH"
 ![](images/uninf.png)
 </div>
 <div class="column-right">
-Summaries of protein abundance are undermined by mass spectrometric features inconsistent with the overall protein profile. We develop an automated statistical approach that detects such inconsistent features. These features can be separately investigated, curated, or removed. Accounting for such inconsistent features improves the estimation and the detection of differential protein abundance between conditions. The approach is implemented as an option in the open-source R-based software MSstats
+Summaries of protein abundance are undermined by mass spectrometric features inconsistent with the overall protein profile. We develop an automated statistical approach that detects such inconsistent features. These features can be separately investigated, curated, or removed. Accounting for such inconsistent features improves the estimation and the detection of differential protein abundance between conditions. The approach is implemented as an option in the open-source R-based software MSstats. Details are described in the [MCP](https://www.ncbi.nlm.nih.gov/pubmed/32234965) paper. 
 </div>
 </div>
 

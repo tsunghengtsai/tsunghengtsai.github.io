@@ -2,7 +2,7 @@
 title: "Tsung-Heng Tsai"
 ---
 
-I am an assistant professor in the [Department of Mathematical Sciences](https://www.kent.edu/math) at [Kent State University](https://www.kent.edu). My current research is focused on the development of statistical and computational methods for applications in bioinformatics. Prior to the current position, I was a postdoctoral research associate in the lab of Olga Vitek at [Northeastern University](http://www.northeastern.edu/). I received my PhD in [Electrical Engineering](https://ece.vt.edu/) from [Virginia Tech](https://vt.edu/) in 2014.
+I am an assistant professor in the [Department of Mathematical Sciences](https://www.kent.edu/math) at [Kent State University](https://www.kent.edu). I have a diverse academic background with a BS and MS in various engineering disciplines, a PhD in Electrical Engineering from Virginia Tech, and postdoctoral training at University of Texas MD Anderson Cancer Center and Northeastern University. During my doctoral studies, I worked as a graduate research assistant at the Georgetown Lombardi Comprehensive Cancer Center. My current research is focused on the development of statistical and computational methods for applications in bioinformatics. 
 
 ---
 E-mail: ttsai1@kent.edu
