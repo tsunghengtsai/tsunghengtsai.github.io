@@ -78,31 +78,35 @@ R4DS "[Tibbles](https://r4ds.had.co.nz/tibbles.html)"
     + HW 3 due
     + HW 4 out
 - Wed Mar 11. Midterm exam (in class)
-- Mon Mar 16. Statistical inference
+- Mon Mar 16.  Probability and random variables
+    + Reading: I2DS "[Probability](https://rafalab.github.io/dsbook/probability.html)", I2DS "[Random Variables](https://rafalab.github.io/dsbook/random-variables.html)"
+- Wed Mar 18. Statistical inference
     + Reading: I2DS "[Statistical inference](https://rafalab.github.io/dsbook/inference.html)"
-- Wed Mar 18. Resampling techniques
     + Project proposal due
 - Mon Mar 23. _No class - Spring Break_
 - Wed Mar 25. _No class - Spring Break_
 - Mon Mar 30. Statistical modeling
-    + Reading: I2DS "[Statistical models](https://rafalab.github.io/dsbook/models.html)", R4DS "[Model basics](https://r4ds.had.co.nz/model-basics.html)", R4DS "[Model building](https://r4ds.had.co.nz/model-building.html)"
+    + Reading: I2DS "[Regression](https://rafalab.github.io/dsbook/regression.html)", I2DS "[Linear models](https://rafalab.github.io/dsbook/linear-models.html)", R4DS "[Model basics](https://r4ds.had.co.nz/model-basics.html)", R4DS "[Model building](https://r4ds.had.co.nz/model-building.html)"
     + HW 5 out
 - Wed Apr 1. Model building
-    + Reading: I2DS "[Statistical models](https://rafalab.github.io/dsbook/models.html)", R4DS "[Model basics](https://r4ds.had.co.nz/model-basics.html)", R4DS "[Model building](https://r4ds.had.co.nz/model-building.html)"
+    + Reading: I2DS "[Regression](https://rafalab.github.io/dsbook/regression.html)", I2DS "[Linear models](https://rafalab.github.io/dsbook/linear-models.html)", R4DS "[Model basics](https://r4ds.had.co.nz/model-basics.html)", R4DS "[Model building](https://r4ds.had.co.nz/model-building.html)"
     + HW 4 due
-- Mon Apr 6. Advanced modeling
+- Mon Apr 6. Many models
     + Reading: R4DS "[Many models](https://r4ds.had.co.nz/many-models.html)"
 - Wed Apr 8. Statistical prediction
-    + Reading: I2DS "[Introduction to machine learning](https://rafalab.github.io/dsbook/introduction-to-machine-learning.html)"
-- Mon Apr 13. Model evaluation and cross validation
+    + Reading: I2DS "[Introduction to machine learning](https://rafalab.github.io/dsbook/introduction-to-machine-learning.html)", I2DS "[Cross validation](https://rafalab.github.io/dsbook/cross-validation.html)"
+- Mon Apr 13. Statistical learning in practice
     + Reading: I2DS "[Cross validation](https://rafalab.github.io/dsbook/cross-validation.html)", I2DS "[The caret package](https://rafalab.github.io/dsbook/caret.html)"
+    + Optional: [Statistical Modeling: The Two Cultures](https://projecteuclid.org/euclid.ss/1009213726), [Build, Compute, Critique, Repeat: Data Analysis with Latent Variable Models](https://www.annualreviews.org/doi/full/10.1146/annurev-statistics-022513-115657)
     + HW 5 due
-- Wed Apr 15. Unsupervised learning
+    + HW 6 out
+- Wed Apr 15. Unsupervised analysis
     + Reading: I2DS "[Large datasets](https://rafalab.github.io/dsbook/large-datasets.html)", I2DS "[Clustering](https://rafalab.github.io/dsbook/clustering.html)"
 - Mon Apr 20. Version control, git, and GitHub
     + Reading: I2DS "[Git and GitHub](https://rafalab.github.io/dsbook/git.html)", [Excuse me, do you have a moment to talk about version control?](https://peerj.com/preprints/3159v2/) (Jennifer Bryan)
-- Wed Apr 22. Building R Shiny apps
-    + Reading: [Mastering Shiny](https://mastering-shiny.org/)"
+- Wed Apr 22. Good data science practices
+    + Reading: [Good enough practices in scientific computing](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005510)
+    + HW 6 due
     + Project report due on April 26
 - Mon Apr 27. Student presentations on final projects
 
