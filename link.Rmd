@@ -6,13 +6,22 @@ title: "USEFUL LINKS"
 
 ### Courses
 
-* The Missing Semester of Your CS Education: [web](https://missing.csail.mit.edu/), [video](https://www.youtube.com/channel/UCuXy5tCgEninup9cGplbiFw)
+#### Programs
 
+* Penn State Statistics Online: [web](https://online.stat.psu.edu/statprogram/) 
+
+
+#### Productivity
+
+* The Missing Semester of Your CS Education: [web](https://missing.csail.mit.edu/), [video](https://www.youtube.com/playlist?list=PLyzOVJj3bHQuloKGG59rS43e29ro7I57J)
+
+#### Data
+
+* Calling Bullshit: [web](https://callingbullshit.org/), [video](https://www.youtube.com/playlist?list=PLPnZfvKID1Sje5jWxt-4CSZD7bUI4gSPS) 
 
 ### Books
 
 * [Introduction to Data Science: Data Analysis and Prediction Algorithms with R](https://rafalab.github.io/dsbook/) (Rafael A. Irizarry)
-
 * [R for Data Science: Import, Tidy, Transform, Visualize, and Model Data](https://r4ds.had.co.nz) (Hadley Wickham and Garrett Grolemund)
 
 ### KSU
