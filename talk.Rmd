@@ -36,7 +36,7 @@ title: "TALKS"
 
 * "_Selection of Features with Consistent Profiles Improves Relative Protein Quantification in Mass Spectrometry Experiments_," [Annual International Conference on Intelligent Systems for Molecular Biology (ISMB)](https://www.iscb.org/ismb2020) (virtual), July, 2020
 
-* "_A Statistical Framework for Relative Quantification of Post-translational Modifications in Global Proteomics Experiments_," [Annual World Congress of the Human Proteome Organization (HUPO)](https://www.hupo2018.org/), Orlando, FL, September 2018
+* "_A Statistical Framework for Relative Quantification of Post-translational Modifications in Global Proteomics Experiments_," Annual World Congress of the Human Proteome Organization (HUPO), Orlando, FL, September 2018
 
 * "_gMODs: an Open Source Data Analysis Tool for Quantifying the Differential Site Occupancy of Therapeutic Protein Modifications_," Annual Conference of the US Human Proteome Organization (US HUPO), Boston, MA, March 2016
 
