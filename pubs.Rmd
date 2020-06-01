@@ -6,7 +6,7 @@ title: "PUBLICATIONS"
 
 ### Journal Papers
 
-* __T-H Tsai__, M Choi, B Banfai, Y Liu, B. MacLean, T Dunkley, and O Vitek (2020). [Selection of features with consistent profiles improves relative protein quantification in mass spectrometry experiments](https://www.ncbi.nlm.nih.gov/pubmed/32234965). _Molecular & Cellular Proteomics_, in press.
+* __T-H Tsai__, M Choi, B Banfai, Y Liu, B. MacLean, T Dunkley, and O Vitek (2020). [Selection of features with consistent profiles improves relative protein quantification in mass spectrometry experiments](https://www.ncbi.nlm.nih.gov/pubmed/32234965). _Molecular & Cellular Proteomics_, 19(6):944--959.
 
 * BV Sinn, C Fu, R Lau, J Litton, __T-H Tsai__, R Murthy, A Tam, E Andreopoulou, Y Gong, R Murthy, R Gould, Y Zhang, TA King, A Viale, V Andrade, D Giri, R Salgado, I Laios, C Sotiriou, C Marginean, DN Kwiatkowski, R Layman, D Booser, C Hatzis, V Valero, and WF Symmans (2019). [SET$_{\text{ER/PR}}$ - A robust 18-gene predictor for sensitivity to endocrine therapy for metastatic breast cancer](https://www.ncbi.nlm.nih.gov/pubmed/31231679). _npj Breast Cancer_, 5:16. 
 
