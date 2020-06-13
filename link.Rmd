@@ -10,6 +10,9 @@ title: "USEFUL LINKS"
 
 * Penn State Statistics Online: [web](https://online.stat.psu.edu/statprogram/) 
 
+#### Statistics
+
+* Analysis of Correlated Data: Mixed Linear Models: [web](https://02429.compute.dtu.dk/Frontpage)
 
 #### Productivity
 
@@ -25,3 +28,17 @@ title: "USEFUL LINKS"
 * [R for Data Science: Import, Tidy, Transform, Visualize, and Model Data](https://r4ds.had.co.nz) (Hadley Wickham and Garrett Grolemund)
 
 ### KSU
+
+### Grants
+
+#### Templates
+
+* [NIH Biosketch Template](https://www.overleaf.com/latex/templates/nih-biosketch-template/mtbcvhcmfpmw)
+* [NIH Grant Template (2010)](https://www.overleaf.com/latex/templates/nih-grant-template-2010/xyyhdzpjzhfp)
+* [LaTeX template for NSF-style Biographical Sketch](https://www.overleaf.com/latex/templates/latex-template-for-nsf-style-biographical-sketch/mqrkmftcmwrq)
+* [NSF Grant Proposal Template](https://www.overleaf.com/latex/templates/nsf-grant-proposal-template/fmjvyntkcqmb)
+* [NSF Grant Proposal LaTeX Template (MIT-MATH)](https://www.overleaf.com/latex/templates/nsf-grant-proposal-latex-template-mit-math/bpdgxygqdphw)
+
+#### Samples
+
+#### Resources
