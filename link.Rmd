@@ -14,6 +14,19 @@ title: "USEFUL LINKS"
 
 * Analysis of Correlated Data: Mixed Linear Models: [web](https://02429.compute.dtu.dk/Frontpage)
 
+* Linear and Generalized Linear Fixed and Mixed Effects Models: [web](https://dnett.github.io/S510/stat510.html)
+
+* Theory of Statistics: [web](https://www.math.arizona.edu/~jwatkins/stat566s20s.html)
+
+* Introduction to Statistical Methods: [web](https://www.math.arizona.edu/~jwatkins/data363s19s.html)
+
+
+#### Probability
+
+* Statistics 110: Probability: [web](https://projects.iq.harvard.edu/stat110), [video](https://projects.iq.harvard.edu/stat110/youtube), [book](http://probabilitybook.net/)
+
+* Theory of Probability: [web](https://www.math.arizona.edu/~jwatkins/stat564f19.html)
+
 #### Productivity
 
 * The Missing Semester of Your CS Education: [web](https://missing.csail.mit.edu/), [video](https://www.youtube.com/playlist?list=PLyzOVJj3bHQuloKGG59rS43e29ro7I57J)
@@ -26,6 +39,17 @@ title: "USEFUL LINKS"
 
 * [Introduction to Data Science: Data Analysis and Prediction Algorithms with R](https://rafalab.github.io/dsbook/) (Rafael A. Irizarry)
 * [R for Data Science: Import, Tidy, Transform, Visualize, and Model Data](https://r4ds.had.co.nz) (Hadley Wickham and Garrett Grolemund)
+* [The Art of Machine Learning](http://heather.cs.ucdavis.edu/artofml/draft.pdf) (Norm Matloff)
+* [From Linear Models to Machine Learning](http://heather.cs.ucdavis.edu/draftregclass.pdf)
+
+### Statisticians / Data Scientists
+
+* [Michael Clark](https://m-clark.github.io/)
+* [Rafael Irizarry](https://rafalab.github.io/)
+* [Karl Broman](https://kbroman.org/)
+
+
+
 
 ### KSU
 
