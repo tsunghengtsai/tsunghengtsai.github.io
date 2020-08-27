@@ -6,18 +6,13 @@ title: "TEACHING"
 
 ### KSU Courses
 
-#### Spring 2020
+* MATH 40011/50011: Probability Theory and Applications ([Fall20](prob-F20.html))
 
-* [MATH 49995/57091: Introduction to Data Science](datasci-S20.html)
+* MATH 49995/57091: Introduction to Data Science ([Spring20](datasci-S20.html))
 
-#### Fall 2019
-
-* [MATH 40024/50024: Computational Statistics](compstat-F19.html)
-
+* MATH 40024/50024: Computational Statistics ([Fall19](compstat-F19.html))
 
 ### Short Courses
-
-* Speaker, [EMBO Practical Course: Quantitative Proteomics](https://www.embl.de/training/events/2020/QPR20-01/) (1 week), European Molecular Biology Laboratory, Heidelberg, Germany, June 2020 (postponed)
 
 * Co-instructor, [DIA/SWATH Course](http://dia-swath-course.ethz.ch/) (1 week), ETH Zurich, Switzerland, July 2018
 

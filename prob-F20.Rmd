@@ -1,0 +1,160 @@
+---
+title: 'MATH 40011/50011-001: Probability Theory and Applications'
+output: html_document
+---
+
+### Fall 2020 (August 27, 2020 - December 13, 2020)
+
+__Lecture times:__ Tuesdays and Thursdays 2:15PM--3:30PM
+
+__Location:__ _online_
+
+__Instructor:__ Tsung-Heng Tsai | ttsai1@kent.edu | Office Hours: Tuesdays and Thursdays 3:30PM--5PM or by appointment
+
+__Textbook:__ 
+
+[_Introduction to Probability, Second Edition_](http://probabilitybook.net/), J. K. Blitzstein and J. Hwang, CRC Press, 2019. 
+
+__Plagiarism:__ Be familiar with the university's academic integrity policy on cheating and plagiarism. (https://www.kent.edu/policyreg/administrative-policy-regarding-student-cheating-and-plagiarism)
+
+__Administration:__ [Syllabus](prob-F20-syllabus.pdf), [Blackboard](https://learn.kent.edu/)
+
+---
+
+### Course Description
+
+Probability provides a principled way to quantify uncertainty and randomness. This course introduces the foundational concepts of probability and its applications. Topics include: sample spaces and events, counting, conditional probabilities, Bayes' theorem, random variables, univariate distributions (expectation and variance, Normal, $t$, Binomial, Negative Binomial, Hypergeometric, Geometric, Poisson, Beta, and Gamma distributions), multivariate distributions (joint and conditional distributions, independence, transformations, and Multivariate Normal distribution), law of large numbers, central limit theorem.
+
+---
+
+### Course Format
+
+The course is offered remotely during August 27, 2020-December 13, 2020. There are recorded video lectures every week. The videos and associated notes will be available on Blackboard. Each week, the instructor will hold online meetings through Blackboard Collaborate Ultra at class hours (i.e., TR 2:15-3:30 p.m.), to answer questions and/or discuss extra examples. 
+
+---
+
+### Schedule 
+_This schedule is tentative and subject to change._
+
+#### Week 01, 08/24 - 08/28: Syllabus
+
+#### Week 02, 08/31 - 09/04: Probability and Counting
+
+* Topics:
+    + Sample spaces, naive definition of probability, counting
+    + General definition of probability
+    + Axioms of probability, properties of probability, inclusion-exclusion
+* Reading: BH Ch 1
+
+#### Week 03, 09/07 - 09/11: Conditional Probability
+
+* Topics:
+    + Definition of conditional probability
+    + Bayes' rule, law of total probability
+    + Independence of events, conditional independence
+* Reading: BH Ch 2
+
+#### Week 04, 09/14 - 09/18: Random Variables and their Distributions
+
+* Topics:
+    + Random variables
+    + Probability mass functions (PMFs), cumulative distribution functions (CDFs)
+    + Bernoulli, Binomial and Hypergeometric distributions
+    + Independence of random variables
+
+#### Week 05, 09/21 - 09/25: Expectation
+
+* Topics:
+    + Expectations and variances
+    + Linearity
+    + Geometric, Negative Binomial and Poisson distributions 
+    + Law of unconscious statistician (LOTUS)
+
+#### Week 06, 09/28 - 10/02: Midterm I
+
+Exam due 11:59 p.m. on October 2 (handed out 12:00 p.m. noon on October 1)
+
+#### Week 07, 10/05 - 10/09: Continuous Random Variables
+
+* Topics:
+    + Discrete vs. continuous distributions 
+    + Probability density functions (PDFs) 
+    + Uniform and Normal distributions
+    
+#### Week 08, 10/12 - 10/16: Moments
+
+* Topics:
+    + Exponential distribution, memoryless property 
+    + Moment generating functions (MGFs)
+    + Generating moments with MGFs
+
+#### Week 09, 10/19 - 10/23: Joint Distributions
+
+* Topics:
+    + Joint, conditional, and marginal distributions 
+    + Covariance, correlation
+    + Multinomial and Cauchy distributions
+
+#### Week 10, 10/26 - 10/30: Transformation
+
+* Topics:
+    + Transformations, convolutions 
+    + Beta and Gamma distributions 
+    + Order statistics
+
+#### Week 11, 11/02 - 11/06: Conditional Expectation
+
+* Topics:
+    + Conditional expectation
+    + Adam’s law, Eve’s law
+
+#### Week 12, 11/09 - 11/13: Midterm Exam II
+
+Exam due 11:59 p.m. on November 13 (handed out 12:00 p.m. noon on November 12)
+
+#### Week 13, 11/16 - 11/20: Inequalities and Limit Theorems
+
+* Topics:
+    + Inequalities (Cauchy-Schwarz, Jensen, Markov, Chebyshev) 
+    + Law of large numbers
+    + Central limit theorem
+    + Chi-square, Student-t, Multivariate Normal
+
+#### Week 14, 11/23 - 11/27: Thanksgiving Break
+
+No class
+
+#### Week 15, 11/30 - 12/04: Markov Chains
+
+* Topics:
+    + Markov chains, transition matrix, stationary distribution
+    + Google PageRank as a Markov chain 
+
+#### Week 16, 12/07 - 12/11: Final Review
+
+#### Week 17, 12/14 - 12/18: Final Exam Week
+
+Exam due 11:59 p.m. on December 16 (handed out 12:00 p.m. noon on December 15)
+
+---
+
+### Grading
+
+Grades will be calculated as follows:
+
+* Homework assignments: 30%
+* Midterm exam 1: 20% (Thursday October 1) 
+* Midterm exam 2: 20% (Thursday November 12) 
+* Final exam: 30% (Tuesday December 15) 
+
+The final letter grades will follow the usual scale: A=90-100; B=80-89; C=70-79; D=60-69; F=0-59. Plus and minus grades will be given at discretion of the instructor.
+
+### Homework
+
+There will be approximately 6 homework assignments that will be posted on Blackboard. Assignments must be uploaded to Blackboard as a PDF file. You can either type your homework solutions or write them on papers and upload the scanned version. In any case, please make sure your work is clearly presented.
+
+Assignments are due at the beginning of class hour on the specified date. In general, no late submissions will be accepted. In case of truly exceptional situations (e.g., family emergencies or illness), the instructor may make exceptions and allow late submission. The lowest homework score will be dropped at the end of the semester. 
+
+### Exam
+
+There will be three exams: two midterm exams and one comprehensive final exam (dates mentioned above).  Each exam will be posted on Blackboard at 12:00 p.m. on the exam day, and you have to upload your solutions as a PDF file to Blackboard by 11:59 p.m. the next day (so you have one and a half days to work on the exam). You can either type your solutions or write them on papers and upload the scanned version. In any case, you should make sure your work is clearly presented. Each exam will take approximately 2 hours to finish, but you can spend as much time as you want during the period. The exams are open-book, so you can consult the textbook, notes, etc. during the exam. However, you are not allowed to discuss with other students and the submitted work must be your own. 

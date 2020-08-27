@@ -23,7 +23,13 @@ title: "USEFUL LINKS"
 
 #### Probability
 
-* Statistics 110: Probability: [web](https://projects.iq.harvard.edu/stat110), [video](https://projects.iq.harvard.edu/stat110/youtube), [book](http://probabilitybook.net/)
+* Statistics 110: Probability: [web](https://projects.iq.harvard.edu/stat110), [video](https://projects.iq.harvard.edu/stat110/youtube), [book](http://probabilitybook.net/), [book2](https://bookdown.org/probability/beta/)
+
+* Introduction to Probability: [web](https://ocw.mit.edu/resources/res-6-012-introduction-to-probability-spring-2018/)
+
+* Probabilistic Systems Analysis and Applied Probability: [web](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-041sc-probabilistic-systems-analysis-and-applied-probability-fall-2013/)
+
+* Fundamentals of Probability: [web](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-436j-fundamentals-of-probability-fall-2018/)
 
 * Theory of Probability: [web](https://www.math.arizona.edu/~jwatkins/stat564f19.html)
 
@@ -62,6 +68,10 @@ title: "USEFUL LINKS"
 * [LaTeX template for NSF-style Biographical Sketch](https://www.overleaf.com/latex/templates/latex-template-for-nsf-style-biographical-sketch/mqrkmftcmwrq)
 * [NSF Grant Proposal Template](https://www.overleaf.com/latex/templates/nsf-grant-proposal-template/fmjvyntkcqmb)
 * [NSF Grant Proposal LaTeX Template (MIT-MATH)](https://www.overleaf.com/latex/templates/nsf-grant-proposal-latex-template-mit-math/bpdgxygqdphw)
+
+#### Writing
+
+* [Leadership Lab: Writing Training](https://www.youtube.com/playlist?list=PLT9dtLV29xu8NkipEERDB2I62tLyhTJym)
 
 #### Samples
 

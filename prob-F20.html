@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>MATH 40011/50011-001: Probability Theory and Applications</title>
+
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/spacelab.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+
+<style type="text/css">code{white-space: pre;}</style>
+<style type="text/css">
+  pre:not([class]) {
+    background-color: white;
+  }
+</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+<style type="text/css">
+h1 {
+  font-size: 34px;
+}
+h1.title {
+  font-size: 38px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+</style>
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+</style>
+
+
+<style type="text/css">
+/* padding for bootstrap navbar */
+body {
+  padding-top: 52px;
+  padding-bottom: 40px;
+}
+/* offset scroll position for anchor links (for fixed navbar)  */
+.section h1 {
+  padding-top: 57px;
+  margin-top: -57px;
+}
+.section h2 {
+  padding-top: 57px;
+  margin-top: -57px;
+}
+.section h3 {
+  padding-top: 57px;
+  margin-top: -57px;
+}
+.section h4 {
+  padding-top: 57px;
+  margin-top: -57px;
+}
+.section h5 {
+  padding-top: 57px;
+  margin-top: -57px;
+}
+.section h6 {
+  padding-top: 57px;
+  margin-top: -57px;
+}
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #ffffff;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script>
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.parent().addClass('active');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Tsung-Heng Tsai</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">Home</a>
+</li>
+<li>
+  <a href="res.html">Research</a>
+</li>
+<li>
+  <a href="pubs.html">Publications</a>
+</li>
+<li>
+  <a href="talk.html">Talks</a>
+</li>
+<li>
+  <a href="teach.html">Teaching</a>
+</li>
+<li>
+  <a href="cv.html">CV</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div class="fluid-row" id="header">
+
+
+
+<h1 class="title toc-ignore">MATH 40011/50011-001: Probability Theory and Applications</h1>
+
+</div>
+
+
+<div id="fall-2020-august-27-2020---december-13-2020" class="section level3">
+<h3>Fall 2020 (August 27, 2020 - December 13, 2020)</h3>
+<p><strong>Lecture times:</strong> Tuesdays and Thursdays 2:15PM–3:30PM</p>
+<p><strong>Location:</strong> <em>online</em></p>
+<p><strong>Instructor:</strong> Tsung-Heng Tsai | <a href="mailto:ttsai1@kent.edu" class="email">ttsai1@kent.edu</a> | Office Hours: Tuesdays and Thursdays 3:30PM–5PM or by appointment</p>
+<p><strong>Textbook:</strong></p>
+<p><a href="http://probabilitybook.net/"><em>Introduction to Probability, Second Edition</em></a>, J. K. Blitzstein and J. Hwang, CRC Press, 2019.</p>
+<p><strong>Plagiarism:</strong> Be familiar with the university’s academic integrity policy on cheating and plagiarism. (<a href="https://www.kent.edu/policyreg/administrative-policy-regarding-student-cheating-and-plagiarism" class="uri">https://www.kent.edu/policyreg/administrative-policy-regarding-student-cheating-and-plagiarism</a>)</p>
+<p><strong>Administration:</strong> <a href="prob-F20-syllabus.pdf">Syllabus</a>, <a href="https://learn.kent.edu/">Blackboard</a></p>
+<hr />
+</div>
+<div id="course-description" class="section level3">
+<h3>Course Description</h3>
+<p>Probability provides a principled way to quantify uncertainty and randomness. This course introduces the foundational concepts of probability and its applications. Topics include: sample spaces and events, counting, conditional probabilities, Bayes’ theorem, random variables, univariate distributions (expectation and variance, Normal, <span class="math inline">\(t\)</span>, Binomial, Negative Binomial, Hypergeometric, Geometric, Poisson, Beta, and Gamma distributions), multivariate distributions (joint and conditional distributions, independence, transformations, and Multivariate Normal distribution), law of large numbers, central limit theorem.</p>
+<hr />
+</div>
+<div id="course-format" class="section level3">
+<h3>Course Format</h3>
+<p>The course is offered remotely during August 27, 2020-December 13, 2020. There are recorded video lectures every week. The videos and associated notes will be available on Blackboard. Each week, the instructor will hold online meetings through Blackboard Collaborate Ultra at class hours (i.e., TR 2:15-3:30 p.m.), to answer questions and/or discuss extra examples.</p>
+<hr />
+</div>
+<div id="schedule" class="section level3">
+<h3>Schedule</h3>
+<p><em>This schedule is tentative and subject to change.</em></p>
+<div id="week-01-0824---0828-syllabus" class="section level4">
+<h4>Week 01, 08/24 - 08/28: Syllabus</h4>
+</div>
+<div id="week-02-0831---0904-probability-and-counting" class="section level4">
+<h4>Week 02, 08/31 - 09/04: Probability and Counting</h4>
+<ul>
+<li>Topics:
+<ul>
+<li>Sample spaces, naive definition of probability, counting</li>
+<li>General definition of probability</li>
+<li>Axioms of probability, properties of probability, inclusion-exclusion</li>
+</ul></li>
+<li>Reading: BH Ch 1</li>
+</ul>
+</div>
+<div id="week-03-0907---0911-conditional-probability" class="section level4">
+<h4>Week 03, 09/07 - 09/11: Conditional Probability</h4>
+<ul>
+<li>Topics:
+<ul>
+<li>Definition of conditional probability</li>
+<li>Bayes’ rule, law of total probability</li>
+<li>Independence of events, conditional independence</li>
+</ul></li>
+<li>Reading: BH Ch 2</li>
+</ul>
+</div>
+<div id="week-04-0914---0918-random-variables-and-their-distributions" class="section level4">
+<h4>Week 04, 09/14 - 09/18: Random Variables and their Distributions</h4>
+<ul>
+<li>Topics:
+<ul>
+<li>Random variables</li>
+<li>Probability mass functions (PMFs), cumulative distribution functions (CDFs)</li>
+<li>Bernoulli, Binomial and Hypergeometric distributions</li>
+<li>Independence of random variables</li>
+</ul></li>
+</ul>
+</div>
+<div id="week-05-0921---0925-expectation" class="section level4">
+<h4>Week 05, 09/21 - 09/25: Expectation</h4>
+<ul>
+<li>Topics:
+<ul>
+<li>Expectations and variances</li>
+<li>Linearity</li>
+<li>Geometric, Negative Binomial and Poisson distributions</li>
+<li>Law of unconscious statistician (LOTUS)</li>
+</ul></li>
+</ul>
+</div>
+<div id="week-06-0928---1002-midterm-i" class="section level4">
+<h4>Week 06, 09/28 - 10/02: Midterm I</h4>
+<p>Exam due 11:59 p.m. on October 2 (handed out 12:00 p.m. noon on October 1)</p>
+</div>
+<div id="week-07-1005---1009-continuous-random-variables" class="section level4">
+<h4>Week 07, 10/05 - 10/09: Continuous Random Variables</h4>
+<ul>
+<li>Topics:
+<ul>
+<li>Discrete vs. continuous distributions</li>
+<li>Probability density functions (PDFs)</li>
+<li>Uniform and Normal distributions</li>
+</ul></li>
+</ul>
+</div>
+<div id="week-08-1012---1016-moments" class="section level4">
+<h4>Week 08, 10/12 - 10/16: Moments</h4>
+<ul>
+<li>Topics:
+<ul>
+<li>Exponential distribution, memoryless property</li>
+<li>Moment generating functions (MGFs)</li>
+<li>Generating moments with MGFs</li>
+</ul></li>
+</ul>
+</div>
+<div id="week-09-1019---1023-joint-distributions" class="section level4">
+<h4>Week 09, 10/19 - 10/23: Joint Distributions</h4>
+<ul>
+<li>Topics:
+<ul>
+<li>Joint, conditional, and marginal distributions</li>
+<li>Covariance, correlation</li>
+<li>Multinomial and Cauchy distributions</li>
+</ul></li>
+</ul>
+</div>
+<div id="week-10-1026---1030-transformation" class="section level4">
+<h4>Week 10, 10/26 - 10/30: Transformation</h4>
+<ul>
+<li>Topics:
+<ul>
+<li>Transformations, convolutions</li>
+<li>Beta and Gamma distributions</li>
+<li>Order statistics</li>
+</ul></li>
+</ul>
+</div>
+<div id="week-11-1102---1106-conditional-expectation" class="section level4">
+<h4>Week 11, 11/02 - 11/06: Conditional Expectation</h4>
+<ul>
+<li>Topics:
+<ul>
+<li>Conditional expectation</li>
+<li>Adam’s law, Eve’s law</li>
+</ul></li>
+</ul>
+</div>
+<div id="week-12-1109---1113-midterm-exam-ii" class="section level4">
+<h4>Week 12, 11/09 - 11/13: Midterm Exam II</h4>
+<p>Exam due 11:59 p.m. on November 13 (handed out 12:00 p.m. noon on November 12)</p>
+</div>
+<div id="week-13-1116---1120-inequalities-and-limit-theorems" class="section level4">
+<h4>Week 13, 11/16 - 11/20: Inequalities and Limit Theorems</h4>
+<ul>
+<li>Topics:
+<ul>
+<li>Inequalities (Cauchy-Schwarz, Jensen, Markov, Chebyshev)</li>
+<li>Law of large numbers</li>
+<li>Central limit theorem</li>
+<li>Chi-square, Student-t, Multivariate Normal</li>
+</ul></li>
+</ul>
+</div>
+<div id="week-14-1123---1127-thanksgiving-break" class="section level4">
+<h4>Week 14, 11/23 - 11/27: Thanksgiving Break</h4>
+<p>No class</p>
+</div>
+<div id="week-15-1130---1204-markov-chains" class="section level4">
+<h4>Week 15, 11/30 - 12/04: Markov Chains</h4>
+<ul>
+<li>Topics:
+<ul>
+<li>Markov chains, transition matrix, stationary distribution</li>
+<li>Google PageRank as a Markov chain</li>
+</ul></li>
+</ul>
+</div>
+<div id="week-16-1207---1211-final-review" class="section level4">
+<h4>Week 16, 12/07 - 12/11: Final Review</h4>
+</div>
+<div id="week-17-1214---1218-final-exam-week" class="section level4">
+<h4>Week 17, 12/14 - 12/18: Final Exam Week</h4>
+<p>Exam due 11:59 p.m. on December 16 (handed out 12:00 p.m. noon on December 15)</p>
+<hr />
+</div>
+</div>
+<div id="grading" class="section level3">
+<h3>Grading</h3>
+<p>Grades will be calculated as follows:</p>
+<ul>
+<li>Homework assignments: 30%</li>
+<li>Midterm exam 1: 20% (Thursday October 1)</li>
+<li>Midterm exam 2: 20% (Thursday November 12)</li>
+<li>Final exam: 30% (Tuesday December 15)</li>
+</ul>
+<p>The final letter grades will follow the usual scale: A=90-100; B=80-89; C=70-79; D=60-69; F=0-59. Plus and minus grades will be given at discretion of the instructor.</p>
+</div>
+<div id="homework" class="section level3">
+<h3>Homework</h3>
+<p>There will be approximately 6 homework assignments that will be posted on Blackboard. Assignments must be uploaded to Blackboard as a PDF file. You can either type your homework solutions or write them on papers and upload the scanned version. In any case, please make sure your work is clearly presented.</p>
+<p>Assignments are due at the beginning of class hour on the specified date. In general, no late submissions will be accepted. In case of truly exceptional situations (e.g., family emergencies or illness), the instructor may make exceptions and allow late submission. The lowest homework score will be dropped at the end of the semester.</p>
+</div>
+<div id="exam" class="section level3">
+<h3>Exam</h3>
+<p>There will be three exams: two midterm exams and one comprehensive final exam (dates mentioned above). Each exam will be posted on Blackboard at 12:00 p.m. on the exam day, and you have to upload your solutions as a PDF file to Blackboard by 11:59 p.m. the next day (so you have one and a half days to work on the exam). You can either type your solutions or write them on papers and upload the scanned version. In any case, you should make sure your work is clearly presented. Each exam will take approximately 2 hours to finish, but you can spend as much time as you want during the period. The exams are open-book, so you can consult the textbook, notes, etc. during the exam. However, you are not allowed to discuss with other students and the submitted work must be your own.</p>
+</div>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>
