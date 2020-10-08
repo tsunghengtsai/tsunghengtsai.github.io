@@ -6,33 +6,35 @@ title: "PUBLICATIONS"
 
 ### Journal Papers
 
-* __T-H Tsai__, M Choi, B Banfai, Y Liu, B. MacLean, T Dunkley, and O Vitek (2020). [Selection of features with consistent profiles improves relative protein quantification in mass spectrometry experiments](https://www.ncbi.nlm.nih.gov/pubmed/32234965). _Molecular & Cellular Proteomics_, 19(6):944--959.
+* M Choi, J Carver, C Chiva, M Tzouros, T Huang, __T-H Tsai__, B Pullman, O Bernhardt, R Huttenhain, G Teo, Y Perez-Riverol, J Muntel, M Muller, S Goetze, M Pavlou, E Verschueren, B Wollscheid, A Nesvizhskii, L Reiter, T Dunkley, E Sabido, N Bandeira, O Vitek (2020). [MassIVE.quant: a community resource of quantitative mass spectrometry-based proteomics datasets](https://pubmed.ncbi.nlm.nih.gov/32929271/). _Nature Methods_, 17:981--984.
 
-* BV Sinn, C Fu, R Lau, J Litton, __T-H Tsai__, R Murthy, A Tam, E Andreopoulou, Y Gong, R Murthy, R Gould, Y Zhang, TA King, A Viale, V Andrade, D Giri, R Salgado, I Laios, C Sotiriou, C Marginean, DN Kwiatkowski, R Layman, D Booser, C Hatzis, V Valero, and WF Symmans (2019). [SET$_{\text{ER/PR}}$ - A robust 18-gene predictor for sensitivity to endocrine therapy for metastatic breast cancer](https://www.ncbi.nlm.nih.gov/pubmed/31231679). _npj Breast Cancer_, 5:16. 
+* __T-H Tsai__, M Choi, B Banfai, Y Liu, B. MacLean, T Dunkley, O Vitek (2020). [Selection of features with consistent profiles improves relative protein quantification in mass spectrometry experiments](https://www.ncbi.nlm.nih.gov/pubmed/32234965). _Molecular & Cellular Proteomics_, 19(6):944--959.
 
-* __T-H Tsai__, Z Hao, Q Hong, B Moore, C Stella, JH Zhang, Y Chen, M Kim, T Koulis, GA Ryslik, E Verschueren, F Jacobson, WE Haskins, and O Vitek (2017). [Statistical characterization of therapeutic protein modifications](https://www.ncbi.nlm.nih.gov/pubmed/28801661). _Scientific Reports_, 7(1):7896.
+* BV Sinn, C Fu, R Lau, J Litton, __T-H Tsai__, R Murthy, A Tam, E Andreopoulou, Y Gong, R Murthy, R Gould, Y Zhang, TA King, A Viale, V Andrade, D Giri, R Salgado, I Laios, C Sotiriou, C Marginean, DN Kwiatkowski, R Layman, D Booser, C Hatzis, V Valero, WF Symmans (2019). [SET$_{\text{ER/PR}}$ - A robust 18-gene predictor for sensitivity to endocrine therapy for metastatic breast cancer](https://www.ncbi.nlm.nih.gov/pubmed/31231679). _npj Breast Cancer_, 5:16. 
 
-* M Wang, __T-H Tsai__, C Di Poto, A Ferrarini, G Yu, and HW Ressom (2016). [Topic model-based mass spectrometric data analysis in cancer biomarker discovery studies](http://www.ncbi.nlm.nih.gov/pubmed/27535232). _BMC Genomics_, 17(Suppl 4):545.
+* __T-H Tsai__, Z Hao, Q Hong, B Moore, C Stella, JH Zhang, Y Chen, M Kim, T Koulis, GA Ryslik, E Verschueren, F Jacobson, WE Haskins, O Vitek (2017). [Statistical characterization of therapeutic protein modifications](https://www.ncbi.nlm.nih.gov/pubmed/28801661). _Scientific Reports_, 7(1):7896.
 
-* __T-H Tsai__, E Song, Z Rui, C Di Poto, M Wang, Y Luo, RS Varghese, MG Tadesse, DH Ziada, CS Desai, K Shetty, Y Mechref, and HW Ressom (2015). [LC-MS/MS based serum proteomics for identification of candidate biomarkers for hepatocellular carcinoma](http://www.ncbi.nlm.nih.gov/pubmed/25778709). _Proteomics_, 15(13):2369--2381.
+* M Wang, __T-H Tsai__, C Di Poto, A Ferrarini, G Yu, HW Ressom (2016). [Topic model-based mass spectrometric data analysis in cancer biomarker discovery studies](http://www.ncbi.nlm.nih.gov/pubmed/27535232). _BMC Genomics_, 17(Suppl 4):545.
 
-* __T-H Tsai__, M Wang, C Di Poto, Y Hu, S Zhou, Y Zhao, RS Varghese, Y Luo, MG Tadesse, DH Ziada, CS Desai, K Shetty, Y Mechref, and HW Ressom (2014). [LC-MS profiling of N-glycans derived from human serum samples for biomarker discovery in hepatocellular carcinoma](http://www.ncbi.nlm.nih.gov/pubmed/25077556). _Journal of Proteome Research_, 13(11):4859--4868.
+* __T-H Tsai__, E Song, Z Rui, C Di Poto, M Wang, Y Luo, RS Varghese, MG Tadesse, DH Ziada, CS Desai, K Shetty, Y Mechref, HW Ressom (2015). [LC-MS/MS based serum proteomics for identification of candidate biomarkers for hepatocellular carcinoma](http://www.ncbi.nlm.nih.gov/pubmed/25778709). _Proteomics_, 15(13):2369--2381.
 
-* __T-H Tsai__, MG Tadesse, C Di Poto, LK Pannell, Y Mechref, Y Wang, and HW Ressom (2013). [Multi-profile Bayesian alignment model for LC-MS data analysis with integration of internal standards](http://www.ncbi.nlm.nih.gov/pubmed/24013927). _Bioinformatics_, 29(21):2774--2780.
+* __T-H Tsai__, M Wang, C Di Poto, Y Hu, S Zhou, Y Zhao, RS Varghese, Y Luo, MG Tadesse, DH Ziada, CS Desai, K Shetty, Y Mechref, HW Ressom (2014). [LC-MS profiling of N-glycans derived from human serum samples for biomarker discovery in hepatocellular carcinoma](http://www.ncbi.nlm.nih.gov/pubmed/25077556). _Journal of Proteome Research_, 13(11):4859--4868.
 
-* __T-H Tsai__, MG Tadesse, Y Wang, and HW Ressom (2013). [Profile-based LC-MS data alignment --- A Bayesian approach](http://www.ncbi.nlm.nih.gov/pubmed/23929872). _IEEE/ACM Transactions on Computational Biology and Bioinformatics_, 10(2):494--503. 
+* __T-H Tsai__, MG Tadesse, C Di Poto, LK Pannell, Y Mechref, Y Wang, HW Ressom (2013). [Multi-profile Bayesian alignment model for LC-MS data analysis with integration of internal standards](http://www.ncbi.nlm.nih.gov/pubmed/24013927). _Bioinformatics_, 29(21):2774--2780.
 
-* JF Xiao, RS Varghese, B Zhou, MR Ranjbar, Y Zhao, __T-H Tsai__, C Di Poto, J Wang, D Goerlitz, Y Luo, AK Cheema, N Sarhan, H Soliman, MG Tadesse, DH Ziada, and HW Ressom (2012). [LC-MS based serum metabolomics for identification of hepatocellular carcinoma biomarkers in Egyptian cohort](http://www.ncbi.nlm.nih.gov/pubmed/23078175). _Journal of Proteome Research_, 11(12):5914--5923. 
+* __T-H Tsai__, MG Tadesse, Y Wang, HW Ressom (2013). [Profile-based LC-MS data alignment --- A Bayesian approach](http://www.ncbi.nlm.nih.gov/pubmed/23929872). _IEEE/ACM Transactions on Computational Biology and Bioinformatics_, 10(2):494--503. 
 
-* HW Ressom, JF Xiao, L Tuli, RS Varghese, B Zhou, __T-H Tsai__, MR Ranjbar, Y Zhao, J Wang, C Di Poto, AK Cheema, MG Tadesse, R Goldman, and K Shetty (2012). [Utilization of metabolomics to identify serum biomarkers for hepatocellular carcinoma in patients with liver cirrhosis](http://www.ncbi.nlm.nih.gov/pubmed/22882828). _Analytica Chimica Acta_, 743:90--100. 
+* JF Xiao, RS Varghese, B Zhou, MR Ranjbar, Y Zhao, __T-H Tsai__, C Di Poto, J Wang, D Goerlitz, Y Luo, AK Cheema, N Sarhan, H Soliman, MG Tadesse, DH Ziada, HW Ressom (2012). [LC-MS based serum metabolomics for identification of hepatocellular carcinoma biomarkers in Egyptian cohort](http://www.ncbi.nlm.nih.gov/pubmed/23078175). _Journal of Proteome Research_, 11(12):5914--5923. 
 
-* L Tuli, __T-H Tsai__, RS Varghese, JF Xiao, AK Cheema, and HW Ressom (2012). [Using a spike-in experiment to evaluate analysis of LC-MS data](http://www.ncbi.nlm.nih.gov/pubmed/22369182). _Proteome Science_, 10(13). 
+* HW Ressom, JF Xiao, L Tuli, RS Varghese, B Zhou, __T-H Tsai__, MR Ranjbar, Y Zhao, J Wang, C Di Poto, AK Cheema, MG Tadesse, R Goldman, K Shetty (2012). [Utilization of metabolomics to identify serum biomarkers for hepatocellular carcinoma in patients with liver cirrhosis](http://www.ncbi.nlm.nih.gov/pubmed/22882828). _Analytica Chimica Acta_, 743:90--100. 
 
-* GK Befekadu, MG Tadesse, __T-H Tsai__, and HW Ressom (2011). [Probabilistic mixture regression models for alignment of LC-MS data](http://www.ncbi.nlm.nih.gov/pubmed/20837998). _IEEE/ACM Transactions on Computational Biology and Bioinformatics_, 8(5):1417--1424. 
+* L Tuli, __T-H Tsai__, RS Varghese, JF Xiao, AK Cheema, HW Ressom (2012). [Using a spike-in experiment to evaluate analysis of LC-MS data](http://www.ncbi.nlm.nih.gov/pubmed/22369182). _Proteome Science_, 10(13). 
 
-* T-T Liu, Y-H Lin, C-S Hung, T-J Liu, Y Chen, Y-C Huang, __T-H Tsai__, H-H Wang, D-W Wang, J-K Wang, Y-L Wang, and C-H Lin (2009). [A high speed detection platform based on surface-enhanced Raman scattering for monitoring antibiotic-induced chemical changes in bacteria cell wall](http://www.ncbi.nlm.nih.gov/pubmed/19421405). _PLoS One_, 4(5):e5470. 
+* GK Befekadu, MG Tadesse, __T-H Tsai__, HW Ressom (2011). [Probabilistic mixture regression models for alignment of LC-MS data](http://www.ncbi.nlm.nih.gov/pubmed/20837998). _IEEE/ACM Transactions on Computational Biology and Bioinformatics_, 8(5):1417--1424. 
 
-* Y-H Yi, P-Y Ho, T-W Chen, W-J Lin, V Gukassyan, __T-H Tsai__, D-W Wang, T-S Liu, C-Y Tang, SJ Lo, T-Y Chen, F-J Kao, and C-H Lin (2009). [Membrane targeting and coupling of NHE1-integrin$\alpha_{\text{IIb}}\beta_{3}$-NCX1 by lipid rafts following integrin-ligand interactions trigger Ca$^{2+}$ oscillations](http://www.ncbi.nlm.nih.gov/pubmed/18996841). _Journal of Biological Chemistry_, 284(6):3855--3864.
+* T-T Liu, Y-H Lin, C-S Hung, T-J Liu, Y Chen, Y-C Huang, __T-H Tsai__, H-H Wang, D-W Wang, J-K Wang, Y-L Wang, C-H Lin (2009). [A high speed detection platform based on surface-enhanced Raman scattering for monitoring antibiotic-induced chemical changes in bacteria cell wall](http://www.ncbi.nlm.nih.gov/pubmed/19421405). _PLoS One_, 4(5):e5470. 
+
+* Y-H Yi, P-Y Ho, T-W Chen, W-J Lin, V Gukassyan, __T-H Tsai__, D-W Wang, T-S Liu, C-Y Tang, SJ Lo, T-Y Chen, F-J Kao, C-H Lin (2009). [Membrane targeting and coupling of NHE1-integrin$\alpha_{\text{IIb}}\beta_{3}$-NCX1 by lipid rafts following integrin-ligand interactions trigger Ca$^{2+}$ oscillations](http://www.ncbi.nlm.nih.gov/pubmed/18996841). _Journal of Biological Chemistry_, 284(6):3855--3864.
 
 ### Book Chapters
 
@@ -40,4 +42,4 @@ title: "PUBLICATIONS"
 
 * Y Zhao, __T-H Tsai__, C Di Poto, LK Pannell, MG Tadesse, HW Ressom (2017). [Variability Assessment of Label-free LC-MS Experiments for Difference Detection](https://link.springer.com/chapter/10.1007/978-3-319-45809-0_9). In _Statistical Analysis of Proteomics, Metabolomics and Lipidomics Data using Mass Spectrometry_ (Eds. S. Datta and B.J.A. Mertens), Springer, pp. 157--176.
 
-* __T-H Tsai__, M Wang, and HW Ressom (2016). [Preprocessing and Analysis of LC-MS-based Proteomic Data](https://www.ncbi.nlm.nih.gov/pubmed/26519169). In _Statistical Analysis in Proteomics_ (Ed. K. Jung), Springer, pp. 63--76.
+* __T-H Tsai__, M Wang, HW Ressom (2016). [Preprocessing and Analysis of LC-MS-based Proteomic Data](https://www.ncbi.nlm.nih.gov/pubmed/26519169). In _Statistical Analysis in Proteomics_ (Ed. K. Jung), Springer, pp. 63--76.

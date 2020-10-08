@@ -18,6 +18,8 @@ title: "USEFUL LINKS"
 
 * Theory of Statistics: [web](https://www.math.arizona.edu/~jwatkins/stat566s20s.html)
 
+* Mathematical Statistics: [web](https://ocw.mit.edu/courses/mathematics/18-655-mathematical-statistics-spring-2016/index.htm)
+
 * Introduction to Statistical Methods: [web](https://www.math.arizona.edu/~jwatkins/data363s19s.html)
 
 
@@ -33,9 +35,17 @@ title: "USEFUL LINKS"
 
 * Theory of Probability: [web](https://www.math.arizona.edu/~jwatkins/stat564f19.html)
 
+* Introduction to Probability: [web](https://faculty.math.illinois.edu/~hildebr/461/)
+
+* Actuarial Statistics I: [web](https://faculty.math.illinois.edu/~hildebr/408/)
+
+https://math.la.asu.edu/~jtaylor/courses.html
+
 #### Productivity
 
 * The Missing Semester of Your CS Education: [web](https://missing.csail.mit.edu/), [video](https://www.youtube.com/playlist?list=PLyzOVJj3bHQuloKGG59rS43e29ro7I57J)
+
+* LaTeX Tips: [web](https://faculty.math.illinois.edu/~hildebr/tex/tips.html)
 
 #### Data
 

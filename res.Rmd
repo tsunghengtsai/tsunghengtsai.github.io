@@ -11,7 +11,9 @@ title: "RESEARCH"
 ![](images/uninf.png)
 </div>
 <div class="column-right">
-Summaries of protein abundance are undermined by mass spectrometric features inconsistent with the overall protein profile. We develop an automated statistical approach that detects such inconsistent features. These features can be separately investigated, curated, or removed. Accounting for such inconsistent features improves the estimation and the detection of differential protein abundance between conditions. The approach is implemented as an option in the open-source R-based software MSstats. Details are described in the [MCP](https://www.ncbi.nlm.nih.gov/pubmed/32234965) paper. 
+Summaries of protein abundance are undermined by mass spectrometric features inconsistent with the overall protein profile. We develop an automated statistical approach that detects such inconsistent features. These features can be separately investigated, curated, or removed. Accounting for such inconsistent features improves the estimation and the detection of differential protein abundance between conditions. The approach is implemented as an option in the open-source R-based software MSstats. 
+
+[Manuscript](https://www.ncbi.nlm.nih.gov/pubmed/32234965), [Supplementary](https://github.com/tsunghengtsai/MSstats-feature-selection)
 </div>
 </div>
 
@@ -25,6 +27,8 @@ Summaries of protein abundance are undermined by mass spectrometric features inc
 </div>
 <div class="column-right">
 Interpretation of changes at a single PTM site in a typical bottom-up proteomics workflow is complicated by sparse PTM coverage and confounded by both changes in overall protein abundance and variability in enrichment efficiency. We propose an alternative statistical approach to model relative abundance changes for modification sites, which explicitly incorporates major sources of variability and confounding factors present in PTM experiments. The general statistical framework underlying the proposed approach also allows for natural extensions to complex experimental designs including multiple conditions and multiple batches. All algorithms and statistical tests are implemented in the MSstatsPTM R package.
+
+[GitHub](https://github.com/tsunghengtsai/MSstatsPTM)
 </div>
 </div>
 
@@ -37,7 +41,8 @@ Interpretation of changes at a single PTM site in a typical bottom-up proteomics
 ![](images/siteocc.png)
 </div>
 <div class="column-right">
-This study addresses three primary goals of therapeutic protein characterization: (1) the objective estimation of site occupancyin a particularcondition, (2) the determination of systematic changes in site occupancies (i.e., differential site occupancy) between conditions, and (3) the estimation of combined occupancy over multiple sites. We demonstrated the importance of appropriate statistical modeling, for reproducible, accurate and efficient site occupancy estimation and differential analysis. Please see our [Scientific Reports](https://www.ncbi.nlm.nih.gov/pubmed/28801661) paper for details.
+This study addresses three primary goals of therapeutic protein characterization: (1) the objective estimation of site occupancyin a particularcondition, (2) the determination of systematic changes in site occupancies (i.e., differential site occupancy) between conditions, and (3) the estimation of combined occupancy over multiple sites. We demonstrated the importance of appropriate statistical modeling, for reproducible, accurate and efficient site occupancy estimation and differential analysis. 
+[Manuscript](https://www.ncbi.nlm.nih.gov/pubmed/28801661)
 </div>
 </div>
 
@@ -50,7 +55,9 @@ This study addresses three primary goals of therapeutic protein characterization
 ![](images/bam.png)
 </div>
 <div class="column-right">
-Retention time alignment is crucial for the analysis of LC-MS based omic data. The proposed Bayesian alignment model provides estimates of the retention time variability along with uncertainty measures, enabling integration of multiple sources of information including internal standards and clustered chromatograms. This model has been successfully applied to data from LC-MS proteomic, metabolomic and glycomic studies. Please see our [Bioinformatics](https://www.ncbi.nlm.nih.gov/pubmed/24013927) paper and the [supplementary web](http://omics.georgetown.edu/alignLCMS.html) for more details. 
+Retention time alignment is crucial for the analysis of LC-MS based omic data. The proposed Bayesian alignment model provides estimates of the retention time variability along with uncertainty measures, enabling integration of multiple sources of information including internal standards and clustered chromatograms. This model has been successfully applied to data from LC-MS proteomic, metabolomic and glycomic studies. 
+
+[Manuscript](https://www.ncbi.nlm.nih.gov/pubmed/24013927), [Supplementary](https://github.com/tsunghengtsai/alignLCMS)
 </div>
 </div>
 
@@ -63,7 +70,9 @@ Retention time alignment is crucial for the analysis of LC-MS based omic data. T
 ![](images/dag.png)
 </div>
 <div class="column-right">
-This study provides methodological foundation for the Bayesian alignment model and demonstrates a proof of concept for profile-based data alignment. The proposed model uses Markov chain Monte Carlo (MCMC) methods to draw inference on model parameters and improves on existing MCMC based alignment methods through 1) the implementation of an efficient MCMC sampler and 2) an adaptive selection of knots using stochastic search variable selection (SSVS). Please see our [IEEE TCBB](https://www.ncbi.nlm.nih.gov/pubmed/23929872) paper for more details.
+This study provides methodological foundation for the Bayesian alignment model and demonstrates a proof of concept for profile-based data alignment. The proposed model uses Markov chain Monte Carlo (MCMC) methods to draw inference on model parameters and improves on existing MCMC based alignment methods through 1) the implementation of an efficient MCMC sampler and 2) an adaptive selection of knots using stochastic search variable selection (SSVS). 
+
+[Manuscript](https://www.ncbi.nlm.nih.gov/pubmed/23929872)
 </div>
 </div>
 
@@ -76,7 +85,9 @@ This study provides methodological foundation for the Bayesian alignment model a
 ![](images/glycan.png)
 </div>
 <div class="column-right">
-Hepatocellular carcinoma (HCC) is the third leading cause of cancer mortality worldwide with five-year survival rate less than 15%. Glycosylation has important implications in the development and progression of cancer. In collaboration with analytical chemists at TTU, we used two complementary LC-MS methods, global profiling and targeted quantitation, to analyze serum N-glycans from hundreds of participants recruited in Egypt and the US, and identified candidate biomarkers that distinguishing HCC cases from patients with liver cirrhosis. In this study, I led the effort on quantitative analysis including development of preprocessing pipelines and statistical analysis. Please see our [JPR](https://www.ncbi.nlm.nih.gov/pubmed/25077556) paper for more details.
+Hepatocellular carcinoma (HCC) is the third leading cause of cancer mortality worldwide with five-year survival rate less than 15%. Glycosylation has important implications in the development and progression of cancer. In collaboration with analytical chemists at TTU, we used two complementary LC-MS methods, global profiling and targeted quantitation, to analyze serum N-glycans from hundreds of participants recruited in Egypt and the US, and identified candidate biomarkers that distinguishing HCC cases from patients with liver cirrhosis. In this study, I led the effort on quantitative analysis including development of preprocessing pipelines and statistical analysis. 
+
+[Manuscript](https://www.ncbi.nlm.nih.gov/pubmed/25077556)
 </div>
 </div>
 
@@ -89,7 +100,9 @@ Hepatocellular carcinoma (HCC) is the third leading cause of cancer mortality wo
 ![](images/pmic.png)
 </div>
 <div class="column-right">
-In this proteomic study, I led the effort on study design and data analysis including initial assessment of different analytical protocols and platforms. We identified candidate protein biomarkers through LC-MS/MS based untargeted analysis of sera. These proteins were further evaluated by targeted quantitation using MRM. Our findings independently confirmed several previously reported HCC protein biomarkers and revealed a number of new candidate biomarkers. Among these, there were 21 candidate protein biomarkers found significant in our two study cohorts in Egypt and the US. Furthermore, through multivariate analysis we identified a panel of six protein biomarkers, which yielded better performance than alpha-fetoprotein (AFP), the HCC biomarker in current use. Please see our [Proteomics](https://www.ncbi.nlm.nih.gov/pubmed/25778709) paper for more details.
+In this proteomic study, I led the effort on study design and data analysis including initial assessment of different analytical protocols and platforms. We identified candidate protein biomarkers through LC-MS/MS based untargeted analysis of sera. These proteins were further evaluated by targeted quantitation using MRM. Our findings independently confirmed several previously reported HCC protein biomarkers and revealed a number of new candidate biomarkers. Among these, there were 21 candidate protein biomarkers found significant in our two study cohorts in Egypt and the US. Furthermore, through multivariate analysis we identified a panel of six protein biomarkers, which yielded better performance than alpha-fetoprotein (AFP), the HCC biomarker in current use. 
+
+[Manuscript](https://www.ncbi.nlm.nih.gov/pubmed/25778709)
 </div>
 </div>
 
@@ -102,7 +115,9 @@ In this proteomic study, I led the effort on study design and data analysis incl
 ![](images/metabo.png)
 </div>
 <div class="column-right">
-I contributed to the analysis of LC-MS metabolomic data for HCC biomarker discovery through development of outlier screening method using the Stahel-Donoho robust estimator and application of XCMS preprocessing pipelines. As in our glycomic and proteomic studies, the metabolomic analysis was performed on two study cohorts in Egypt and the US. The three types of omic measurements conducted on the same subjects present an interesting yet challenging opportunity to integrate multi-omic signatures for a more comprehensive characterization of HCC. Please see our [ACA](https://www.ncbi.nlm.nih.gov/pubmed/22882828) and [JPR](https://www.ncbi.nlm.nih.gov/pubmed/23078175) papers for more details. 
+I contributed to the analysis of LC-MS metabolomic data for HCC biomarker discovery through development of outlier screening method using the Stahel-Donoho robust estimator and application of XCMS preprocessing pipelines. As in our glycomic and proteomic studies, the metabolomic analysis was performed on two study cohorts in Egypt and the US. The three types of omic measurements conducted on the same subjects present an interesting yet challenging opportunity to integrate multi-omic signatures for a more comprehensive characterization of HCC. 
+
+[Manuscript 1](https://www.ncbi.nlm.nih.gov/pubmed/22882828), [Manuscript 2](https://www.ncbi.nlm.nih.gov/pubmed/23078175)
 </div>
 </div>
 
@@ -115,6 +130,8 @@ I contributed to the analysis of LC-MS metabolomic data for HCC biomarker discov
 ![](images/spike.png)
 </div>
 <div class="column-right">
-Prior to our HCC biomarker discovery studies, we conducted critical assessment on existing preprocessing pipelines for LC-MS data analysis. We simulated a simple model with "presence" and "absence" condition using spike-in experiments, and evaluated tools on the basis of their capabilities to identify the true differences. This study highlights critical preprocessing steps and helps prioritize improvement on relevant analytical and computational approaches, which has greatly facilitated our subsequent omic studies for biomarker discovery. Please see our [Proteome Science](https://www.ncbi.nlm.nih.gov/pubmed/22369182) paper for details.
+Prior to our HCC biomarker discovery studies, we conducted critical assessment on existing preprocessing pipelines for LC-MS data analysis. We simulated a simple model with "presence" and "absence" condition using spike-in experiments, and evaluated tools on the basis of their capabilities to identify the true differences. This study highlights critical preprocessing steps and helps prioritize improvement on relevant analytical and computational approaches, which has greatly facilitated our subsequent omic studies for biomarker discovery. 
+
+[Manuscript](https://www.ncbi.nlm.nih.gov/pubmed/22369182)
 </div>
 </div>

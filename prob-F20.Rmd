@@ -61,6 +61,7 @@ _This schedule is tentative and subject to change._
     + Probability mass functions (PMFs), cumulative distribution functions (CDFs)
     + Bernoulli, Binomial and Hypergeometric distributions
     + Independence of random variables
+* Reading: BH Ch 3
 
 #### Week 05, 09/21 - 09/25: Expectation
 
@@ -68,7 +69,9 @@ _This schedule is tentative and subject to change._
     + Expectations and variances
     + Linearity
     + Geometric, Negative Binomial and Poisson distributions 
+    + Indicator random variables and fundamental bridge
     + Law of unconscious statistician (LOTUS)
+* Reading: BH Ch 4
 
 #### Week 06, 09/28 - 10/02: Midterm I
 
@@ -77,16 +80,20 @@ Exam due 11:59 p.m. on October 2 (handed out 12:00 p.m. noon on October 1)
 #### Week 07, 10/05 - 10/09: Continuous Random Variables
 
 * Topics:
-    + Discrete vs. continuous distributions 
+    + Continuous distributions 
     + Probability density functions (PDFs) 
-    + Uniform and Normal distributions
-    
+    + Uniform, Normal and Exponential distributions
+    + Universality of the Uniform
+    + Poisson process
+* Reading: BH Ch 5
+
 #### Week 08, 10/12 - 10/16: Moments
 
 * Topics:
     + Exponential distribution, memoryless property 
     + Moment generating functions (MGFs)
     + Generating moments with MGFs
+* Reading: BH Ch 6
 
 #### Week 09, 10/19 - 10/23: Joint Distributions
 
@@ -106,7 +113,7 @@ Exam due 11:59 p.m. on October 2 (handed out 12:00 p.m. noon on October 1)
 
 * Topics:
     + Conditional expectation
-    + Adam’s law, Eve’s law
+    + Adam's law, Eve's law
 
 #### Week 12, 11/09 - 11/13: Midterm Exam II
 
@@ -157,4 +164,4 @@ Assignments are due at the beginning of class hour on the specified date. In gen
 
 ### Exam
 
-There will be three exams: two midterm exams and one comprehensive final exam (dates mentioned above).  Each exam will be posted on Blackboard at 12:00 p.m. on the exam day, and you have to upload your solutions as a PDF file to Blackboard by 11:59 p.m. the next day (so you have one and a half days to work on the exam). You can either type your solutions or write them on papers and upload the scanned version. In any case, you should make sure your work is clearly presented. Each exam will take approximately 2 hours to finish, but you can spend as much time as you want during the period. The exams are open-book, so you can consult the textbook, notes, etc. during the exam. However, you are not allowed to discuss with other students and the submitted work must be your own. 
+There will be three exams: two midterm exams and one comprehensive final exam (dates mentioned above). Each exam will be posted on Blackboard at 12:00 p.m. on the exam day, and you have to upload your solutions as a PDF file to Blackboard by 11:59 p.m. the next day (so you have one and a half days to work on the exam). You can either type your solutions or write them on papers and upload the scanned version. In any case, you should make sure your work is clearly presented. Each exam will take approximately 2 hours to finish, but you can spend as much time as you want during the period. The exams are open-book, so you can consult the textbook, notes, etc. during the exam. However, you are not allowed to discuss with other students and the submitted work must be your own. 
