@@ -90,7 +90,7 @@ Exam due 11:59 p.m. on October 2 (handed out 12:00 p.m. noon on October 1)
 #### Week 08, 10/12 - 10/16: Moments
 
 * Topics:
-    + Exponential distribution, memoryless property 
+    + Summaries of a distribution
     + Moment generating functions (MGFs)
     + Generating moments with MGFs
 * Reading: BH Ch 6
@@ -100,20 +100,24 @@ Exam due 11:59 p.m. on October 2 (handed out 12:00 p.m. noon on October 1)
 * Topics:
     + Joint, conditional, and marginal distributions 
     + Covariance, correlation
-    + Multinomial and Cauchy distributions
+    + Multinomial and Multivariate Normal distributions
+* Reading: BH Ch 7
 
 #### Week 10, 10/26 - 10/30: Transformation
 
 * Topics:
-    + Transformations, convolutions 
+    + Change of variables, convolutions 
     + Beta and Gamma distributions 
     + Order statistics
+* Reading: BH Ch 8
 
 #### Week 11, 11/02 - 11/06: Conditional Expectation
 
 * Topics:
     + Conditional expectation
+    + Conditional variance
     + Adam's law, Eve's law
+* Reading: BH Ch 9
 
 #### Week 12, 11/09 - 11/13: Midterm Exam II
 
@@ -122,10 +126,11 @@ Exam due 11:59 p.m. on November 13 (handed out 12:00 p.m. noon on November 12)
 #### Week 13, 11/16 - 11/20: Inequalities and Limit Theorems
 
 * Topics:
-    + Inequalities (Cauchy-Schwarz, Jensen, Markov, Chebyshev) 
+    + Inequalities (Cauchy-Schwarz, Jensen, Markov, Chebyshev, Chernoff) 
     + Law of large numbers
     + Central limit theorem
-    + Chi-square, Student-t, Multivariate Normal
+    + Chi-square, Student-t
+* Reading: BH Ch 10
 
 #### Week 14, 11/23 - 11/27: Thanksgiving Break
 
@@ -134,8 +139,11 @@ No class
 #### Week 15, 11/30 - 12/04: Markov Chains
 
 * Topics:
-    + Markov chains, transition matrix, stationary distribution
-    + Google PageRank as a Markov chain 
+    + Markov property, transition matrix
+    + Stationary distribution
+    + Google PageRank
+    + Reversibility
+* Reading: BH Ch 11
 
 #### Week 16, 12/07 - 12/11: Final Review
 

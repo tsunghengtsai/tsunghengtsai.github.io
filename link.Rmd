@@ -54,6 +54,7 @@ https://math.la.asu.edu/~jtaylor/courses.html
 ### Books
 
 * [Introduction to Data Science: Data Analysis and Prediction Algorithms with R](https://rafalab.github.io/dsbook/) (Rafael A. Irizarry)
+* [Modern Data Science with R](https://beanumber.github.io/mdsr2e/) (Benjamin S. Baumer, Daniel T. Kaplan, and Nicholas J. Horton)
 * [R for Data Science: Import, Tidy, Transform, Visualize, and Model Data](https://r4ds.had.co.nz) (Hadley Wickham and Garrett Grolemund)
 * [The Art of Machine Learning](http://heather.cs.ucdavis.edu/artofml/draft.pdf) (Norm Matloff)
 * [From Linear Models to Machine Learning](http://heather.cs.ucdavis.edu/draftregclass.pdf)
