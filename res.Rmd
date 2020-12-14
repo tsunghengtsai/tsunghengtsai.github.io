@@ -13,7 +13,7 @@ title: "RESEARCH"
 <div class="column-right">
 Summaries of protein abundance are undermined by mass spectrometric features inconsistent with the overall protein profile. We develop an automated statistical approach that detects such inconsistent features. These features can be separately investigated, curated, or removed. Accounting for such inconsistent features improves the estimation and the detection of differential protein abundance between conditions. The approach is implemented as an option in the open-source R-based software MSstats. 
 
-[Manuscript](https://www.ncbi.nlm.nih.gov/pubmed/32234965), [Supplementary](https://github.com/tsunghengtsai/MSstats-feature-selection)
+[Manuscript](https://www.ncbi.nlm.nih.gov/pubmed/32234965), [Supplemental](https://github.com/tsunghengtsai/MSstats-feature-selection)
 </div>
 </div>
 
@@ -57,7 +57,7 @@ This study addresses three primary goals of therapeutic protein characterization
 <div class="column-right">
 Retention time alignment is crucial for the analysis of LC-MS based omic data. The proposed Bayesian alignment model provides estimates of the retention time variability along with uncertainty measures, enabling integration of multiple sources of information including internal standards and clustered chromatograms. This model has been successfully applied to data from LC-MS proteomic, metabolomic and glycomic studies. 
 
-[Manuscript](https://www.ncbi.nlm.nih.gov/pubmed/24013927), [Supplementary](https://github.com/tsunghengtsai/alignLCMS)
+[Manuscript](https://www.ncbi.nlm.nih.gov/pubmed/24013927), [Supplemental](https://github.com/tsunghengtsai/alignLCMS)
 </div>
 </div>
 

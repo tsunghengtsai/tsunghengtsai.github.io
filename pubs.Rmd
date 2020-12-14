@@ -6,6 +6,8 @@ title: "PUBLICATIONS"
 
 ### Journal Papers
 
+* A Arias-Alvarado, M Agayev, S Ilchenko, N Rachdaoui, J Lepp, __T-H Tsai__, G Zhang, S Previs, T Kasumov (2020). Measuring acetyl-CoA and acetylated histone turnover in vivo: effect of a high fat diet. _Analytical Biochemistry_. (in press)
+
 * M Choi, J Carver, C Chiva, M Tzouros, T Huang, __T-H Tsai__, B Pullman, O Bernhardt, R Huttenhain, G Teo, Y Perez-Riverol, J Muntel, M Muller, S Goetze, M Pavlou, E Verschueren, B Wollscheid, A Nesvizhskii, L Reiter, T Dunkley, E Sabido, N Bandeira, O Vitek (2020). [MassIVE.quant: a community resource of quantitative mass spectrometry-based proteomics datasets](https://pubmed.ncbi.nlm.nih.gov/32929271/). _Nature Methods_, 17:981--984.
 
 * __T-H Tsai__, M Choi, B Banfai, Y Liu, B. MacLean, T Dunkley, O Vitek (2020). [Selection of features with consistent profiles improves relative protein quantification in mass spectrometry experiments](https://www.ncbi.nlm.nih.gov/pubmed/32234965). _Molecular & Cellular Proteomics_, 19(6):944--959.

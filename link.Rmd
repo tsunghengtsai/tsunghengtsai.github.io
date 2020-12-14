@@ -49,6 +49,7 @@ https://math.la.asu.edu/~jtaylor/courses.html
 
 #### Data
 
+* Advanced Data Science: [web](http://jtleek.com/ads2020/)
 * Calling Bullshit: [web](https://callingbullshit.org/), [video](https://www.youtube.com/playlist?list=PLPnZfvKID1Sje5jWxt-4CSZD7bUI4gSPS) 
 
 ### Books
@@ -58,6 +59,7 @@ https://math.la.asu.edu/~jtaylor/courses.html
 * [R for Data Science: Import, Tidy, Transform, Visualize, and Model Data](https://r4ds.had.co.nz) (Hadley Wickham and Garrett Grolemund)
 * [The Art of Machine Learning](http://heather.cs.ucdavis.edu/artofml/draft.pdf) (Norm Matloff)
 * [From Linear Models to Machine Learning](http://heather.cs.ucdavis.edu/draftregclass.pdf)
+* [Mathematical Foundations for Data Analysis](https://mathfordata.github.io/) (Jeff M. Phillips)
 
 ### Statisticians / Data Scientists
 
@@ -65,7 +67,10 @@ https://math.la.asu.edu/~jtaylor/courses.html
 * [Rafael Irizarry](https://rafalab.github.io/)
 * [Karl Broman](https://kbroman.org/)
 
+### Collections
 
+* [Ten Simple Rules](https://collections.plos.org/collection/ten-simple-rules/)
+* [Points of Significance](https://www.nature.com/collections/qghhqm/pointsofsignificance)
 
 
 ### KSU
