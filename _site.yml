@@ -18,5 +18,5 @@ navbar:
 
 output:
   html_document:
-    theme: spacelab
+    theme: readable
     css: style.css

@@ -18,11 +18,16 @@ title: "CV"
 * Graduate Research Assistant (2009-2014), Department of Oncology, Georgetown Lombardi Comprehensive Cancer Center
 * Research Assistant (2007-2009), Institute of Information Science, Academia Sinica
 
+### Research Institutes and Initiatives
+
+* Advanced Materials and Liquid Crystal Institute 
+* Brain Health Research Institute
+
 ### Professional Activity
 
-* Reviewer for Journals: Bioinformatics (1), BMC Bioinformatics (1), Computational Statistics and Data Analysis (1), EURASIP Journal on Bioinformatics and Systems Biology (1), IEEE/ACM Transactions on Computational Biology and Bioinformatics (3), Journal of Applied Statistics (1), Journal of Chromatography A (1), Journal of Pharmacy and Pharmacology (1), Molecular Systems Biology (1), Nature Communications (1)
-* Reviewer for Conferences: BIBM (2013), BMEI (2008), ICASSP (2011, 2012), iCBBE (2009), ISBI (2011, 2012), ISCAS (2011), ISMB (2018), MLSP (2011)
-* Program Committee Member: BIBM (2014, 2015, 2020), ECCB (2020)
+* Reviewer for Journals: _Bioinformatics_ (1), _BMC Bioinformatics_ (1), _Computational Statistics and Data Analysis_ (1), _EURASIP Journal on Bioinformatics and Systems Biology_ (1), _IEEE/ACM Transactions on Computational Biology and Bioinformatics_ (3), _Journal of Applied Statistics_ (1), _Journal of Chromatography A_ (1), _Journal of Pharmacy and Pharmacology_ (1), _Molecular Systems Biology_ (1), _Nature Communications_ (1)
+* Reviewer for Conferences: _BIBM_ (2013), _BMEI_ (2008), _ICASSP_ (2011, 2012), _iCBBE_ (2009), _ISBI_ (2011, 2012), _ISCAS_ (2011), _ISMB_ (2018), _MLSP_ (2011)
+* Program Committee Member: _BIBM_ (2014, 2015, 2020), _ECCB_ (2020)
 
 ### Award
 
