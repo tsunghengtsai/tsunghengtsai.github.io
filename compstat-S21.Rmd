@@ -1,0 +1,220 @@
+---
+title: 'MATH 40024/50024: Computational Statistics'
+output: html_document
+---
+
+```{r dates, include=FALSE}
+mon <- as.Date("2021-01-18")
+
+advdate <- function(obj, adv) {
+ tmon <- obj + 7*(adv-1)
+ tfri <- obj + 4 + 7*(adv-1)
+ tmon <- format(tmon, format="%m/%d")
+ tfri <- format(tfri, format="%m/%d")
+ zadv <- sprintf("%02d", adv)
+ tmp <- paste("Week ",zadv,sep='',", ", tmon," - ",tfri)
+ return(tmp)
+}
+```
+
+### Spring 2021 (Jan 19, 2021 - May 4, 2021)
+
+__Lecture times:__ Mondays/Wednesdays/Fridays 8:00 a.m.-8:50 a.m.
+
+__Location:__ _online_
+
+__Instructor:__ Tsung-Heng Tsai | ttsai1@kent.edu | Office Hours: Mondays/Wednesdays/Fridays 9 a.m.-10 a.m. or by appointment
+
+__Textbooks:__ There is no required textbook but course notes will be provided throughout the course. Useful references are: 
+
+1. (I2DS) [_Introduction to Data Science: Data Analysis and Prediction Algorithms with R_](https://rafalab.github.io/dsbook/), Rafael A. Irizarry, CRC Press, 2019
+2. (R4DS) [_R for Data Science: Import, Tidy, Transform, Visualize, and Model Data_](https://r4ds.had.co.nz), Hadley Wickham and Garrett Grolemund, O'Reilly Media, 2017
+3. (CASI) [_Computer Age Statistical Inference_](https://web.stanford.edu/~hastie/CASI/), Bradley Efron and Trevor Hastie, Cambridge University Press, 2016. 
+4. (ISL) [_An Introduction to Statistical Learning_](https://statlearning.com/), Gareth James, Daniela Witten, Trevor Hastie and Robert Tibshirani, Springer, 2013.
+
+__Academic integrity:__ Be familiar with the university's academic integrity policy on cheating and plagiarism. (https://www.kent.edu/policyreg/administrative-policy-regarding-student-cheating-and-plagiarism)
+
+__Administration:__ [Syllabus](compstat-S21-syllabus.pdf), [Blackboard](https://learn.kent.edu/)
+
+---
+
+### Course Description
+
+Computation plays an essential role in modern statistics and machine learning. This course aims to develop a broad working knowledge of modern computational statistics. The topics include 
+computational methods and tools for data wrangling, exploratory data analysis, Monte Carlo simulations, statistical inference, statistical modeling, and statistical prediction.
+
+The course will use the programming language R. In many cases the course will rely on the existing implementations of statistical methods, but some programming effort will also be required.
+
+After successful completion of the course, the students will understand the underlying principles of modern computational methods used in statistics, and be able to (1) use computational techniques to organize, explore, summarize, and analyze data, (2) use computation as a tool to investigate the properties of statistical methods, and (3) appropriately apply and/or develop computational methods to solve statistical problems.
+
+---
+
+### Course Format
+
+The course is offered remotely during January 19, 2021-May 4, 2021. Every week, there are recorded video lectures for classes on Monday and Wednesday. The videos and associated notes will be available on Blackboard. There is also a lab assignment on Friday. Unless otherwise noted, the lab will be due at 11:59 p.m. on next Thursday. The instructor will hold online meetings through Blackboard Collaborate Ultra at class hours (i.e., MWF 8:00-8:50 a.m.), to answer questions and/or discuss extra examples. Attendance to online sessions is optional, but highly encouraged. 
+
+### Schedule 
+_(Subject to change.)_
+
+#### `r advdate(mon, 1)`: Introduction
+
+_Class begins on January 20._
+
+Topics:
+
+* Course expectations
+* Reproducible research
+* R, RStudio, R Markdown
+
+#### `r advdate(mon, 2)`: Fundamentals of R
+
+Topics:
+
+* Basic data structures
+* Indexing and iteration
+* Functions
+
+#### `r advdate(mon, 3)`: Data Visualization
+
+Topics:
+
+* Layered grammar of graphics
+* Visualization with `ggplot2`
+* Principles and practice
+
+#### `r advdate(mon, 4)`: Data Transformation
+
+Topics:
+
+* Data transformation with `dplyr`
+* Pipes `%>%`
+* Split-apply-combine
+* Relational data
+
+#### `r advdate(mon, 5)`: Tidy Data
+
+Topics:
+
+* Principles of tidy data
+* Data tidying with `tidyr`
+
+#### `r advdate(mon, 6)`: Exploratory Data Analysis
+
+Topics:
+
+* EDA as an iterative process with data visualization, transformation, and modeling
+* Data wrangling
+
+#### `r advdate(mon, 7)`: Monte Carlo Simulation
+
+Topics:
+
+* Probability and random variable
+* Law of large number
+* Random number generator
+* Monte Carlo simulation
+
+#### `r advdate(mon, 8)`: Statistical Inference
+
+Topics:
+
+* Sampling distribution
+* Central limit theorem
+* Bootstrapping
+
+#### `r advdate(mon, 9)`: Midterm Exam
+
+_Exam due 11:59 p.m. on March 19 (handed out 8:00 a.m. on March 17)_
+
+#### `r advdate(mon, 10)`: Statistical Modeling
+
+Topics:
+
+* Regression
+* Fitting models to data
+* Evaluating models
+* Working with large numbers of models
+
+#### `r advdate(mon, 11)`: Statistical Prediction
+
+Topics:
+
+* Statistical goals: inference vs. prediction
+* Workflow of predictive analysis
+* Training and test sets
+* Cross-validation
+
+#### `r advdate(mon, 12)`: Unsupervised Analysis
+
+Topics:
+
+* Principal component analysis (PCA) 
+* Singular value decomposition (SVD)
+* Clustering
+
+#### `r advdate(mon, 13)`: Spring Break
+
+_No class_
+
+#### `r advdate(mon, 14)`: Expectation-Maximization (EM) Algorithm
+
+Topics:
+
+* Maximum likelihood estimation
+* Optimization
+* Expectation-maximization (EM) algorithm
+
+#### `r advdate(mon, 15)`: Markov Chain Monte Carlo
+
+Topics:
+
+* Gibbs sampling
+* Metropolis-Hastings methods
+
+#### `r advdate(mon, 16)`: Final Presentation
+
+_Student presentations on final projects on May 3, 2021_
+
+---
+
+### Grading
+
+Grades will be calculated as follows:
+
+* Labs: 50%
+* Midterm exam: 20%
+* Final project: 30%
+
+The final letter grades will follow the usual scale:
+
+* 90--100 = A-range (i.e., A or A-)
+* 80--89 = B-range (i.e., B+, B or B-)
+* 70--79 = C-range (i.e., C+, C or C-)
+* 60--69 = D
+* 0--59 = F
+
+### Labs
+
+Every week, a lab assignment will be posted on Blackboard on Friday, and it will be due at 11:59 p.m. on next Thursday. Each lab consists of a set of hands-on exercises, and it needs be completed in R Markdown format (with Rmd extension). An Rmd file contains a combination of content with simple text and R code chunks. Each lab must be submitted to Blackboard as an R Markdown source file and the resulting HTML output. 
+
+Students may choose to discuss and collaborate with friends on the labs, but your submitted work must be your own. Sharing of solutions will not be tolerated and will be considered cheating.
+
+In general, __NO__ late submissions will be accepted. In case of truly exceptional situations (e.g., family emergencies or illness), the instructor may make exceptions and allow late submission. The two lowest lab scores will be dropped at the end of the semester. 
+
+### Midterm Exam
+
+There will a take-home midterm exam. The exam will be posted on Blackboard at 8:00 a.m. on Wednesday March 17, and you have to upload your solutions as an R Markdown source file and the resulting HTML output to Blackboard by 11:59 p.m. on Friday March 19. Please note that you are __NOT__ allowed to discuss with other students and the submitted work must be your own. 
+
+---
+
+### Supplementary materials
+
+Supplementary textbooks for R programming: 
+
+* [Hands-On Programming with R](https://rstudio-education.github.io/hopr/), by Garrett Grolemund
+* [R Programming for Data Science](https://leanpub.com/rprogramming), by Roger D. Peng
+* [Advanced R](https://adv-r.hadley.nz), by Hadley Wickham
+
+Online resources for R programming:
+
+* [An introduction to R](cran.r-project.org/doc/manuals/R-intro.html), by R Core Team
