@@ -60,18 +60,27 @@ https://math.la.asu.edu/~jtaylor/courses.html
 * [The Art of Machine Learning](http://heather.cs.ucdavis.edu/artofml/draft.pdf) (Norm Matloff)
 * [From Linear Models to Machine Learning](http://heather.cs.ucdavis.edu/draftregclass.pdf)
 * [Mathematical Foundations for Data Analysis](https://mathfordata.github.io/) (Jeff M. Phillips)
+* [Probabilistic Machine Learning](https://probml.github.io/pml-book/) (Kevin Murphy)
 
 ### Statisticians / Data Scientists
 
 * [Michael Clark](https://m-clark.github.io/)
+* [Hadley Wickham](http://hadley.nz/)
+* [Jenny Bryan](https://jennybryan.org/)
 * [Rafael Irizarry](https://rafalab.github.io/)
 * [Karl Broman](https://kbroman.org/)
+* [Jeff Leek](http://jtleek.com/)
+* [Andrew Gelman](http://www.stat.columbia.edu/~gelman/)
+* [Radford Neal](http://www.cs.utoronto.ca/~radford/)
+* [Trevor Hastie](https://web.stanford.edu/~hastie/)
+* [Ryan Tibshirani](https://www.stat.cmu.edu/~ryantibs/)
+* [David Blei](http://www.cs.columbia.edu/~blei/)
 
 ### Collections
 
 * [Ten Simple Rules](https://collections.plos.org/collection/ten-simple-rules/)
 * [Points of Significance](https://www.nature.com/collections/qghhqm/pointsofsignificance)
-
+* [Data Science with R: A Resource Compendium](https://bookdown.org/martin_monkman/DataScienceResources_book/)
 
 ### KSU
 
