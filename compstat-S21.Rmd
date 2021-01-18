@@ -19,11 +19,11 @@ advdate <- function(obj, adv) {
 
 ### Spring 2021 (Jan 19, 2021 - May 4, 2021)
 
-__Lecture times:__ Mondays/Wednesdays/Fridays 8:00 a.m.-8:50 a.m.
+__Lecture times:__ Mondays/Wednesdays/Fridays 8:50 a.m.-9:40 a.m.
 
 __Location:__ _online_
 
-__Instructor:__ Tsung-Heng Tsai | ttsai1@kent.edu | Office Hours: Mondays/Wednesdays/Fridays 9 a.m.-10 a.m. or by appointment
+__Instructor:__ Tsung-Heng Tsai | ttsai1@kent.edu | Office Hours: Mondays/Wednesdays/Fridays 10 a.m.-11 a.m. or by appointment
 
 __Textbooks:__ There is no required textbook but course notes will be provided throughout the course. Useful references are: 
 
