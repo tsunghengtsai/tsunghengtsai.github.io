@@ -217,4 +217,4 @@ Supplementary textbooks for R programming:
 
 Online resources for R programming:
 
-* [An introduction to R](cran.r-project.org/doc/manuals/R-intro.html), by R Core Team
+* [An introduction to R](https://cran.r-project.org/doc/manuals/R-intro.html), by R Core Team
