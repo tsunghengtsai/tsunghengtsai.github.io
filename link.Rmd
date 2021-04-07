@@ -77,6 +77,7 @@ https://math.la.asu.edu/~jtaylor/courses.html
 * [The Art of Machine Learning](http://heather.cs.ucdavis.edu/artofml/draft.pdf) (Norm Matloff)
 * [From Linear Models to Machine Learning](http://heather.cs.ucdavis.edu/draftregclass.pdf)
 * [Mathematical Foundations for Data Analysis](https://mathfordata.github.io/) (Jeff M. Phillips)
+* [Learning Theory from First Principles](https://www.di.ens.fr/~fbach/ltfp_book.pdf) (Francis Bach)
 * [Probabilistic Machine Learning](https://probml.github.io/pml-book/) (Kevin Murphy)
 * [Tidy Modeling with R](https://www.tmwr.org/) (Max Kuhn and Julia Silge)
 
