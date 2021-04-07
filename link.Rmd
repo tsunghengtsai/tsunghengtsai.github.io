@@ -16,12 +16,15 @@ title: "USEFUL LINKS"
 
 * Linear and Generalized Linear Fixed and Mixed Effects Models: [web](https://dnett.github.io/S510/stat510.html)
 
+* Repeated Measurements: [GitHub](https://github.com/drizopoulos/Repeated_Measurements), [slides](http://www.drizopoulos.com/courses/EMC/CE08.pdf) 
+
 * Theory of Statistics: [web](https://www.math.arizona.edu/~jwatkins/stat566s20s.html)
 
 * Mathematical Statistics: [web](https://ocw.mit.edu/courses/mathematics/18-655-mathematical-statistics-spring-2016/index.htm)
 
 * Introduction to Statistical Methods: [web](https://www.math.arizona.edu/~jwatkins/data363s19s.html)
 
+* An Introduction to Statistics in R: [web](http://petersonbiology.com/math230Notes/)
 
 #### Probability
 
@@ -41,6 +44,19 @@ title: "USEFUL LINKS"
 
 https://math.la.asu.edu/~jtaylor/courses.html
 
+
+#### Machine Learning
+
+* Introduction to Machine Learning: [web](https://people.eecs.berkeley.edu/~jrs/189/)
+
+* Full Stack Deep Learning: [web](https://fullstackdeeplearning.com/)
+
+#### Biostatistics and Computational Biology
+
+* Biostatistics for Biomedical Research: [web](https://hbiostat.org/bbr/), [notes](http://hbiostat.org/doc/bbr.pdf)
+
+
+
 #### Productivity
 
 * The Missing Semester of Your CS Education: [web](https://missing.csail.mit.edu/), [video](https://www.youtube.com/playlist?list=PLyzOVJj3bHQuloKGG59rS43e29ro7I57J)
@@ -49,6 +65,7 @@ https://math.la.asu.edu/~jtaylor/courses.html
 
 #### Data
 
+* Data Science in a Box: [web](https://datasciencebox.org/index.html)
 * Advanced Data Science: [web](http://jtleek.com/ads2020/)
 * Calling Bullshit: [web](https://callingbullshit.org/), [video](https://www.youtube.com/playlist?list=PLPnZfvKID1Sje5jWxt-4CSZD7bUI4gSPS) 
 
@@ -61,6 +78,9 @@ https://math.la.asu.edu/~jtaylor/courses.html
 * [From Linear Models to Machine Learning](http://heather.cs.ucdavis.edu/draftregclass.pdf)
 * [Mathematical Foundations for Data Analysis](https://mathfordata.github.io/) (Jeff M. Phillips)
 * [Probabilistic Machine Learning](https://probml.github.io/pml-book/) (Kevin Murphy)
+* [Tidy Modeling with R](https://www.tmwr.org/) (Max Kuhn and Julia Silge)
+
+* [The Analysis of Biological Data](https://whitlockschluter3e.zoology.ubc.ca/index.html) (Michael Whitlock and Dolph Schluter)
 
 ### Statisticians / Data Scientists
 
@@ -71,18 +91,53 @@ https://math.la.asu.edu/~jtaylor/courses.html
 * [Karl Broman](https://kbroman.org/)
 * [Jeff Leek](http://jtleek.com/)
 * [Andrew Gelman](http://www.stat.columbia.edu/~gelman/)
+* [Frank Harrell](https://www.fharrell.com/)
+* [Dimitris Rizopoulos](http://www.drizopoulos.com/)
 * [Radford Neal](http://www.cs.utoronto.ca/~radford/)
 * [Trevor Hastie](https://web.stanford.edu/~hastie/)
 * [Ryan Tibshirani](https://www.stat.cmu.edu/~ryantibs/)
 * [David Blei](http://www.cs.columbia.edu/~blei/)
 
-### Collections
+### Resources
+
+#### Collections
 
 * [Ten Simple Rules](https://collections.plos.org/collection/ten-simple-rules/)
 * [Points of Significance](https://www.nature.com/collections/qghhqm/pointsofsignificance)
 * [Data Science with R: A Resource Compendium](https://bookdown.org/martin_monkman/DataScienceResources_book/)
+* [Big Book of R](https://www.bigbookofr.com/index.html)
+
+#### Projects
+
+* Steps toward reproducible research: [web](https://kbroman.org/steps2rr/), [video](https://www.youtube.com/watch?v=rNQ-RlG3JnQ&t=1025s)
+
+* Project management
+
+* Version control
+
+* Bioconductor
+
+#### Discussion sites
+
+* [Datamethods](https://discourse.datamethods.org/) 
+* [Stack Overflow](https://stackoverflow.com/)
+* [RStudio Community](https://community.rstudio.com/)
 
 ### KSU
+
+#### General
+
+* [Guide To University Style](https://www.kent.edu/ucm/guide-university-style)
+
+#### Sponsored Programs
+
+* [Office of Sponsored Programs](https://www.kent.edu/research/sponsored-programs)
+* [Proposal Resources](https://www.kent.edu/research/sponsored-programs/proposal-resources)
+* [Kuali Research](https://www.kent.edu/research/sponsored-programs/kuali-research)
+
+#### Grant Accounting
+
+* [Grant Accounting](https://www.kent.edu/grantsaccounting)
 
 ### Grants
 
