@@ -51,6 +51,11 @@ https://math.la.asu.edu/~jtaylor/courses.html
 
 * Full Stack Deep Learning: [web](https://fullstackdeeplearning.com/)
 
+* Mathematics for Numerical Computing and Machine Learning
+[web](https://www.cs.princeton.edu/courses/archive/spring21/cos302/)
+
+* Introduction to Machine Learning: [web](https://www.cs.princeton.edu/courses/archive/spring19/cos324/)
+
 #### Biostatistics and Computational Biology
 
 * Biostatistics for Biomedical Research: [web](https://hbiostat.org/bbr/), [notes](http://hbiostat.org/doc/bbr.pdf)
