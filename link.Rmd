@@ -10,6 +10,15 @@ title: "USEFUL LINKS"
 
 * Penn State Statistics Online: [web](https://online.stat.psu.edu/statprogram/) 
 
+
+#### Computational Statistics
+
+* Statistical Computation: [web](http://www.utstat.utoronto.ca/~radford/sta410.F15/)
+
+* Modern Computational Statistics: [web](https://zcrabbit.github.io/courses/mcs-f19.html)
+
+* Bayesian Theory and Computation: [web](https://zcrabbit.github.io/courses/btc-s21.html) 
+
 #### Statistics
 
 * Analysis of Correlated Data: Mixed Linear Models: [web](https://02429.compute.dtu.dk/Frontpage)
@@ -21,6 +30,19 @@ title: "USEFUL LINKS"
 * Theory of Statistics: [web](https://www.math.arizona.edu/~jwatkins/stat566s20s.html)
 
 * Mathematical Statistics: [web](https://ocw.mit.edu/courses/mathematics/18-655-mathematical-statistics-spring-2016/index.htm)
+
+* Mathematical Statistics: [web](https://www.its.caltech.edu/~zuev/teaching/2013Spring/Math408.html)
+
+* STAT 609: Mathematical Statistics I: [web](http://pages.stat.wisc.edu/~shao/stat609/main.html)
+
+STAT 709: Mathematical Statistics: [web](http://pages.stat.wisc.edu/~shao/stat709/main.html)
+
+STAT 710: Mathematical Statistics: [web](http://pages.stat.wisc.edu/~shao/stat710/main.html)
+
+
+* Mathematical Statistics: [web](https://stat510.org/)
+
+* Statistics: [web](https://vanderbei.princeton.edu/245/Fall14/lectures.html)
 
 * Introduction to Statistical Methods: [web](https://www.math.arizona.edu/~jwatkins/data363s19s.html)
 
@@ -82,10 +104,13 @@ https://math.la.asu.edu/~jtaylor/courses.html
 * [The Art of Machine Learning](http://heather.cs.ucdavis.edu/artofml/draft.pdf) (Norm Matloff)
 * [From Linear Models to Machine Learning](http://heather.cs.ucdavis.edu/draftregclass.pdf)
 * [Mathematical Foundations for Data Analysis](https://mathfordata.github.io/) (Jeff M. Phillips)
+* [Mathematical Statistics: Old School](https://stat.istics.net/MathStat/) (John Marden)
 * [Learning Theory from First Principles](https://www.di.ens.fr/~fbach/ltfp_book.pdf) (Francis Bach)
 * [Probabilistic Machine Learning](https://probml.github.io/pml-book/) (Kevin Murphy)
 * [Tidy Modeling with R](https://www.tmwr.org/) (Max Kuhn and Julia Silge)
+* [Tidyverse Skills for Data Science](https://jhudatascience.org/tidyversecourse/) (Carrie Wright, Shannon E. Ellis, Stephanie C. Hicks and Roger D. Peng)
 
+* [JABSTB: Statistical Design and Analysis of Experiments with R](https://tjmurphy.github.io/jabstb/) (TJ Murphy)
 * [The Analysis of Biological Data](https://whitlockschluter3e.zoology.ubc.ca/index.html) (Michael Whitlock and Dolph Schluter)
 
 ### Statisticians / Data Scientists
@@ -103,6 +128,7 @@ https://math.la.asu.edu/~jtaylor/courses.html
 * [Trevor Hastie](https://web.stanford.edu/~hastie/)
 * [Ryan Tibshirani](https://www.stat.cmu.edu/~ryantibs/)
 * [David Blei](http://www.cs.columbia.edu/~blei/)
+* [John Marden](http://www.stat.istics.net/)
 
 ### Resources
 
