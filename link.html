@@ -13,12 +13,22 @@
 
 <title>USEFUL LINKS</title>
 
+<script src="site_libs/header-attrs-2.9/header-attrs.js"></script>
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/readable.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
@@ -33,11 +43,6 @@
     </style>
 
 <style type="text/css">code{white-space: pre;}</style>
-<style type="text/css">
-  pre:not([class]) {
-    background-color: white;
-  }
-</style>
 <script type="text/javascript">
 if (window.hljs) {
   hljs.configure({languages: []});
@@ -50,32 +55,6 @@ if (window.hljs) {
 
 
 
-<style type="text/css">
-h1 {
-  font-size: 34px;
-}
-h1.title {
-  font-size: 38px;
-}
-h2 {
-  font-size: 30px;
-}
-h3 {
-  font-size: 24px;
-}
-h4 {
-  font-size: 18px;
-}
-h5 {
-  font-size: 16px;
-}
-h6 {
-  font-size: 12px;
-}
-.table th:not([align]) {
-  text-align: left;
-}
-</style>
 
 
 <link rel="stylesheet" href="style.css" type="text/css" />
@@ -87,10 +66,6 @@ h6 {
   max-width: 940px;
   margin-left: auto;
   margin-right: auto;
-}
-code {
-  color: inherit;
-  background-color: rgba(0, 0, 0, 0.04);
 }
 img {
   max-width:100%;
@@ -107,40 +82,13 @@ button.code-folding-btn:focus {
 summary {
   display: list-item;
 }
+pre code {
+  padding: 0;
+}
 </style>
 
 
 <style type="text/css">
-/* padding for bootstrap navbar */
-body {
-  padding-top: 66px;
-  padding-bottom: 40px;
-}
-/* offset scroll position for anchor links (for fixed navbar)  */
-.section h1 {
-  padding-top: 71px;
-  margin-top: -71px;
-}
-.section h2 {
-  padding-top: 71px;
-  margin-top: -71px;
-}
-.section h3 {
-  padding-top: 71px;
-  margin-top: -71px;
-}
-.section h4 {
-  padding-top: 71px;
-  margin-top: -71px;
-}
-.section h5 {
-  padding-top: 71px;
-  margin-top: -71px;
-}
-.section h6 {
-  padding-top: 71px;
-  margin-top: -71px;
-}
 .dropdown-submenu {
   position: relative;
 }
@@ -168,7 +116,7 @@ body {
   margin-right: -10px;
 }
 .dropdown-submenu:hover>a:after {
-  border-left-color: #ffffff;
+  border-left-color: #adb5bd;
 }
 .dropdown-submenu.pull-left {
   float: none;
@@ -180,7 +128,7 @@ body {
 }
 </style>
 
-<script>
+<script type="text/javascript">
 // manage active state of menu based on current page
 $(document).ready(function () {
   // active menu anchor
@@ -191,10 +139,23 @@ $(document).ready(function () {
   var menuAnchor = $('a[href="' + href + '"]');
 
   // mark it active
-  menuAnchor.parent().addClass('active');
+  menuAnchor.tab('show');
 
   // if it's got a parent navbar menu mark it active as well
   menuAnchor.closest('li.dropdown').addClass('active');
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
 });
 </script>
 
@@ -206,7 +167,6 @@ $(document).ready(function () {
   max-height: 500px;
   min-height: 44px;
   overflow-y: auto;
-  background: white;
   border: 1px solid #ddd;
   border-radius: 4px;
 }
@@ -308,7 +268,7 @@ $(document).ready(function () {
   </div><!--/.container -->
 </div><!--/.navbar -->
 
-<div class="fluid-row" id="header">
+<div id="header">
 
 
 
@@ -326,32 +286,40 @@ $(document).ready(function () {
 <li>Penn State Statistics Online: <a href="https://online.stat.psu.edu/statprogram/">web</a></li>
 </ul>
 </div>
-<div id="computational-statistics" class="section level4">
-<h4>Computational Statistics</h4>
+<div id="statistical-computation" class="section level4">
+<h4>Statistical Computation</h4>
 <ul>
-<li><p>Statistical Computation: <a href="http://www.utstat.utoronto.ca/~radford/sta410.F15/">web</a></p></li>
-<li><p>Modern Computational Statistics: <a href="https://zcrabbit.github.io/courses/mcs-f19.html">web</a></p></li>
-<li><p>Bayesian Theory and Computation: <a href="https://zcrabbit.github.io/courses/btc-s21.html">web</a></p></li>
+<li><p>Statistical Computation (Radford Neal): <a href="http://www.utstat.utoronto.ca/~radford/sta410.F15/">web</a></p></li>
+<li><p>Modern Computational Statistics (Cheng Zhang): <a href="https://zcrabbit.github.io/courses/mcs-f19.html">web</a></p></li>
+<li><p>Bayesian Theory and Computation (Cheng Zhang): <a href="https://zcrabbit.github.io/courses/btc-s21.html">web</a></p></li>
+<li><p>An Introduction to Statistics in R: <a href="http://petersonbiology.com/math230Notes/">web</a></p></li>
 </ul>
 </div>
-<div id="statistics" class="section level4">
-<h4>Statistics</h4>
+<div id="statistical-theory" class="section level4">
+<h4>Statistical Theory</h4>
 <ul>
-<li><p>Analysis of Correlated Data: Mixed Linear Models: <a href="https://02429.compute.dtu.dk/Frontpage">web</a></p></li>
-<li><p>Linear and Generalized Linear Fixed and Mixed Effects Models: <a href="https://dnett.github.io/S510/stat510.html">web</a></p></li>
-<li><p>Repeated Measurements: <a href="https://github.com/drizopoulos/Repeated_Measurements">GitHub</a>, <a href="http://www.drizopoulos.com/courses/EMC/CE08.pdf">slides</a></p></li>
 <li><p>Theory of Statistics: <a href="https://www.math.arizona.edu/~jwatkins/stat566s20s.html">web</a></p></li>
 <li><p>Mathematical Statistics: <a href="https://ocw.mit.edu/courses/mathematics/18-655-mathematical-statistics-spring-2016/index.htm">web</a></p></li>
 <li><p>Mathematical Statistics: <a href="https://www.its.caltech.edu/~zuev/teaching/2013Spring/Math408.html">web</a></p></li>
 <li><p>STAT 609: Mathematical Statistics I: <a href="http://pages.stat.wisc.edu/~shao/stat609/main.html">web</a></p></li>
-</ul>
-<p>STAT 709: Mathematical Statistics: <a href="http://pages.stat.wisc.edu/~shao/stat709/main.html">web</a></p>
-<p>STAT 710: Mathematical Statistics: <a href="http://pages.stat.wisc.edu/~shao/stat710/main.html">web</a></p>
-<ul>
+<li><p>STAT 709: Mathematical Statistics: <a href="http://pages.stat.wisc.edu/~shao/stat709/main.html">web</a></p></li>
+<li><p>STAT 710: Mathematical Statistics: <a href="http://pages.stat.wisc.edu/~shao/stat710/main.html">web</a></p></li>
 <li><p>Mathematical Statistics: <a href="https://stat510.org/">web</a></p></li>
-<li><p>Statistics: <a href="https://vanderbei.princeton.edu/245/Fall14/lectures.html">web</a></p></li>
+</ul>
+</div>
+<div id="statistical-methodology" class="section level4">
+<h4>Statistical Methodology</h4>
+<ul>
+<li><p>Analysis of Correlated Data: Mixed Linear Models: <a href="https://02429.compute.dtu.dk/Frontpage">web</a></p></li>
+<li><p>Linear and Generalized Linear Fixed and Mixed Effects Models: <a href="https://dnett.github.io/S510/stat510.html">web</a></p></li>
+<li><p>Repeated Measurements: <a href="https://github.com/drizopoulos/Repeated_Measurements">GitHub</a>, <a href="http://www.drizopoulos.com/courses/EMC/CE08.pdf">slides</a></p></li>
 <li><p>Introduction to Statistical Methods: <a href="https://www.math.arizona.edu/~jwatkins/data363s19s.html">web</a></p></li>
-<li><p>An Introduction to Statistics in R: <a href="http://petersonbiology.com/math230Notes/">web</a></p></li>
+</ul>
+</div>
+<div id="introductory-statistics" class="section level4">
+<h4>Introductory Statistics</h4>
+<ul>
+<li>Statistics: <a href="https://vanderbei.princeton.edu/245/Fall14/lectures.html">web</a></li>
 </ul>
 </div>
 <div id="probability" class="section level4">
@@ -365,7 +333,6 @@ $(document).ready(function () {
 <li><p>Introduction to Probability: <a href="https://faculty.math.illinois.edu/~hildebr/461/">web</a></p></li>
 <li><p>Actuarial Statistics I: <a href="https://faculty.math.illinois.edu/~hildebr/408/">web</a></p></li>
 </ul>
-<p><a href="https://math.la.asu.edu/~jtaylor/courses.html" class="uri">https://math.la.asu.edu/~jtaylor/courses.html</a></p>
 </div>
 <div id="machine-learning" class="section level4">
 <h4>Machine Learning</h4>
@@ -392,9 +359,9 @@ $(document).ready(function () {
 <div id="data" class="section level4">
 <h4>Data</h4>
 <ul>
-<li>Data Science in a Box: <a href="https://datasciencebox.org/index.html">web</a></li>
-<li>Advanced Data Science: <a href="http://jtleek.com/ads2020/">web</a></li>
-<li>Calling Bullshit: <a href="https://callingbullshit.org/">web</a>, <a href="https://www.youtube.com/playlist?list=PLPnZfvKID1Sje5jWxt-4CSZD7bUI4gSPS">video</a></li>
+<li><p>Data Science in a Box: <a href="https://datasciencebox.org/index.html">web</a></p></li>
+<li><p>Advanced Data Science: <a href="http://jtleek.com/ads2020/">web</a></p></li>
+<li><p>Calling Bullshit: <a href="https://callingbullshit.org/">web</a>, <a href="https://www.youtube.com/playlist?list=PLPnZfvKID1Sje5jWxt-4CSZD7bUI4gSPS">video</a></p></li>
 </ul>
 </div>
 </div>
@@ -411,9 +378,9 @@ $(document).ready(function () {
 <li><a href="https://www.di.ens.fr/~fbach/ltfp_book.pdf">Learning Theory from First Principles</a> (Francis Bach)</li>
 <li><a href="https://probml.github.io/pml-book/">Probabilistic Machine Learning</a> (Kevin Murphy)</li>
 <li><a href="https://www.tmwr.org/">Tidy Modeling with R</a> (Max Kuhn and Julia Silge)</li>
-<li><p><a href="https://jhudatascience.org/tidyversecourse/">Tidyverse Skills for Data Science</a> (Carrie Wright, Shannon E. Ellis, Stephanie C. Hicks and Roger D. Peng)</p></li>
+<li><a href="https://jhudatascience.org/tidyversecourse/">Tidyverse Skills for Data Science</a> (Carrie Wright, Shannon E. Ellis, Stephanie C. Hicks and Roger D. Peng)</li>
 <li><a href="https://tjmurphy.github.io/jabstb/">JABSTB: Statistical Design and Analysis of Experiments with R</a> (TJ Murphy)</li>
-<li><p><a href="https://whitlockschluter3e.zoology.ubc.ca/index.html">The Analysis of Biological Data</a> (Michael Whitlock and Dolph Schluter)</p></li>
+<li><a href="https://whitlockschluter3e.zoology.ubc.ca/index.html">The Analysis of Biological Data</a> (Michael Whitlock and Dolph Schluter)</li>
 </ul>
 </div>
 <div id="statisticians-data-scientists" class="section level3">
@@ -540,7 +507,7 @@ $(document).ready(function () {
 
 $(document).ready(function () {
   $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
+    $(this).parent().toggleClass('nav-tabs-open');
   });
 });
 </script>

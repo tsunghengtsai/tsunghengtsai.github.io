@@ -11,21 +11,17 @@ title: "USEFUL LINKS"
 * Penn State Statistics Online: [web](https://online.stat.psu.edu/statprogram/) 
 
 
-#### Computational Statistics
+#### Statistical Computation
 
-* Statistical Computation: [web](http://www.utstat.utoronto.ca/~radford/sta410.F15/)
+* Statistical Computation (Radford Neal): [web](http://www.utstat.utoronto.ca/~radford/sta410.F15/)
 
-* Modern Computational Statistics: [web](https://zcrabbit.github.io/courses/mcs-f19.html)
+* Modern Computational Statistics (Cheng Zhang): [web](https://zcrabbit.github.io/courses/mcs-f19.html)
 
-* Bayesian Theory and Computation: [web](https://zcrabbit.github.io/courses/btc-s21.html) 
+* Bayesian Theory and Computation (Cheng Zhang): [web](https://zcrabbit.github.io/courses/btc-s21.html) 
 
-#### Statistics
+* An Introduction to Statistics in R: [web](http://petersonbiology.com/math230Notes/)
 
-* Analysis of Correlated Data: Mixed Linear Models: [web](https://02429.compute.dtu.dk/Frontpage)
-
-* Linear and Generalized Linear Fixed and Mixed Effects Models: [web](https://dnett.github.io/S510/stat510.html)
-
-* Repeated Measurements: [GitHub](https://github.com/drizopoulos/Repeated_Measurements), [slides](http://www.drizopoulos.com/courses/EMC/CE08.pdf) 
+#### Statistical Theory
 
 * Theory of Statistics: [web](https://www.math.arizona.edu/~jwatkins/stat566s20s.html)
 
@@ -35,18 +31,26 @@ title: "USEFUL LINKS"
 
 * STAT 609: Mathematical Statistics I: [web](http://pages.stat.wisc.edu/~shao/stat609/main.html)
 
-STAT 709: Mathematical Statistics: [web](http://pages.stat.wisc.edu/~shao/stat709/main.html)
+* STAT 709: Mathematical Statistics: [web](http://pages.stat.wisc.edu/~shao/stat709/main.html)
 
-STAT 710: Mathematical Statistics: [web](http://pages.stat.wisc.edu/~shao/stat710/main.html)
-
+* STAT 710: Mathematical Statistics: [web](http://pages.stat.wisc.edu/~shao/stat710/main.html)
 
 * Mathematical Statistics: [web](https://stat510.org/)
 
-* Statistics: [web](https://vanderbei.princeton.edu/245/Fall14/lectures.html)
+
+#### Statistical Methodology
+
+* Analysis of Correlated Data: Mixed Linear Models: [web](https://02429.compute.dtu.dk/Frontpage)
+
+* Linear and Generalized Linear Fixed and Mixed Effects Models: [web](https://dnett.github.io/S510/stat510.html)
+
+* Repeated Measurements: [GitHub](https://github.com/drizopoulos/Repeated_Measurements), [slides](http://www.drizopoulos.com/courses/EMC/CE08.pdf) 
 
 * Introduction to Statistical Methods: [web](https://www.math.arizona.edu/~jwatkins/data363s19s.html)
 
-* An Introduction to Statistics in R: [web](http://petersonbiology.com/math230Notes/)
+#### Introductory Statistics
+
+* Statistics: [web](https://vanderbei.princeton.edu/245/Fall14/lectures.html)
 
 #### Probability
 
@@ -63,9 +67,6 @@ STAT 710: Mathematical Statistics: [web](http://pages.stat.wisc.edu/~shao/stat71
 * Introduction to Probability: [web](https://faculty.math.illinois.edu/~hildebr/461/)
 
 * Actuarial Statistics I: [web](https://faculty.math.illinois.edu/~hildebr/408/)
-
-https://math.la.asu.edu/~jtaylor/courses.html
-
 
 #### Machine Learning
 
@@ -93,7 +94,9 @@ https://math.la.asu.edu/~jtaylor/courses.html
 #### Data
 
 * Data Science in a Box: [web](https://datasciencebox.org/index.html)
+
 * Advanced Data Science: [web](http://jtleek.com/ads2020/)
+
 * Calling Bullshit: [web](https://callingbullshit.org/), [video](https://www.youtube.com/playlist?list=PLPnZfvKID1Sje5jWxt-4CSZD7bUI4gSPS) 
 
 ### Books
@@ -109,7 +112,6 @@ https://math.la.asu.edu/~jtaylor/courses.html
 * [Probabilistic Machine Learning](https://probml.github.io/pml-book/) (Kevin Murphy)
 * [Tidy Modeling with R](https://www.tmwr.org/) (Max Kuhn and Julia Silge)
 * [Tidyverse Skills for Data Science](https://jhudatascience.org/tidyversecourse/) (Carrie Wright, Shannon E. Ellis, Stephanie C. Hicks and Roger D. Peng)
-
 * [JABSTB: Statistical Design and Analysis of Experiments with R](https://tjmurphy.github.io/jabstb/) (TJ Murphy)
 * [The Analysis of Biological Data](https://whitlockschluter3e.zoology.ubc.ca/index.html) (Michael Whitlock and Dolph Schluter)
 
