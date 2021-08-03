@@ -6,25 +6,21 @@ title: "PUBLICATIONS"
 
 ### Journal Papers
 
+* T Maculins, E Verschueren, T Hinkle, M Choi, P Chang, C Chalouni, S Rao, Y Kwon, J Lim, AK Katakam, RC Kunz, BK Erickson, T Huang, __T-H Tsai__, O Vitek, M Reichelt, Y Senbabaoglu, B Mckenzie, J Rohde, I Dikic, D Kirkpatrick, A Murthy (2021). Multiplexed proteomics of autophagy deficient murine macrophages reveals enhanced antimicrobial immunity via the oxidative stress response. _eLife_, 10:e62320. [[Link](https://elifesciences.org/articles/62320)] [[PubMed](https://pubmed.ncbi.nlm.nih.gov/34085925/)]
+
 * A Arias-Alvarado, M Agayev, S Ilchenko, N Rachdaoui, J Lepp, __T-H Tsai__, G Zhang, S Previs, T Kasumov (2021). Measuring acetyl-CoA and acetylated histone turnover in vivo: effect of a high fat diet. _Analytical Biochemistry_, 615:114067. [[Link](https://doi.org/10.1016/j.ab.2020.114067)] [[PubMed](https://pubmed.ncbi.nlm.nih.gov/33340539/)]
 
 * M Choi, J Carver, C Chiva, M Tzouros, T Huang, __T-H Tsai__, B Pullman, O Bernhardt, R Huttenhain, G Teo, Y Perez-Riverol, J Muntel, M Muller, S Goetze, M Pavlou, E Verschueren, B Wollscheid, A Nesvizhskii, L Reiter, T Dunkley, E Sabido, N Bandeira, O Vitek (2020). MassIVE.quant: a community resource of quantitative mass spectrometry-based proteomics datasets. _Nature Methods_, 17:981--984. [[Link](https://doi.org/10.1038/s41592-020-0955-0)] [[PubMed](https://pubmed.ncbi.nlm.nih.gov/32929271/)]
 
-
 * __T-H Tsai__, M Choi, B Banfai, Y Liu, B. MacLean, T Dunkley, O Vitek (2020). Selection of features with consistent profiles improves relative protein quantification in mass spectrometry experiments. _Molecular & Cellular Proteomics_, 19(6):944--959. [[Link](https://doi.org/10.1074/mcp.ra119.001792)] [[PubMed](https://pubmed.ncbi.nlm.nih.gov/32234965/)]
-
 
 * BV Sinn, C Fu, R Lau, J Litton, __T-H Tsai__, R Murthy, A Tam, E Andreopoulou, Y Gong, R Murthy, R Gould, Y Zhang, TA King, A Viale, V Andrade, D Giri, R Salgado, I Laios, C Sotiriou, C Marginean, DN Kwiatkowski, R Layman, D Booser, C Hatzis, V Valero, WF Symmans (2019). SET$_{\text{ER/PR}}$ - A robust 18-gene predictor for sensitivity to endocrine therapy for metastatic breast cancer. _npj Breast Cancer_, 5:16. [[Link](https://doi.org/10.1038/s41523-019-0111-0)] [[PubMed](https://pubmed.ncbi.nlm.nih.gov/31231679/)]
 
-
 * __T-H Tsai__, Z Hao, Q Hong, B Moore, C Stella, JH Zhang, Y Chen, M Kim, T Koulis, GA Ryslik, E Verschueren, F Jacobson, WE Haskins, O Vitek (2017). Statistical characterization of therapeutic protein modifications. _Scientific Reports_, 7(1):7896. [[Link](https://doi.org/10.1038/s41598-017-08333-y)] [[PubMed](https://pubmed.ncbi.nlm.nih.gov/28801661/)]
-
 
 * M Wang, __T-H Tsai__, C Di Poto, A Ferrarini, G Yu, HW Ressom (2016). Topic model-based mass spectrometric data analysis in cancer biomarker discovery studies. _BMC Genomics_, 17(Suppl 4):545. [[Link](https://doi.org/10.1186/s12864-016-2796-x)] [[PubMed](https://pubmed.ncbi.nlm.nih.gov/27535232/)]
 
-
 * __T-H Tsai__, E Song, Z Rui, C Di Poto, M Wang, Y Luo, RS Varghese, MG Tadesse, DH Ziada, CS Desai, K Shetty, Y Mechref, HW Ressom (2015). LC-MS/MS based serum proteomics for identification of candidate biomarkers for hepatocellular carcinoma. _Proteomics_, 15(13):2369--2381. [[Link](https://doi.org/10.1002/pmic.201400364)] [[PubMed](https://pubmed.ncbi.nlm.nih.gov/25778709/)]
-
 
 * __T-H Tsai__, M Wang, C Di Poto, Y Hu, S Zhou, Y Zhao, RS Varghese, Y Luo, MG Tadesse, DH Ziada, CS Desai, K Shetty, Y Mechref, HW Ressom (2014). LC-MS profiling of N-glycans derived from human serum samples for biomarker discovery in hepatocellular carcinoma. _Journal of Proteome Research_, 13(11):4859--4868. [[Link](https://doi.org/10.1021/pr500460k)] [[PubMed](https://pubmed.ncbi.nlm.nih.gov/25077556/)]
 
