@@ -1,0 +1,194 @@
+---
+title: 'MATH 60061/70061: Mathematical Statistics I'
+output: html_document
+---
+
+```{r dates, include=FALSE}
+mon <- as.Date("2021-08-23")
+
+advdate <- function(obj, adv) {
+ tmon <- obj + 7*(adv-1)
+ tfri <- obj + 4 + 7*(adv-1)
+ tmon <- format(tmon, format="%m/%d")
+ tfri <- format(tfri, format="%m/%d")
+ zadv <- sprintf("%02d", adv)
+ tmp <- paste("Week ",zadv,sep='',", ", tmon," - ",tfri)
+ return(tmp)
+}
+```
+
+### Fall 2021 (August 26, 2021 - December 12, 2021)
+
+__Lecture times:__ Tuesdays/Thursdays 9:15 a.m.-10:55 a.m.
+
+__Location:__ _online_
+
+__Instructor:__ Tsung-Heng Tsai | ttsai1@kent.edu | Office Hours: Tuesdays/Thursdays 1 p.m.-2 p.m. or by appointment
+
+__Textbooks:__ There is no required textbook but course notes will be provided throughout the course. Useful references are: 
+
+1. George Casella and Roger L. Berger. _Statistical Inference_, Duxbury Press, 2002.
+2. Larry Wasserman. _All of Statistics: A Concise Course in Statistical Inference_, Springer, 2004.
+3. John I. Marden. [_Mathematical Statistics: Old School_](https://stat.istics.net/MathStat/), CreateSpace Independent Publishing Platform, 2017.
+
+__Academic integrity:__ Be familiar with the university's academic integrity policy on cheating and plagiarism. (https://www.kent.edu/policyreg/administrative-policy-regarding-student-cheating-and-plagiarism)
+
+__Administration:__ [Syllabus](mathstat1-F21-syllabus.pdf), [Blackboard](https://learn.kent.edu/)
+
+---
+
+### Course Description
+
+This is the first course of the two-semester Mathematical Statistics sequence, which covers the essential mathematics for work in statistics, the mathematical methods for statistical inference, and the approaches for evaluating the efficacy of inferential procedures. Topics of this course include: probability distributions, sampling distributions, inequalities, limit theorems, convergence, principles of data reduction, and fundamental concepts in statistical inference.
+
+---
+
+### Course Format
+
+The course is offered remotely during August 26, 2021 through December 12, 2021. Every week, there are recorded video lectures for classes on Tuesday and Thursday. The videos and notes will be available on Blackboard. The instructor will hold online meetings through Blackboard Collaborate Ultra at class hours (i.e., TR 9:15-10:55 a.m.), to answer questions and/or discuss extra examples. Attendance to online sessions is optional, but highly encouraged. 
+
+### Schedule 
+_(Subject to change.)_
+
+#### `r advdate(mon, 1)`: Syllabus
+
+_Class begins on August 26._
+
+#### `r advdate(mon, 2)`: Probability and Random Variables
+
+Topics:
+
+* Axioms of probability
+* Conditional probability and independence
+* Random variables
+* Distribution functions
+
+####  `r advdate(mon, 3)`: Transformations and Expectations
+
+Topics:
+
+* Transformations
+* Expectations
+* Moments and moment generating functions
+
+####  `r advdate(mon, 4)`: Families of Distributions
+
+Topics:
+
+* Useful distributions
+* Exponential families
+* Location and scale families
+
+####  `r advdate(mon, 5)`: Multiple Random Variables
+
+Topics:
+
+* Joint and marginal distributions
+* Conditional distributions and independence
+* Covariance and correlation
+
+####  `r advdate(mon, 6)`: Multivariate Distributions
+
+Topics:
+
+* Hierarchical models and mixture distributions
+* Conditional expectation
+* Multivariate distributions
+
+####  `r advdate(mon, 7)`: Midterm Exam I
+
+_Exam due 11:59 p.m. on October 6 (handed out 9:15 a.m. on October 5)_
+
+####  `r advdate(mon, 8)`: Inequalities
+
+Topics:
+
+* Probability inequalities
+* Inequalities for expectations
+
+_Fall Break. No class on October 14_
+
+####  `r advdate(mon, 9)`: Properties of a Random Sample
+
+Topics:
+
+* Population, random samples, statistics
+* Sampling distributions
+
+####  `r advdate(mon, 10)`: Derived Distributions and Order Statistics
+
+Topics:
+
+* Student's $t$ and Snedecor's $F$
+* Order statistics
+
+####  `r advdate(mon, 11)`: Convergence
+
+Topics:
+
+* Types of convergence
+* Law of large numbers
+
+####  `r advdate(mon, 12)`: Midterm Exam II
+
+_Exam due 11:59 p.m. on November 10 (handed out 9:15 a.m. on November 9)_
+
+_Veterans Day Observed. No class on November 11, 2021_
+
+#### `r advdate(mon, 13)`: Convergence in Distribution
+
+Topics:
+
+* Central limit theorem
+* The Delta method
+
+####  `r advdate(mon, 14)`: Sufficiency
+
+Topics:
+
+* Data reduction principles
+* Sufficient statistics
+
+_Thanksgiving Break. No class on November 25, 2021_
+
+####  `r advdate(mon, 15)`: Sufficiency
+
+Topics:
+
+* Minimal sufficiency
+* Completeness
+
+####  `r advdate(mon, 16)`: Statistical Inference
+
+Topics:
+
+* Point estimation
+* Hypothesis testing
+* Interval estimation
+
+####  `r advdate(mon, 17)`: Final Exam Week
+
+_Exam due 11:59 p.m. on December 15 (handed out 9:15 a.m. on December 14)_
+
+---
+
+### Grading
+
+Grades will be calculated as follows:
+
+* Homework assignments: 20%
+* Midterm exam 1: 20% (Tuesday October 5) 
+* Midterm exam 2: 20% (Tuesday November 9) 
+* Final exam: 40% (Tuesday December 14) 
+
+The final letter grades will follow the usual scale: A=90-100; B=80-89; C=70-79; D=60-69; F=0-59. Plus and minus grades will be given at discretion of the instructor.
+
+### Homework
+
+There will be approximately 6 homework assignments that will be posted on Blackboard. Assignments must be uploaded to Blackboard as a PDF file. You can either type your homework solutions or write them on papers and upload the scanned version. In any case, please make sure your work is clearly presented.
+
+Assignments are due at the beginning of class hour on the specified date. In general, no late submissions will be accepted. In case of truly exceptional situations (e.g., family emergencies or illness), the instructor may make exceptions and allow late submission. The lowest homework score will be dropped at the end of the semester. 
+
+### Exam
+
+There will be three exams: two midterm exams and one comprehensive final exam (dates mentioned above). Each exam will be posted on Blackboard at 9:15 a.m. on the exam day, and you have to upload your solutions as a PDF file to Blackboard by 11:59 p.m. the next day (so you have more than one and a half days to work on the exam). You can either type your solutions or write them on papers and upload the scanned version. In any case, you should make sure your work is clearly presented. Each exam will take approximately 2 hours to finish, but you can spend as much time as you want during the period. The exams are open-book, so you can consult the textbook, notes, etc. during the exam. However, you are not allowed to discuss with other students and the submitted work must be your own. 
