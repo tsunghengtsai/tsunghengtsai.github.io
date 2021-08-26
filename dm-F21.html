@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>MATH 20011: Decision Making Under Uncertainty</title>
+
+<script src="site_libs/header-attrs-2.9/header-attrs.js"></script>
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/readable.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+pre code {
+  padding: 0;
+}
+</style>
+
+
+<style type="text/css">
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #adb5bd;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script type="text/javascript">
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.tab('show');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Tsung-Heng Tsai</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">Home</a>
+</li>
+<li>
+  <a href="res.html">Research</a>
+</li>
+<li>
+  <a href="pubs.html">Publications</a>
+</li>
+<li>
+  <a href="talk.html">Talks</a>
+</li>
+<li>
+  <a href="teach.html">Teaching</a>
+</li>
+<li>
+  <a href="cv.html">CV</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div id="header">
+
+
+
+<h1 class="title toc-ignore">MATH 20011: Decision Making Under Uncertainty</h1>
+
+</div>
+
+
+<div id="fall-2021-august-26-2021---december-12-2021" class="section level3">
+<h3>Fall 2021 (August 26, 2021 - December 12, 2021)</h3>
+<p><strong>Lecture times:</strong> Mondays/Wednesdays/Fridays 1:10-2:00 p.m.</p>
+<p><strong>Location:</strong> <em>online</em></p>
+<p><strong>Instructor:</strong> Tsung-Heng Tsai | <a href="mailto:ttsai1@kent.edu" class="email">ttsai1@kent.edu</a> | Office Hours: Mondays/Wednesdays/Fridays 2-3 p.m. or by appointment</p>
+<p><strong>Textbooks:</strong></p>
+<p><a href="https://www.openintro.org/book/os/"><em>OpenIntro Statistics</em></a>, David Diez, Mine Çetinkaya-Rundel and Christopher Barr, CreateSpace, 4th Edition, 2019.</p>
+<p><strong>Academic integrity:</strong> Be familiar with the university’s academic integrity policy on cheating and plagiarism. (<a href="https://www.kent.edu/policyreg/administrative-policy-regarding-student-cheating-and-plagiarism" class="uri">https://www.kent.edu/policyreg/administrative-policy-regarding-student-cheating-and-plagiarism</a>)</p>
+<p><strong>Administration:</strong> <a href="dm-F21-syllabus.pdf">Syllabus</a>, <a href="https://learn.kent.edu/">Blackboard</a></p>
+<hr />
+</div>
+<div id="course-description" class="section level3">
+<h3>Course Description</h3>
+<p>An introductory course on applied statistics. The course provides a hands-on approach to understanding, quantification and decision-making under various forms of uncertainty. The main topics include visualization of uncertainty, probabilistic quantification of uncertainty, Bayesian and non-Bayesian ways of decision-making under uncertainty. Class activities incorporate active learning elements, including in-class computation with professional-grade software for statistical analysis and simulation.</p>
+<hr />
+</div>
+<div id="course-format" class="section level3">
+<h3>Course Format</h3>
+<p>The course is offered remotely during August 26, 2021 through December 12, 2021. Every week, there are recorded video lectures for classes on Monday and Wednesday. The videos and notes will be available on Blackboard. The instructor will hold online meetings through Blackboard Collaborate Ultra at class hours, to answer questions and/or discuss extra examples. There is also a lab on Friday, which aims to give you hands-on experience with data analysis using the R statistical language.</p>
+</div>
+<div id="schedule" class="section level3">
+<h3>Schedule</h3>
+<p><em>(Subject to change.)</em></p>
+<div id="week-01-0823---0827-syllabus" class="section level4">
+<h4>Week 01, 08/23 - 08/27: Syllabus</h4>
+<p><em>Class begins on August 27.</em></p>
+</div>
+<div id="week-02-0830---0903-introduction-to-data" class="section level4">
+<h4>Week 02, 08/30 - 09/03: Introduction to Data</h4>
+<p>Topics:</p>
+<ul>
+<li>Data basics</li>
+<li>Populations and samples</li>
+<li>Sampling strategies</li>
+</ul>
+<p>Lab: Introduction to R, RStudio, Rmarkdown</p>
+</div>
+<div id="week-03-0906---0910-introduction-to-data" class="section level4">
+<h4>Week 03, 09/06 - 09/10: Introduction to Data</h4>
+<p>Topics:</p>
+<ul>
+<li>Observational studies</li>
+<li>Experiments</li>
+</ul>
+<p>Lab: Fundamentals of R</p>
+<p><em>Labor Day. No class on September 6</em></p>
+</div>
+<div id="week-04-0913---0917-summarizing-data" class="section level4">
+<h4>Week 04, 09/13 - 09/17: Summarizing Data</h4>
+<p>Topics:</p>
+<ul>
+<li>Examining numerical data</li>
+<li>Considering categorical data</li>
+</ul>
+<p>Lab: Descriptive statistics in R</p>
+</div>
+<div id="week-05-0920---0924-summarizing-data" class="section level4">
+<h4>Week 05, 09/20 - 09/24: Summarizing Data</h4>
+<p>Topics:</p>
+<ul>
+<li>Data visualization</li>
+<li>Exploratory data analysis</li>
+</ul>
+<p>Lab: Data visualization in R</p>
+</div>
+<div id="week-06-0927---1001-probability" class="section level4">
+<h4>Week 06, 09/27 - 10/01: Probability</h4>
+<p>Topics:</p>
+<ul>
+<li>Probability</li>
+<li>Conditional probability</li>
+</ul>
+<p>Lab: Exploratory data analysis in R</p>
+</div>
+<div id="week-07-1004---1008-probability" class="section level4">
+<h4>Week 07, 10/04 - 10/08: Probability</h4>
+<p>Topics:</p>
+<ul>
+<li>Random variables</li>
+<li>Distributions of random variables</li>
+</ul>
+<p>Lab: Simulations of random events</p>
+</div>
+<div id="week-08-1011---1015-useful-distributions" class="section level4">
+<h4>Week 08, 10/11 - 10/15: Useful Distributions</h4>
+<p>Topics:</p>
+<ul>
+<li>Normal distribution</li>
+<li>Binomial distribution</li>
+</ul>
+<p><em>Fall Break. No class on October 15</em></p>
+</div>
+<div id="week-09-1018---1022-useful-distributions" class="section level4">
+<h4>Week 09, 10/18 - 10/22: Useful Distributions</h4>
+<p>Topics:</p>
+<ul>
+<li>Geometric distribution</li>
+<li>Negative binomial distribution</li>
+</ul>
+<p>Lab: Distributions in R</p>
+</div>
+<div id="week-10-1025---1029-foundations-for-statistical-inference" class="section level4">
+<h4>Week 10, 10/25 - 10/29: Foundations for Statistical Inference</h4>
+<p>Topics:</p>
+<ul>
+<li>Point estimation</li>
+<li>Sampling variability</li>
+</ul>
+<p>Lab: Sampling distributions</p>
+</div>
+<div id="week-11-1101---1105-foundations-for-statistical-inference" class="section level4">
+<h4>Week 11, 11/01 - 11/05: Foundations for Statistical Inference</h4>
+<p>Topics:</p>
+<ul>
+<li>Confidence interval</li>
+<li>Hypothesis testing</li>
+</ul>
+<p>Lab: Confidence intervals</p>
+</div>
+<div id="week-12-1108---1112-inference-for-categorical-data" class="section level4">
+<h4>Week 12, 11/08 - 11/12: Inference for Categorical Data</h4>
+<p>Topics:</p>
+<ul>
+<li>Inference for a single proportion</li>
+<li>Difference of two proportions</li>
+</ul>
+<p>Lab: Inference for categorical data</p>
+</div>
+<div id="week-13-1115---1119-inference-for-numerical-data" class="section level4">
+<h4>Week 13, 11/15 - 11/19: Inference for Numerical Data</h4>
+<p>Topics:</p>
+<ul>
+<li>One-sample means with the <span class="math inline">\(t\)</span> distribution</li>
+</ul>
+<p>Lab: Central limit theorem for means</p>
+</div>
+<div id="week-14-1122---1126-inference-for-numerical-data" class="section level4">
+<h4>Week 14, 11/22 - 11/26: Inference for Numerical Data</h4>
+<p>Topics:</p>
+<ul>
+<li>Paired data</li>
+<li>Difference of two means</li>
+</ul>
+<p><em>Thanksgiving Break. No class on November 24 and 26, 2021</em></p>
+</div>
+<div id="week-15-1129---1203-introduction-to-linear-regression" class="section level4">
+<h4>Week 15, 11/29 - 12/03: Introduction to Linear Regression</h4>
+<p>Topics:</p>
+<ul>
+<li>Fitting regression models</li>
+<li>Regression diagnostics</li>
+<li>Inference for linear regression</li>
+</ul>
+<p>Lab: Fitting regression models</p>
+</div>
+<div id="week-16-1206---1210-multiple-linear-regression" class="section level4">
+<h4>Week 16, 12/06 - 12/10: Multiple Linear Regression</h4>
+<p>Topics:</p>
+<ul>
+<li>Introduction to multiple linear regression</li>
+<li>Association, correlation and causation</li>
+</ul>
+<p>Lab: Interpreting regression models</p>
+</div>
+<div id="week-17-1213---1217-final-exam-week" class="section level4">
+<h4>Week 17, 12/13 - 12/17: Final Exam Week</h4>
+<p><em>Final project due 11:59 p.m. on December 13, 2021</em></p>
+<hr />
+</div>
+</div>
+<div id="grading" class="section level3">
+<h3>Grading</h3>
+<p>Grades will be calculated as follows:</p>
+<ul>
+<li>Homework assignments: 70%</li>
+<li>Final project: 30%</li>
+</ul>
+<p>The final letter grades will follow the usual scale: A=90-100; B=80-89; C=70-79; D=60-69; F=0-59. Plus and minus grades will be given at discretion of the instructor.</p>
+</div>
+<div id="homework" class="section level3">
+<h3>Homework</h3>
+<p>There will be approximately 8 homework assignments that will be posted on Blackboard. Solutions must be uploaded to Blackboard as a <strong>PDF</strong> file. Please make sure your work is clearly presented. Assignments are due at the beginning of class hour on the specified date. In general, <strong>NO</strong> late submissions will be accepted. In case of truly exceptional situations (e.g., family emergencies or illness), the instructor may make exceptions and allow late submission. The lowest homework score will be dropped at the end of the semester.</p>
+</div>
+<div id="final-project" class="section level3">
+<h3>Final Project</h3>
+<p>There will be a final project, where you will apply the methods you learn from the course to analyze a dataset. More details about the final project will be posted and discussed later in the semester.</p>
+</div>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

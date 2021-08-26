@@ -1,0 +1,214 @@
+---
+title: 'MATH 20011: Decision Making Under Uncertainty'
+output: html_document
+---
+
+```{r dates, include=FALSE}
+mon <- as.Date("2021-08-23")
+
+advdate <- function(obj, adv) {
+ tmon <- obj + 7*(adv-1)
+ tfri <- obj + 4 + 7*(adv-1)
+ tmon <- format(tmon, format="%m/%d")
+ tfri <- format(tfri, format="%m/%d")
+ zadv <- sprintf("%02d", adv)
+ tmp <- paste("Week ",zadv,sep='',", ", tmon," - ",tfri)
+ return(tmp)
+}
+```
+
+### Fall 2021 (August 26, 2021 - December 12, 2021)
+
+__Lecture times:__ Mondays/Wednesdays/Fridays 1:10-2:00 p.m.
+
+__Location:__ _online_
+
+__Instructor:__ Tsung-Heng Tsai | ttsai1@kent.edu | Office Hours: Mondays/Wednesdays/Fridays 2-3 p.m. or by appointment
+
+__Textbooks:__ 
+
+[_OpenIntro Statistics_](https://www.openintro.org/book/os/), David Diez, Mine Çetinkaya-Rundel and Christopher Barr, CreateSpace, 4th Edition, 2019.
+
+__Academic integrity:__ Be familiar with the university's academic integrity policy on cheating and plagiarism. (https://www.kent.edu/policyreg/administrative-policy-regarding-student-cheating-and-plagiarism)
+
+__Administration:__ [Syllabus](dm-F21-syllabus.pdf), [Blackboard](https://learn.kent.edu/)
+
+---
+
+### Course Description
+
+An introductory course on applied statistics. The course provides a hands-on approach to understanding, quantification and decision-making under various forms of uncertainty. The main topics include visualization of uncertainty, probabilistic quantification of uncertainty, Bayesian and non-Bayesian ways of decision-making under uncertainty. Class activities incorporate active learning elements, including in-class computation with professional-grade software for statistical analysis and simulation.
+
+---
+
+### Course Format
+
+The course is offered remotely during August 26, 2021 through December 12, 2021. Every week, there are recorded video lectures for classes on Monday and Wednesday. The videos and notes will be available on Blackboard. The instructor will hold online meetings through Blackboard Collaborate Ultra at class hours, to answer questions and/or discuss extra examples. There is also a lab on Friday, which aims to give you hands-on experience with data analysis using the R statistical language. 
+
+### Schedule 
+_(Subject to change.)_
+
+#### `r advdate(mon, 1)`: Syllabus
+
+_Class begins on August 27._
+
+#### `r advdate(mon, 2)`: Introduction to Data
+
+Topics:
+
+* Data basics
+* Populations and samples
+* Sampling strategies
+
+Lab: Introduction to R, RStudio, Rmarkdown
+
+####  `r advdate(mon, 3)`: Introduction to Data
+
+Topics:
+
+* Observational studies
+* Experiments
+
+Lab: Fundamentals of R
+
+_Labor Day. No class on September 6_
+
+####  `r advdate(mon, 4)`: Summarizing Data
+
+Topics:
+
+* Examining numerical data
+* Considering categorical data
+
+Lab: Descriptive statistics in R
+
+####  `r advdate(mon, 5)`: Summarizing Data
+
+Topics:
+
+* Data visualization
+* Exploratory data analysis
+
+Lab: Data visualization in R
+
+####  `r advdate(mon, 6)`: Probability
+
+Topics:
+
+* Probability
+* Conditional probability
+
+Lab: Exploratory data analysis in R
+
+####  `r advdate(mon, 7)`: Probability
+
+Topics:
+
+* Random variables
+* Distributions of random variables
+
+Lab: Simulations of random events
+
+####  `r advdate(mon, 8)`: Useful Distributions
+
+Topics:
+
+* Normal distribution
+* Binomial distribution
+
+_Fall Break. No class on October 15_
+
+####  `r advdate(mon, 9)`: Useful Distributions
+
+Topics: 
+
+* Geometric distribution
+* Negative binomial distribution
+
+Lab: Distributions in R
+
+####  `r advdate(mon, 10)`: Foundations for Statistical Inference
+
+Topics:
+
+* Point estimation
+* Sampling variability
+
+Lab: Sampling distributions
+
+####  `r advdate(mon, 11)`: Foundations for Statistical Inference
+
+Topics:
+
+* Confidence interval
+* Hypothesis testing
+
+Lab: Confidence intervals
+
+####  `r advdate(mon, 12)`: Inference for Categorical Data
+
+Topics:
+
+* Inference for a single proportion
+* Difference of two proportions
+
+Lab: Inference for categorical data
+
+#### `r advdate(mon, 13)`: Inference for Numerical Data
+
+Topics:
+
+* One-sample means with the $t$ distribution
+
+Lab: Central limit theorem for means
+
+####  `r advdate(mon, 14)`: Inference for Numerical Data
+
+Topics:
+
+* Paired data
+* Difference of two means
+
+_Thanksgiving Break. No class on November 24 and 26, 2021_
+
+####  `r advdate(mon, 15)`: Introduction to Linear Regression
+
+Topics:
+
+* Fitting regression models
+* Regression diagnostics
+* Inference for linear regression
+
+Lab: Fitting regression models
+
+####  `r advdate(mon, 16)`: Multiple Linear Regression
+
+Topics:
+
+* Introduction to multiple linear regression
+* Association, correlation and causation
+
+Lab: Interpreting regression models
+
+####  `r advdate(mon, 17)`: Final Exam Week
+
+_Final project due 11:59 p.m. on December 13, 2021_
+
+---
+
+### Grading
+
+Grades will be calculated as follows:
+
+* Homework assignments: 70%
+* Final project: 30%
+
+The final letter grades will follow the usual scale: A=90-100; B=80-89; C=70-79; D=60-69; F=0-59. Plus and minus grades will be given at discretion of the instructor.
+
+### Homework
+
+There will be approximately 8 homework assignments that will be posted on Blackboard. Solutions must be uploaded to Blackboard as a __PDF__ file. Please make sure your work is clearly presented. Assignments are due at the beginning of class hour on the specified date. In general, __NO__ late submissions will be accepted. In case of truly exceptional situations (e.g., family emergencies or illness), the instructor may make exceptions and allow late submission. The lowest homework score will be dropped at the end of the semester. 
+
+### Final Project
+
+There will be a final project, where you will apply the methods you learn from the course to analyze a dataset. More details about the final project will be posted and discussed later in the semester. 

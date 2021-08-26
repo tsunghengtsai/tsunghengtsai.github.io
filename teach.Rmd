@@ -6,11 +6,15 @@ title: "TEACHING"
 
 ### KSU Courses
 
+* MATH 20011: Decision Making Under Uncertainty ([Fall 21](dm-F21.html))
+
 * MATH 40011/50011: Probability Theory and Applications ([Fall 20](prob-F20.html))
 
 * MATH 49995/57091: Introduction to Data Science ([Spring 20](datasci-S20.html))
 
 * MATH 40024/50024: Computational Statistics ([Spring 21](compstat-S21.html), [Fall 19](compstat-F19.html))
+
+* MATH 60061/70061: Mathematical Statistics I ([Fall 21](mathstat1-F21.html))
 
 ### Short Courses
 
