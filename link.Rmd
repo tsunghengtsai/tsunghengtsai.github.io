@@ -21,6 +21,8 @@ title: "USEFUL LINKS"
 
 * An Introduction to Statistics in R: [web](http://petersonbiology.com/math230Notes/)
 
+* Computer Intensive Statistics (Luke Tierney): [web](https://homepage.stat.uiowa.edu/~luke/classes/STAT7400-2020/)
+
 #### Statistical Theory
 
 * Theory of Statistics: [web](https://www.math.arizona.edu/~jwatkins/stat566s20s.html)
@@ -36,6 +38,10 @@ title: "USEFUL LINKS"
 * STAT 710: Mathematical Statistics: [web](http://pages.stat.wisc.edu/~shao/stat710/main.html)
 
 * Mathematical Statistics: [web](https://stat510.org/)
+
+* Statistical Inference I: [web](https://homepage.stat.uiowa.edu/~luke/classes/193/)
+
+* Statistical Inference II: [web](https://homepage.stat.uiowa.edu/~luke/classes/194/)
 
 
 #### Statistical Methodology
@@ -156,6 +162,10 @@ title: "USEFUL LINKS"
 * [Datamethods](https://discourse.datamethods.org/) 
 * [Stack Overflow](https://stackoverflow.com/)
 * [RStudio Community](https://community.rstudio.com/)
+
+#### Dataviz
+
+* Urban Institute [style guide](https://urbaninstitute.github.io/graphics-styleguide/)
 
 ### KSU
 
