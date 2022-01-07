@@ -16,6 +16,8 @@ title: "TEACHING"
 
 * MATH 60061/70061: Mathematical Statistics I ([Fall 21](mathstat1-F21.html))
 
+* MATH 60062/70062: Mathematical Statistics II ([Spring 22](mathstat1-S22.html))
+
 ### Short Courses
 
 * Co-instructor, [DIA/SWATH Course](http://dia-swath-course.ethz.ch/) (1 week), ETH Zurich, Switzerland, July 2018

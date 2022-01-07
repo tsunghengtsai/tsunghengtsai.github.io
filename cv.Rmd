@@ -27,7 +27,7 @@ title: "CV"
 
 * Reviewer for Journals: _Bioinformatics_ (1), _BMC Bioinformatics_ (1), _Computational Statistics and Data Analysis_ (1), _EURASIP Journal on Bioinformatics and Systems Biology_ (1), _IEEE/ACM Transactions on Computational Biology and Bioinformatics_ (3), _Journal of Applied Statistics_ (1), _Journal of Chromatography A_ (1), _Journal of Pharmacy and Pharmacology_ (1), _Molecular Systems Biology_ (1), _Nature Communications_ (1)
 * Reviewer for Conferences: _BIBM_ (2013), _BMEI_ (2008), _ICASSP_ (2011, 2012), _iCBBE_ (2009), _ISBI_ (2011, 2012), _ISCAS_ (2011), _ISMB_ (2018), _MLSP_ (2011)
-* Program Committee Member: _BIBM_ (2014, 2015, 2020), _ECCB_ (2020)
+* Program Committee Member: _BIBM_ (2014, 2015, 2020, 2021), _ECCB_ (2020)
 
 ### Award
 
