@@ -1,0 +1,181 @@
+---
+title: 'MATH 60062/70062: Mathematical Statistics II'
+output: html_document
+---
+
+```{r dates, include=FALSE}
+mon <- as.Date("2022-01-17")
+
+advdate <- function(obj, adv) {
+ tmon <- obj + 7*(adv-1)
+ tfri <- obj + 4 + 7*(adv-1)
+ tmon <- format(tmon, format="%m/%d")
+ tfri <- format(tfri, format="%m/%d")
+ zadv <- sprintf("%02d", adv)
+ tmp <- paste("Week ",zadv,sep='',", ", tmon," - ",tfri)
+ return(tmp)
+}
+```
+
+### Spring 2022 (January 18, 2021 - May 3, 2021)
+
+__Lecture times:__ Tuesdays/Thursdays 9:15 a.m.-10:30 a.m.
+
+__Location:__ MSB 376
+
+__Instructor:__ Tsung-Heng Tsai | ttsai1@kent.edu | Office Hours: Tuesdays/Thursdays 1 p.m.-2 p.m. or by appointment
+
+__Textbooks:__ There is no required textbook but course notes will be provided throughout the course. Useful references are: 
+
+1. George Casella and Roger L. Berger. _Statistical Inference_, Duxbury Press, 2002.
+2. Larry Wasserman. _All of Statistics: A Concise Course in Statistical Inference_, Springer, 2004.
+
+__Academic integrity:__ Be familiar with the university's academic integrity policy on cheating and plagiarism. (https://www.kent.edu/policyreg/administrative-policy-regarding-student-cheating-and-plagiarism)
+
+__Administration:__ [Syllabus](mathstat2-S22-syllabus.pdf), [Blackboard](https://learn.kent.edu/)
+
+---
+
+### Course Description
+
+This is the second course of the two-semester Mathematical Statistics sequence, which covers the essential mathematics for work in statistics, the mathematical methods for statistical inference, and the approaches for evaluating the efficacy of inferential procedures. Topics of this course include: point estimation, hypothesis testing, interval estimation, and asymptotic evaluations.
+
+---
+
+### Schedule 
+_(Subject to change.)_
+
+#### `r advdate(mon, 1)`: Convergence
+
+Topics:
+
+* Mode of convergences
+* Central Limit Theorem
+* Slutsky's Theorem 
+* Delta Method
+
+_Kent State Campuses closed on January 18._
+
+#### `r advdate(mon, 2)`: The Sufficiency Principle
+
+Topics:
+
+* Sufficient statistics and minimal sufficient statistics
+* Ancillary statistics
+* Complete statistics
+
+####  `r advdate(mon, 3)`: Point Estimation
+
+Topics:
+
+* Method of moments
+* Maximum likelihood estimators
+
+####  `r advdate(mon, 4)`: Point Estimation
+
+Topics:
+
+* Bayes estimators
+* Mean squared error
+* Best unbiased estimators
+
+####  `r advdate(mon, 5)`: Point Estimation
+
+Topics:
+
+* Cramér-Rao Theorem
+* Rao-Blackwell Theorem
+
+####  `r advdate(mon, 6)`: Midterm Exam I
+
+_Exam on February 24, 9:15-10:30 a.m._
+
+####  `r advdate(mon, 7)`: Hypothesis Testing
+
+Topics:
+
+* Likelihood ratio tests
+* Bayesian tests
+
+####  `r advdate(mon, 8)`: Hypothesis Testing
+
+Topics:
+
+* Error probabilities and power function
+* Most powerful tests
+
+####  `r advdate(mon, 9)`: Hypothesis Testing
+
+Topics:
+
+* Uniformly most powerful tests
+* Neyman-Pearson Lemma
+* Karlin-Rubin Theorem
+* $p$-values
+
+####  `r advdate(mon, 10)`: Midterm Exam II
+
+_Exam on March 24, 9:15-10:30 a.m._
+
+####  `r advdate(mon, 11)`: Spring Break
+
+_No class on March 29 and March 31_
+
+####  `r advdate(mon, 12)`: Interval Estimation
+
+Topics:
+
+* Inverting a test statistic
+* Pivotal quantities
+* Pivoting the CDF
+* Bayesian intervals
+
+#### `r advdate(mon, 13)`: Interval Estimation
+
+Topics:
+
+* Size and coverage probability
+* Test-related optimality
+
+####  `r advdate(mon, 14)`: Asymptotic Evaluations
+
+Topics:
+
+* Consistency and efficiency
+* Large-sample properties of MLEs
+* Large-sample properties of LRTs
+
+####  `r advdate(mon, 15)`: Asymptotic Evaluations
+
+Topics:
+
+* Wald tests and score tests
+* Approximate maximum likelihood intervals
+* Wald intervals and score intervals
+
+####  `r advdate(mon, 16)`: Final Exam Week
+
+_Final Exam on May 5, 9:15-10:30 a.m._
+
+---
+
+### Grading
+
+Grades will be calculated as follows:
+
+* Homework assignments: 20%
+* Midterm exam 1: 20% (Thursday February 24) 
+* Midterm exam 2: 20% (Thursday March 24) 
+* Final exam: 40% (Thursday May 5) 
+
+The final letter grades will follow the usual scale: A=90-100; B=80-89; C=70-79; D=60-69; F=0-59. Plus and minus grades will be given at discretion of the instructor.
+
+### Homework
+
+There will be approximately 6 homework assignments that will be posted on Blackboard. Assignments must be uploaded to Blackboard as a PDF file. You can either type your homework solutions or write them on papers and upload the scanned version. In any case, please make sure your work is clearly presented.
+
+Assignments are due at the beginning of class hour on the specified date. In general, no late submissions will be accepted. In case of truly exceptional situations (e.g., family emergencies or illness), the instructor may make exceptions and allow late submission. The lowest homework score will be dropped at the end of the semester. 
+
+### Exam
+
+There will be three in-class exams: two midterm exams and one comprehensive final exam (dates mentioned above). The exams are closed-book. Each student should work on the exams independently. 

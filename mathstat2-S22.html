@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>MATH 60062/70062: Mathematical Statistics II</title>
+
+<script src="site_libs/header-attrs-2.9/header-attrs.js"></script>
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/readable.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+pre code {
+  padding: 0;
+}
+</style>
+
+
+<style type="text/css">
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #adb5bd;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script type="text/javascript">
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.tab('show');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Tsung-Heng Tsai</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">Home</a>
+</li>
+<li>
+  <a href="res.html">Research</a>
+</li>
+<li>
+  <a href="pubs.html">Publications</a>
+</li>
+<li>
+  <a href="talk.html">Talks</a>
+</li>
+<li>
+  <a href="teach.html">Teaching</a>
+</li>
+<li>
+  <a href="cv.html">CV</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div id="header">
+
+
+
+<h1 class="title toc-ignore">MATH 60062/70062: Mathematical Statistics II</h1>
+
+</div>
+
+
+<div id="spring-2022-january-18-2021---may-3-2021" class="section level3">
+<h3>Spring 2022 (January 18, 2021 - May 3, 2021)</h3>
+<p><strong>Lecture times:</strong> Tuesdays/Thursdays 9:15 a.m.-10:30 a.m.</p>
+<p><strong>Location:</strong> MSB 376</p>
+<p><strong>Instructor:</strong> Tsung-Heng Tsai | <a href="mailto:ttsai1@kent.edu" class="email">ttsai1@kent.edu</a> | Office Hours: Tuesdays/Thursdays 1 p.m.-2 p.m. or by appointment</p>
+<p><strong>Textbooks:</strong> There is no required textbook but course notes will be provided throughout the course. Useful references are:</p>
+<ol style="list-style-type: decimal">
+<li>George Casella and Roger L. Berger. <em>Statistical Inference</em>, Duxbury Press, 2002.</li>
+<li>Larry Wasserman. <em>All of Statistics: A Concise Course in Statistical Inference</em>, Springer, 2004.</li>
+</ol>
+<p><strong>Academic integrity:</strong> Be familiar with the university’s academic integrity policy on cheating and plagiarism. (<a href="https://www.kent.edu/policyreg/administrative-policy-regarding-student-cheating-and-plagiarism" class="uri">https://www.kent.edu/policyreg/administrative-policy-regarding-student-cheating-and-plagiarism</a>)</p>
+<p><strong>Administration:</strong> <a href="mathstat2-S22-syllabus.pdf">Syllabus</a>, <a href="https://learn.kent.edu/">Blackboard</a></p>
+<hr />
+</div>
+<div id="course-description" class="section level3">
+<h3>Course Description</h3>
+<p>This is the second course of the two-semester Mathematical Statistics sequence, which covers the essential mathematics for work in statistics, the mathematical methods for statistical inference, and the approaches for evaluating the efficacy of inferential procedures. Topics of this course include: point estimation, hypothesis testing, interval estimation, and asymptotic evaluations.</p>
+<hr />
+</div>
+<div id="schedule" class="section level3">
+<h3>Schedule</h3>
+<p><em>(Subject to change.)</em></p>
+<div id="week-01-0117---0121-convergence" class="section level4">
+<h4>Week 01, 01/17 - 01/21: Convergence</h4>
+<p>Topics:</p>
+<ul>
+<li>Mode of convergences</li>
+<li>Central Limit Theorem</li>
+<li>Slutsky’s Theorem</li>
+<li>Delta Method</li>
+</ul>
+<p><em>Kent State Campuses closed on January 18.</em></p>
+</div>
+<div id="week-02-0124---0128-the-sufficiency-principle" class="section level4">
+<h4>Week 02, 01/24 - 01/28: The Sufficiency Principle</h4>
+<p>Topics:</p>
+<ul>
+<li>Sufficient statistics and minimal sufficient statistics</li>
+<li>Ancillary statistics</li>
+<li>Complete statistics</li>
+</ul>
+</div>
+<div id="week-03-0131---0204-point-estimation" class="section level4">
+<h4>Week 03, 01/31 - 02/04: Point Estimation</h4>
+<p>Topics:</p>
+<ul>
+<li>Method of moments</li>
+<li>Maximum likelihood estimators</li>
+</ul>
+</div>
+<div id="week-04-0207---0211-point-estimation" class="section level4">
+<h4>Week 04, 02/07 - 02/11: Point Estimation</h4>
+<p>Topics:</p>
+<ul>
+<li>Bayes estimators</li>
+<li>Mean squared error</li>
+<li>Best unbiased estimators</li>
+</ul>
+</div>
+<div id="week-05-0214---0218-point-estimation" class="section level4">
+<h4>Week 05, 02/14 - 02/18: Point Estimation</h4>
+<p>Topics:</p>
+<ul>
+<li>Cramér-Rao Theorem</li>
+<li>Rao-Blackwell Theorem</li>
+</ul>
+</div>
+<div id="week-06-0221---0225-midterm-exam-i" class="section level4">
+<h4>Week 06, 02/21 - 02/25: Midterm Exam I</h4>
+<p><em>Exam on February 24, 9:15-10:30 a.m.</em></p>
+</div>
+<div id="week-07-0228---0304-hypothesis-testing" class="section level4">
+<h4>Week 07, 02/28 - 03/04: Hypothesis Testing</h4>
+<p>Topics:</p>
+<ul>
+<li>Likelihood ratio tests</li>
+<li>Bayesian tests</li>
+</ul>
+</div>
+<div id="week-08-0307---0311-hypothesis-testing" class="section level4">
+<h4>Week 08, 03/07 - 03/11: Hypothesis Testing</h4>
+<p>Topics:</p>
+<ul>
+<li>Error probabilities and power function</li>
+<li>Most powerful tests</li>
+</ul>
+</div>
+<div id="week-09-0314---0318-hypothesis-testing" class="section level4">
+<h4>Week 09, 03/14 - 03/18: Hypothesis Testing</h4>
+<p>Topics:</p>
+<ul>
+<li>Uniformly most powerful tests</li>
+<li>Neyman-Pearson Lemma</li>
+<li>Karlin-Rubin Theorem</li>
+<li><span class="math inline">\(p\)</span>-values</li>
+</ul>
+</div>
+<div id="week-10-0321---0325-midterm-exam-ii" class="section level4">
+<h4>Week 10, 03/21 - 03/25: Midterm Exam II</h4>
+<p><em>Exam on March 24, 9:15-10:30 a.m.</em></p>
+</div>
+<div id="week-11-0328---0401-spring-break" class="section level4">
+<h4>Week 11, 03/28 - 04/01: Spring Break</h4>
+<p><em>No class on March 29 and March 31</em></p>
+</div>
+<div id="week-12-0404---0408-interval-estimation" class="section level4">
+<h4>Week 12, 04/04 - 04/08: Interval Estimation</h4>
+<p>Topics:</p>
+<ul>
+<li>Inverting a test statistic</li>
+<li>Pivotal quantities</li>
+<li>Pivoting the CDF</li>
+<li>Bayesian intervals</li>
+</ul>
+</div>
+<div id="week-13-0411---0415-interval-estimation" class="section level4">
+<h4>Week 13, 04/11 - 04/15: Interval Estimation</h4>
+<p>Topics:</p>
+<ul>
+<li>Size and coverage probability</li>
+<li>Test-related optimality</li>
+</ul>
+</div>
+<div id="week-14-0418---0422-asymptotic-evaluations" class="section level4">
+<h4>Week 14, 04/18 - 04/22: Asymptotic Evaluations</h4>
+<p>Topics:</p>
+<ul>
+<li>Consistency and efficiency</li>
+<li>Large-sample properties of MLEs</li>
+<li>Large-sample properties of LRTs</li>
+</ul>
+</div>
+<div id="week-15-0425---0429-asymptotic-evaluations" class="section level4">
+<h4>Week 15, 04/25 - 04/29: Asymptotic Evaluations</h4>
+<p>Topics:</p>
+<ul>
+<li>Wald tests and score tests</li>
+<li>Approximate maximum likelihood intervals</li>
+<li>Wald intervals and score intervals</li>
+</ul>
+</div>
+<div id="week-16-0502---0506-final-exam-week" class="section level4">
+<h4>Week 16, 05/02 - 05/06: Final Exam Week</h4>
+<p><em>Final Exam on May 5, 9:15-10:30 a.m.</em></p>
+<hr />
+</div>
+</div>
+<div id="grading" class="section level3">
+<h3>Grading</h3>
+<p>Grades will be calculated as follows:</p>
+<ul>
+<li>Homework assignments: 20%</li>
+<li>Midterm exam 1: 20% (Thursday February 24)</li>
+<li>Midterm exam 2: 20% (Thursday March 24)</li>
+<li>Final exam: 40% (Thursday May 5)</li>
+</ul>
+<p>The final letter grades will follow the usual scale: A=90-100; B=80-89; C=70-79; D=60-69; F=0-59. Plus and minus grades will be given at discretion of the instructor.</p>
+</div>
+<div id="homework" class="section level3">
+<h3>Homework</h3>
+<p>There will be approximately 6 homework assignments that will be posted on Blackboard. Assignments must be uploaded to Blackboard as a PDF file. You can either type your homework solutions or write them on papers and upload the scanned version. In any case, please make sure your work is clearly presented.</p>
+<p>Assignments are due at the beginning of class hour on the specified date. In general, no late submissions will be accepted. In case of truly exceptional situations (e.g., family emergencies or illness), the instructor may make exceptions and allow late submission. The lowest homework score will be dropped at the end of the semester.</p>
+</div>
+<div id="exam" class="section level3">
+<h3>Exam</h3>
+<p>There will be three in-class exams: two midterm exams and one comprehensive final exam (dates mentioned above). The exams are closed-book. Each student should work on the exams independently.</p>
+</div>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>
