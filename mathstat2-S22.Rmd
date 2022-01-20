@@ -17,7 +17,7 @@ advdate <- function(obj, adv) {
 }
 ```
 
-### Spring 2022 (January 18, 2021 - May 3, 2021)
+### Spring 2022 (January 18, 2022 - May 3, 2022)
 
 __Lecture times:__ Tuesdays/Thursdays 9:15 a.m.-10:30 a.m.
 
