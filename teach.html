@@ -13,22 +13,12 @@
 
 <title>TEACHING</title>
 
-<script src="site_libs/header-attrs-2.9/header-attrs.js"></script>
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/readable.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
-<style>h1 {font-size: 34px;}
-       h1.title {font-size: 38px;}
-       h2 {font-size: 30px;}
-       h3 {font-size: 24px;}
-       h4 {font-size: 18px;}
-       h5 {font-size: 16px;}
-       h6 {font-size: 12px;}
-       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
-       pre:not([class]) { background-color: white }</style>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
@@ -43,6 +33,11 @@
     </style>
 
 <style type="text/css">code{white-space: pre;}</style>
+<style type="text/css">
+  pre:not([class]) {
+    background-color: white;
+  }
+</style>
 <script type="text/javascript">
 if (window.hljs) {
   hljs.configure({languages: []});
@@ -55,6 +50,32 @@ if (window.hljs) {
 
 
 
+<style type="text/css">
+h1 {
+  font-size: 34px;
+}
+h1.title {
+  font-size: 38px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+</style>
 
 
 <link rel="stylesheet" href="style.css" type="text/css" />
@@ -66,6 +87,10 @@ if (window.hljs) {
   max-width: 940px;
   margin-left: auto;
   margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
 }
 img {
   max-width:100%;
@@ -82,13 +107,40 @@ button.code-folding-btn:focus {
 summary {
   display: list-item;
 }
-pre code {
-  padding: 0;
-}
 </style>
 
 
 <style type="text/css">
+/* padding for bootstrap navbar */
+body {
+  padding-top: 66px;
+  padding-bottom: 40px;
+}
+/* offset scroll position for anchor links (for fixed navbar)  */
+.section h1 {
+  padding-top: 71px;
+  margin-top: -71px;
+}
+.section h2 {
+  padding-top: 71px;
+  margin-top: -71px;
+}
+.section h3 {
+  padding-top: 71px;
+  margin-top: -71px;
+}
+.section h4 {
+  padding-top: 71px;
+  margin-top: -71px;
+}
+.section h5 {
+  padding-top: 71px;
+  margin-top: -71px;
+}
+.section h6 {
+  padding-top: 71px;
+  margin-top: -71px;
+}
 .dropdown-submenu {
   position: relative;
 }
@@ -116,7 +168,7 @@ pre code {
   margin-right: -10px;
 }
 .dropdown-submenu:hover>a:after {
-  border-left-color: #adb5bd;
+  border-left-color: #ffffff;
 }
 .dropdown-submenu.pull-left {
   float: none;
@@ -128,7 +180,7 @@ pre code {
 }
 </style>
 
-<script type="text/javascript">
+<script>
 // manage active state of menu based on current page
 $(document).ready(function () {
   // active menu anchor
@@ -139,23 +191,10 @@ $(document).ready(function () {
   var menuAnchor = $('a[href="' + href + '"]');
 
   // mark it active
-  menuAnchor.tab('show');
+  menuAnchor.parent().addClass('active');
 
   // if it's got a parent navbar menu mark it active as well
   menuAnchor.closest('li.dropdown').addClass('active');
-
-  // Navbar adjustments
-  var navHeight = $(".navbar").first().height() + 15;
-  var style = document.createElement('style');
-  var pt = "padding-top: " + navHeight + "px; ";
-  var mt = "margin-top: -" + navHeight + "px; ";
-  var css = "";
-  // offset scroll position for anchor links (for fixed navbar)
-  for (var i = 1; i <= 6; i++) {
-    css += ".section h" + i + "{ " + pt + mt + "}\n";
-  }
-  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
-  document.head.appendChild(style);
 });
 </script>
 
@@ -167,6 +206,7 @@ $(document).ready(function () {
   max-height: 500px;
   min-height: 44px;
   overflow-y: auto;
+  background: white;
   border: 1px solid #ddd;
   border-radius: 4px;
 }
@@ -268,7 +308,7 @@ $(document).ready(function () {
   </div><!--/.container -->
 </div><!--/.navbar -->
 
-<div id="header">
+<div class="fluid-row" id="header">
 
 
 
@@ -284,7 +324,7 @@ $(document).ready(function () {
 <li><p>MATH 20011: Decision Making Under Uncertainty (<a href="dm-F21.html">Fall 21</a>)</p></li>
 <li><p>MATH 40011/50011: Probability Theory and Applications (<a href="prob-F20.html">Fall 20</a>)</p></li>
 <li><p>MATH 49995/57091: Introduction to Data Science (<a href="datasci-S20.html">Spring 20</a>)</p></li>
-<li><p>MATH 40024/50024: Computational Statistics (<a href="compstat-S21.html">Spring 21</a>, <a href="compstat-F19.html">Fall 19</a>)</p></li>
+<li><p>MATH 40024/50024: Computational Statistics (<a href="compstat-S21.html">Spring 21</a>, Fall 19)</p></li>
 <li><p>MATH 60061/70061: Mathematical Statistics I (<a href="mathstat1-F21.html">Fall 21</a>)</p></li>
 <li><p>MATH 60062/70062: Mathematical Statistics II (<a href="mathstat2-S22.html">Spring 22</a>)</p></li>
 </ul>
@@ -292,15 +332,15 @@ $(document).ready(function () {
 <div id="short-courses" class="section level3">
 <h3>Short Courses</h3>
 <ul>
-<li><p>Co-instructor, <a href="http://dia-swath-course.ethz.ch/">DIA/SWATH Course</a> (1 week), ETH Zurich, Switzerland, July 2018</p></li>
-<li><p>Co-designer and co-instructor, <a href="https://computationalproteomics2018.ccis.northeastern.edu/programs/intermediateadvanced-r/">Advanced R</a> (3 days) of the 2-week <a href="https://computationalproteomics2018.ccis.northeastern.edu/">May Institute</a>, Northeastern University, Boston, MA, May 2018</p></li>
-<li><p>Speaker, <a href="https://meetings.cshl.edu/courses.aspx?course=C-PROTEO&amp;year=17">Proteomics Course</a> (2 weeks), Cold Spring Harbor Laboratory, Cold Spring Harbor, NY, August 2017</p></li>
-<li><p>Co-designer and co-instructor, <a href="https://olga-vitek-lab.ccis.northeastern.edu/courses-taught/2017-may-institute/program/may-3-5-advanced-r/">Advanced R</a> (3 days) of the 2-week <a href="https://olga-vitek-lab.ccis.northeastern.edu/courses-taught/2017-may-institute/">May Institute</a>, Northeastern University, Boston, MA, May 2017</p></li>
-<li><p>Co-instructor, <a href="https://skyline.ms/project/home/software/Skyline/events/2017%20Buck%20Institute%20Course/begin.view?">Targeted Proteomics Course</a> (1 week), Buck Institute, Novato, CA, February 2017</p></li>
-<li><p>Co-instructor, <a href="https://meetings.cshl.edu/courses.aspx?course=C-PROTEO&amp;year=16">Proteomics Course</a> (2 weeks), Cold Spring Harbor Laboratory, Cold Spring Harbor, NY, June 2016</p></li>
+<li><p>Co-instructor, DIA/SWATH Course (1 week), ETH Zurich, Switzerland, July 2018</p></li>
+<li><p>Co-designer and co-instructor, Advanced R (3 days) of the 2-week May Institute, Northeastern University, Boston, MA, May 2018</p></li>
+<li><p>Speaker, Proteomics Course (2 weeks), Cold Spring Harbor Laboratory, Cold Spring Harbor, NY, August 2017</p></li>
+<li><p>Co-designer and co-instructor, Advanced R (3 days) of the 2-week May Institute, Northeastern University, Boston, MA, May 2017</p></li>
+<li><p>Co-instructor, Targeted Proteomics Course (1 week), Buck Institute, Novato, CA, February 2017</p></li>
+<li><p>Co-instructor, Proteomics Course (2 weeks), Cold Spring Harbor Laboratory, Cold Spring Harbor, NY, June 2016</p></li>
 <li><p>Co-instructor, Computation &amp; Statistics for Targeted Proteomics (1 week), Northeastern University, Boston, MA, May 2016</p></li>
-<li><p>Co-instructor, <a href="https://skyline.ms/project/home/software/Skyline/events/2016%20Buck%20Institute%20Course/begin.view?">Targeted Proteomics Course</a> (1 week), Buck Institute, Novato, CA, March 2016</p></li>
-<li><p>Co-instructor, <a href="http://www.bio.iitb.ac.in/~sanjeeva/itpws/targeted/">Targeted Proteomics Course</a> (1 week), Indian Institute of Technology Bombay, India, December 2015</p></li>
+<li><p>Co-instructor, Targeted Proteomics Course (1 week), Buck Institute, Novato, CA, March 2016</p></li>
+<li><p>Co-instructor, Targeted Proteomics Course (1 week), Indian Institute of Technology Bombay, India, December 2015</p></li>
 </ul>
 </div>
 <div id="guest-lectures" class="section level3">
@@ -339,7 +379,7 @@ $(document).ready(function () {
 
 $(document).ready(function () {
   $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open');
+    $(this).parent().toggleClass('nav-tabs-open')
   });
 });
 </script>
