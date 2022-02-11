@@ -6,6 +6,8 @@ title: "PUBLICATIONS"
 
 ### Journal Papers
 
+* J Bao, S Jegede, J Hawks, B Dade, Q Guan, S Middaugh, Z Qiu, A Levina, __T-H Tsai__ (2022). Detecting cochlear synaptopathy through curvature quantification of the auditory brainstem response. _Frontiers in Cellular Neuroscience_.
+
 * T Maculins, E Verschueren, T Hinkle, M Choi, P Chang, C Chalouni, S Rao, Y Kwon, J Lim, AK Katakam, RC Kunz, BK Erickson, T Huang, __T-H Tsai__, O Vitek, M Reichelt, Y Senbabaoglu, B Mckenzie, J Rohde, I Dikic, D Kirkpatrick, A Murthy (2021). Multiplexed proteomics of autophagy deficient murine macrophages reveals enhanced antimicrobial immunity via the oxidative stress response. _eLife_, 10:e62320. [[Link](https://elifesciences.org/articles/62320)] [[PubMed](https://pubmed.ncbi.nlm.nih.gov/34085925/)]
 
 * A Arias-Alvarado, M Agayev, S Ilchenko, N Rachdaoui, J Lepp, __T-H Tsai__, G Zhang, S Previs, T Kasumov (2021). Measuring acetyl-CoA and acetylated histone turnover in vivo: effect of a high fat diet. _Analytical Biochemistry_, 615:114067. [[Link](https://doi.org/10.1016/j.ab.2020.114067)] [[PubMed](https://pubmed.ncbi.nlm.nih.gov/33340539/)]
