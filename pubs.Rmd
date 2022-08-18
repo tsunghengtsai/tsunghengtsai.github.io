@@ -6,7 +6,7 @@ title: "PUBLICATIONS"
 
 ### Journal Papers
 
-* V Verma, D Dahal, R Radha Krishnan, B Lussem, __T-H Tsai__ (2022). Accurate and reproducible mobility estimation enables high-throughput analysis of organic field-effect transistors. _Computational Material Science_. (accepted for publication)
+* V Verma, D Dahal, R Radha Krishnan, B Lussem, __T-H Tsai__ (2022). Accurate and reproducible mobility estimation enables high-throughput analysis of organic field-effect transistors. _Computational Material Science_, 214:111689. [[Link](https://doi.org/10.1016/j.commatsci.2022.111689)]
 
 * J Bao, S Jegede, J Hawks, B Dade, Q Guan, S Middaugh, Z Qiu, A Levina, __T-H Tsai__ (2022). Detecting cochlear synaptopathy through curvature quantification of the auditory brainstem response. _Frontiers in Cellular Neuroscience_, 16:851500. [[Link](https://doi.org/10.3389/fncel.2022.851500)] [[PubMed](https://pubmed.ncbi.nlm.nih.gov/35356798/)]
 
