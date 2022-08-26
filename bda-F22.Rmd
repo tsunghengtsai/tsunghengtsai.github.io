@@ -1,0 +1,209 @@
+---
+title: 'MATH 70095: ST: Bayesian Analysis'
+output: html_document
+---
+
+```{r dates, include=FALSE}
+mon <- as.Date("2022-08-22")
+
+advdate <- function(obj, adv) {
+ tmon <- obj + 7*(adv-1)
+ tfri <- obj + 4 + 7*(adv-1)
+ tmon <- format(tmon, format="%m/%d")
+ tfri <- format(tfri, format="%m/%d")
+ zadv <- sprintf("%02d", adv)
+ tmp <- paste("Week ",zadv,sep='',", ", tmon," - ",tfri)
+ return(tmp)
+}
+```
+
+### Fall 2022 (August 25, 2022 - December 11, 2022)
+
+__Lecture times:__ Mondays/Wednesdays/Fridays 9:55-10:45 a.m.
+
+__Location:__ MSB 276
+
+__Instructor:__ Tsung-Heng Tsai | ttsai1@kent.edu | Office Hours: Mondays/Wednesdays/Fridays 11 a.m.-12 p.m. or by appointment
+
+__Recommended Textbooks:__ 
+
+* [_Bayesian Data Analysis_](http://www.stat.columbia.edu/~gelman/book/), Andrew Gelman, John B. Carlin, Hal S. Stern, David B. Dunson, Aki Vehtari, Donald B. Rubin, Chapman and Hall/CRC, 3rd Edition, 2013. 
+
+* [_Statistical Rethinking: A Bayesian Course with Examples in R and STAN_](https://xcelab.net/rm/statistical-rethinking/), Richard McElreath, Chapman and Hall/CRC, 2nd Edition, 2020.
+
+
+__Academic integrity:__ Be familiar with the university's academic integrity policy on cheating and plagiarism. (https://www.kent.edu/policyreg/administrative-policy-regarding-student-cheating-and-plagiarism)
+
+__Administration:__ [Syllabus](bda-F22-syllabus.pdf), [Canvas](https://canvas.kent.edu/)
+
+---
+
+### Course Description
+
+This course aims to provide a practical introduction to Bayesian methodology with an emphasis on data analysis. Students will learn the fundamentals of Bayesian modeling and inference and the related computational strategies and algorithms. The course starts with the treatment of simple models based on a single parametric distribution, to illustrate how to conduct inference in a Bayesian setting through posterior summaries. More advanced models are then discussed, including hierarchical models and generalized linear models. To draw samples from the posterior distributions for Bayesian inference, Markov chain Monte Carlo (MCMC) methods, including the Gibbs sampler and Metropolis-Hastings algorithm are introduced. Critical issues in Bayesian data analysis such as prior specification, monitoring of MCMC convergence, sensitivity analysis and model checking will be discussed throughout the course. 
+
+---
+
+### Schedule 
+_(Subject to change.)_
+
+#### `r advdate(mon, 1)`: Syllabus
+
+_Class begins on August 26._
+
+#### `r advdate(mon, 2)`: Review of Probability and Inference
+
+Topics:
+
+* Probability as a measure of uncertainty
+* Statistical inference
+* Frequentist/classical approach
+
+Lab: Introduction to R, RStudio, Rmarkdown
+
+####  `r advdate(mon, 3)`: Introduction to Bayesian Inference
+
+Topics:
+
+* Bayes' Theorem
+* Prior and posterior distributions
+* Bayesian inference in applied statistics
+
+Lab: Fundamentals of R
+
+_Labor Day. No class on September 5_
+
+####  `r advdate(mon, 4)`: One-parameter Models
+
+Topics:
+
+* Specification of prior distributions
+* Posterior summaries
+
+Lab: Distributions in R
+
+####  `r advdate(mon, 5)`: Prior Distributions
+
+Topics:
+
+* Noninformative priors
+* Improper priors
+* Weakly informative priors
+
+Lab: Data visualization in R
+
+####  `r advdate(mon, 6)`: Multi-parameter Models
+
+Topics:
+
+* Joint and marginal posterior distributions
+* Sampling from joint posterior distribution
+
+Lab: Data transformation in R
+
+####  `r advdate(mon, 7)`: Markov chain Monte Carlo (MCMC)
+
+Topics: 
+
+* Monte Carlo Methods
+* Markov chain Monte Carlo (MCMC)
+* Gibbs sampler
+
+####  `r advdate(mon, 8)`: Midterm Exam
+
+_Exam due 11:59 p.m. on October 12 (handed out 9:00 a.m. on October 10)_
+
+_Fall Break. No class on October 14_
+
+####  `r advdate(mon, 9)`: Metropolis-Hastings Algorithms
+
+Topics:
+
+* Metropolis algorithm
+* Metropolis-Hastings algorithm
+
+####  `r advdate(mon, 10)`: MCMC Convergence Diagnostics
+
+Topics:
+
+* Mixing in MCMC
+* Dependence of the iterations
+* Diagnostic statistics
+
+####  `r advdate(mon, 11)`: Model Checking
+
+Topics:
+
+* Sensitivity analysis
+* Posterior predictive checking
+* Graphical checks
+
+####  `r advdate(mon, 12)`: Model Comparison
+
+Topics:
+
+* Information criteria 
+* Hypothesis testing and Bayes factor
+* Model averaging
+
+_Veterans Day Observed. No class on November 11_
+
+#### `r advdate(mon, 13)`: Regression Models
+
+Topics:
+
+* Bayesian analysis of classical regression
+* Unequal variances
+
+####  `r advdate(mon, 14)`: Hierarchical Linear Models
+
+Topics:
+
+* Exchangeability
+* Mixed-effects models
+
+_Thanksgiving Break. No class on November 23 and 25_
+
+####  `r advdate(mon, 15)`: Generalized Linear Models
+
+Topics:
+
+* Logistic regression
+* Poisson regression
+
+####  `r advdate(mon, 16)`: Extended Topics
+
+Topics:
+
+* Computationally efficient MCMC methods
+* Software for Bayesian analysis
+* Bayesian workflow
+
+####  `r advdate(mon, 17)`: Final Exam Week
+
+_Final project due 11:59 p.m. on December 12, 2022_
+
+---
+
+### Grading
+
+Grades will be calculated as follows:
+
+* Homework assignments: 30%
+* Midterm exam: 30%
+* Final project: 40%
+
+The final letter grades will follow the usual scale: A=90-100; B=80-89; C=70-79; D=60-69; F=0-59. Plus and minus grades will be given at discretion of the instructor.
+
+### Homework
+
+There will be approximately 6 homework assignments that will be posted on Canvas. Solutions must be uploaded to Canvas as a __PDF__ file. Please make sure your work is clearly presented. Assignments are due at the beginning of class hour on the specified date. In general, __NO__ late submissions will be accepted. In case of truly exceptional situations (e.g., family emergencies or illness), the instructor may make exceptions and allow late submission. The lowest homework score will be dropped at the end of the semester. 
+
+### Midterm Exam
+
+There will be a take-home midterm exam. The exam will be posted on Canvas at 9:00 a.m. on __October 10, 2022__, and you have to upload your solutions as a __PDF__ file to Canvas by 11:59 p.m. on __October 12, 2022__. Please note that you are NOT allowed to discuss with other students and the submitted work must be your own.
+
+### Final Project
+
+There will be a final project due on __December 12, 2022__. More details about the final project will be posted and discussed later in the semester. 
+

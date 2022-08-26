@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>MATH 70095: ST: Bayesian Analysis</title>
+
+<script src="site_libs/header-attrs-2.11/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/readable.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+pre code {
+  padding: 0;
+}
+</style>
+
+
+<style type="text/css">
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #adb5bd;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script type="text/javascript">
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.tab('show');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Tsung-Heng Tsai</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">Home</a>
+</li>
+<li>
+  <a href="res.html">Research</a>
+</li>
+<li>
+  <a href="pubs.html">Publications</a>
+</li>
+<li>
+  <a href="talk.html">Talks</a>
+</li>
+<li>
+  <a href="teach.html">Teaching</a>
+</li>
+<li>
+  <a href="cv.html">CV</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div id="header">
+
+
+
+<h1 class="title toc-ignore">MATH 70095: ST: Bayesian Analysis</h1>
+
+</div>
+
+
+<div id="fall-2022-august-25-2022---december-11-2022"
+class="section level3">
+<h3>Fall 2022 (August 25, 2022 - December 11, 2022)</h3>
+<p><strong>Lecture times:</strong> Mondays/Wednesdays/Fridays 9:55-10:45
+a.m.</p>
+<p><strong>Location:</strong> MSB 276</p>
+<p><strong>Instructor:</strong> Tsung-Heng Tsai | <a
+href="mailto:ttsai1@kent.edu" class="email">ttsai1@kent.edu</a> | Office
+Hours: Mondays/Wednesdays/Fridays 11 a.m.-12 p.m. or by appointment</p>
+<p><strong>Recommended Textbooks:</strong></p>
+<ul>
+<li><p><a href="http://www.stat.columbia.edu/~gelman/book/"><em>Bayesian
+Data Analysis</em></a>, Andrew Gelman, John B. Carlin, Hal S. Stern,
+David B. Dunson, Aki Vehtari, Donald B. Rubin, Chapman and Hall/CRC, 3rd
+Edition, 2013.</p></li>
+<li><p><a
+href="https://xcelab.net/rm/statistical-rethinking/"><em>Statistical
+Rethinking: A Bayesian Course with Examples in R and STAN</em></a>,
+Richard McElreath, Chapman and Hall/CRC, 2nd Edition, 2020.</p></li>
+</ul>
+<p><strong>Academic integrity:</strong> Be familiar with the
+university’s academic integrity policy on cheating and plagiarism. (<a
+href="https://www.kent.edu/policyreg/administrative-policy-regarding-student-cheating-and-plagiarism"
+class="uri">https://www.kent.edu/policyreg/administrative-policy-regarding-student-cheating-and-plagiarism</a>)</p>
+<p><strong>Administration:</strong> <a
+href="bda-F22-syllabus.pdf">Syllabus</a>, <a
+href="https://canvas.kent.edu/">Canvas</a></p>
+<hr />
+</div>
+<div id="course-description" class="section level3">
+<h3>Course Description</h3>
+<p>This course aims to provide a practical introduction to Bayesian
+methodology with an emphasis on data analysis. Students will learn the
+fundamentals of Bayesian modeling and inference and the related
+computational strategies and algorithms. The course starts with the
+treatment of simple models based on a single parametric distribution, to
+illustrate how to conduct inference in a Bayesian setting through
+posterior summaries. More advanced models are then discussed, including
+hierarchical models and generalized linear models. To draw samples from
+the posterior distributions for Bayesian inference, Markov chain Monte
+Carlo (MCMC) methods, including the Gibbs sampler and
+Metropolis-Hastings algorithm are introduced. Critical issues in
+Bayesian data analysis such as prior specification, monitoring of MCMC
+convergence, sensitivity analysis and model checking will be discussed
+throughout the course.</p>
+<hr />
+</div>
+<div id="schedule" class="section level3">
+<h3>Schedule</h3>
+<p><em>(Subject to change.)</em></p>
+<div id="week-01-0822---0826-syllabus" class="section level4">
+<h4>Week 01, 08/22 - 08/26: Syllabus</h4>
+<p><em>Class begins on August 26.</em></p>
+</div>
+<div id="week-02-0829---0902-review-of-probability-and-inference"
+class="section level4">
+<h4>Week 02, 08/29 - 09/02: Review of Probability and Inference</h4>
+<p>Topics:</p>
+<ul>
+<li>Probability as a measure of uncertainty</li>
+<li>Statistical inference</li>
+<li>Frequentist/classical approach</li>
+</ul>
+<p>Lab: Introduction to R, RStudio, Rmarkdown</p>
+</div>
+<div id="week-03-0905---0909-introduction-to-bayesian-inference"
+class="section level4">
+<h4>Week 03, 09/05 - 09/09: Introduction to Bayesian Inference</h4>
+<p>Topics:</p>
+<ul>
+<li>Bayes’ Theorem</li>
+<li>Prior and posterior distributions</li>
+<li>Bayesian inference in applied statistics</li>
+</ul>
+<p>Lab: Fundamentals of R</p>
+<p><em>Labor Day. No class on September 5</em></p>
+</div>
+<div id="week-04-0912---0916-one-parameter-models"
+class="section level4">
+<h4>Week 04, 09/12 - 09/16: One-parameter Models</h4>
+<p>Topics:</p>
+<ul>
+<li>Specification of prior distributions</li>
+<li>Posterior summaries</li>
+</ul>
+<p>Lab: Distributions in R</p>
+</div>
+<div id="week-05-0919---0923-prior-distributions"
+class="section level4">
+<h4>Week 05, 09/19 - 09/23: Prior Distributions</h4>
+<p>Topics:</p>
+<ul>
+<li>Noninformative priors</li>
+<li>Improper priors</li>
+<li>Weakly informative priors</li>
+</ul>
+<p>Lab: Data visualization in R</p>
+</div>
+<div id="week-06-0926---0930-multi-parameter-models"
+class="section level4">
+<h4>Week 06, 09/26 - 09/30: Multi-parameter Models</h4>
+<p>Topics:</p>
+<ul>
+<li>Joint and marginal posterior distributions</li>
+<li>Sampling from joint posterior distribution</li>
+</ul>
+<p>Lab: Data transformation in R</p>
+</div>
+<div id="week-07-1003---1007-markov-chain-monte-carlo-mcmc"
+class="section level4">
+<h4>Week 07, 10/03 - 10/07: Markov chain Monte Carlo (MCMC)</h4>
+<p>Topics:</p>
+<ul>
+<li>Monte Carlo Methods</li>
+<li>Markov chain Monte Carlo (MCMC)</li>
+<li>Gibbs sampler</li>
+</ul>
+</div>
+<div id="week-08-1010---1014-midterm-exam" class="section level4">
+<h4>Week 08, 10/10 - 10/14: Midterm Exam</h4>
+<p><em>Exam due 11:59 p.m. on October 12 (handed out 9:00 a.m. on
+October 10)</em></p>
+<p><em>Fall Break. No class on October 14</em></p>
+</div>
+<div id="week-09-1017---1021-metropolis-hastings-algorithms"
+class="section level4">
+<h4>Week 09, 10/17 - 10/21: Metropolis-Hastings Algorithms</h4>
+<p>Topics:</p>
+<ul>
+<li>Metropolis algorithm</li>
+<li>Metropolis-Hastings algorithm</li>
+</ul>
+</div>
+<div id="week-10-1024---1028-mcmc-convergence-diagnostics"
+class="section level4">
+<h4>Week 10, 10/24 - 10/28: MCMC Convergence Diagnostics</h4>
+<p>Topics:</p>
+<ul>
+<li>Mixing in MCMC</li>
+<li>Dependence of the iterations</li>
+<li>Diagnostic statistics</li>
+</ul>
+</div>
+<div id="week-11-1031---1104-model-checking" class="section level4">
+<h4>Week 11, 10/31 - 11/04: Model Checking</h4>
+<p>Topics:</p>
+<ul>
+<li>Sensitivity analysis</li>
+<li>Posterior predictive checking</li>
+<li>Graphical checks</li>
+</ul>
+</div>
+<div id="week-12-1107---1111-model-comparison" class="section level4">
+<h4>Week 12, 11/07 - 11/11: Model Comparison</h4>
+<p>Topics:</p>
+<ul>
+<li>Information criteria</li>
+<li>Hypothesis testing and Bayes factor</li>
+<li>Model averaging</li>
+</ul>
+<p><em>Veterans Day Observed. No class on November 11</em></p>
+</div>
+<div id="week-13-1114---1118-regression-models" class="section level4">
+<h4>Week 13, 11/14 - 11/18: Regression Models</h4>
+<p>Topics:</p>
+<ul>
+<li>Bayesian analysis of classical regression</li>
+<li>Unequal variances</li>
+</ul>
+</div>
+<div id="week-14-1121---1125-hierarchical-linear-models"
+class="section level4">
+<h4>Week 14, 11/21 - 11/25: Hierarchical Linear Models</h4>
+<p>Topics:</p>
+<ul>
+<li>Exchangeability</li>
+<li>Mixed-effects models</li>
+</ul>
+<p><em>Thanksgiving Break. No class on November 23 and 25</em></p>
+</div>
+<div id="week-15-1128---1202-generalized-linear-models"
+class="section level4">
+<h4>Week 15, 11/28 - 12/02: Generalized Linear Models</h4>
+<p>Topics:</p>
+<ul>
+<li>Logistic regression</li>
+<li>Poisson regression</li>
+</ul>
+</div>
+<div id="week-16-1205---1209-extended-topics" class="section level4">
+<h4>Week 16, 12/05 - 12/09: Extended Topics</h4>
+<p>Topics:</p>
+<ul>
+<li>Computationally efficient MCMC methods</li>
+<li>Software for Bayesian analysis</li>
+<li>Bayesian workflow</li>
+</ul>
+</div>
+<div id="week-17-1212---1216-final-exam-week" class="section level4">
+<h4>Week 17, 12/12 - 12/16: Final Exam Week</h4>
+<p><em>Final project due 11:59 p.m. on December 12, 2022</em></p>
+<hr />
+</div>
+</div>
+<div id="grading" class="section level3">
+<h3>Grading</h3>
+<p>Grades will be calculated as follows:</p>
+<ul>
+<li>Homework assignments: 30%</li>
+<li>Midterm exam: 30%</li>
+<li>Final project: 40%</li>
+</ul>
+<p>The final letter grades will follow the usual scale: A=90-100;
+B=80-89; C=70-79; D=60-69; F=0-59. Plus and minus grades will be given
+at discretion of the instructor.</p>
+</div>
+<div id="homework" class="section level3">
+<h3>Homework</h3>
+<p>There will be approximately 6 homework assignments that will be
+posted on Canvas. Solutions must be uploaded to Canvas as a
+<strong>PDF</strong> file. Please make sure your work is clearly
+presented. Assignments are due at the beginning of class hour on the
+specified date. In general, <strong>NO</strong> late submissions will be
+accepted. In case of truly exceptional situations (e.g., family
+emergencies or illness), the instructor may make exceptions and allow
+late submission. The lowest homework score will be dropped at the end of
+the semester.</p>
+</div>
+<div id="midterm-exam" class="section level3">
+<h3>Midterm Exam</h3>
+<p>There will be a take-home midterm exam. The exam will be posted on
+Canvas at 9:00 a.m. on <strong>October 10, 2022</strong>, and you have
+to upload your solutions as a <strong>PDF</strong> file to Canvas by
+11:59 p.m. on <strong>October 12, 2022</strong>. Please note that you
+are NOT allowed to discuss with other students and the submitted work
+must be your own.</p>
+</div>
+<div id="final-project" class="section level3">
+<h3>Final Project</h3>
+<p>There will be a final project due on <strong>December 12,
+2022</strong>. More details about the final project will be posted and
+discussed later in the semester.</p>
+</div>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>
