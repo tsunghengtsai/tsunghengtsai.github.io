@@ -10,9 +10,13 @@ title: "TEACHING"
 
 * MATH 40011/50011: Probability Theory and Applications (Fall 20)
 
-* MATH 49995/57091: Introduction to Data Science (Spring 20)
+* MATH 40015/50015: Applied Statistics (Spring 23)
 
 * MATH 40024/50024: Computational Statistics (Spring 21, Fall 19)
+
+* MATH 40028/50028: Statistical Learning (Spring 23)
+
+* MATH 49995/57091: Introduction to Data Science (Spring 20)
 
 * MATH 60061/70061: Mathematical Statistics I (Fall 21)
 

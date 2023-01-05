@@ -28,7 +28,7 @@ Summaries of protein abundance are undermined by mass spectrometric features inc
 <div class="column-right">
 Interpretation of changes at a single PTM site in a typical bottom-up proteomics workflow is complicated by sparse PTM coverage and confounded by both changes in overall protein abundance and variability in enrichment efficiency. We propose an alternative statistical approach to model relative abundance changes for modification sites, which explicitly incorporates major sources of variability and confounding factors present in PTM experiments. The general statistical framework underlying the proposed approach also allows for natural extensions to complex experimental designs including multiple conditions and multiple batches. All algorithms and statistical tests are implemented in the MSstatsPTM R package.
 
-[GitHub](https://github.com/tsunghengtsai/MSstatsPTM)
+[Manuscript](https://www.ncbi.nlm.nih.gov/pubmed/36496144)
 </div>
 </div>
 
@@ -42,6 +42,7 @@ Interpretation of changes at a single PTM site in a typical bottom-up proteomics
 </div>
 <div class="column-right">
 This study addresses three primary goals of therapeutic protein characterization: (1) the objective estimation of site occupancyin a particularcondition, (2) the determination of systematic changes in site occupancies (i.e., differential site occupancy) between conditions, and (3) the estimation of combined occupancy over multiple sites. We demonstrated the importance of appropriate statistical modeling, for reproducible, accurate and efficient site occupancy estimation and differential analysis. 
+
 [Manuscript](https://www.ncbi.nlm.nih.gov/pubmed/28801661)
 </div>
 </div>

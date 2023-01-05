@@ -6,6 +6,10 @@ title: "PUBLICATIONS"
 
 ### Journal Papers
 
+* L Malinovska, V Cappelletti, D Kohler, I Piazza, __T-H Tsai__, M Pepelnjak, P Stalder, C Dörig, F Sesterhenn, F Elsässer, L Kralickova, N Beaton, L Reiter, N de Souza, O Vitek, P Picotti (2022). Proteome-wide structural changes measured with limited proteolysis-mass spectrometry: an advanced protocol for high-throughput applications. _Nature Protocols_. [[Link](https://www.nature.com/articles/s41596-022-00771-x)] [[PubMed](https://pubmed.ncbi.nlm.nih.gov/36526727/)]
+
+* D Kohler, __T-H Tsai__, E Verschueren, T Huang, T Hinkle, L Phu, M Choi, O Vitek (2022). MSstatsPTM: statistical relative quantification of post-translational modifications in bottom-up mass spectrometry-based proteomics. _Molecular & Cellular Proteomics_. [[Link](https://www.sciencedirect.com/science/article/pii/S1535947622002857)] [[PubMed](https://pubmed.ncbi.nlm.nih.gov/36496144/)]
+
 * V Verma, D Dahal, R Radha Krishnan, B Lussem, __T-H Tsai__ (2022). Accurate and reproducible mobility estimation enables high-throughput analysis of organic field-effect transistors. _Computational Material Science_, 214:111689. [[Link](https://doi.org/10.1016/j.commatsci.2022.111689)]
 
 * J Bao, S Jegede, J Hawks, B Dade, Q Guan, S Middaugh, Z Qiu, A Levina, __T-H Tsai__ (2022). Detecting cochlear synaptopathy through curvature quantification of the auditory brainstem response. _Frontiers in Cellular Neuroscience_, 16:851500. [[Link](https://doi.org/10.3389/fncel.2022.851500)] [[PubMed](https://pubmed.ncbi.nlm.nih.gov/35356798/)]
