@@ -6,9 +6,13 @@ title: "PUBLICATIONS"
 
 ### Journal Papers
 
-* L Malinovska, V Cappelletti, D Kohler, I Piazza, __T-H Tsai__, M Pepelnjak, P Stalder, C Dörig, F Sesterhenn, F Elsässer, L Kralickova, N Beaton, L Reiter, N de Souza, O Vitek, P Picotti (2022). Proteome-wide structural changes measured with limited proteolysis-mass spectrometry: an advanced protocol for high-throughput applications. _Nature Protocols_. [[Link](https://www.nature.com/articles/s41596-022-00771-x)] [[PubMed](https://pubmed.ncbi.nlm.nih.gov/36526727/)]
+* M Aghayev, A Arias-Alvarado, S Ilchenko, J Lepp, I Scott, Y-R Chen, G-F Zhang, __T-H Tsai__, T Kasumov (2023). A high-fat diet increases hepatic mitochondrial turnover through restricted acetylation in a NAFLD mouse model. _American Journal of Physiology-Endocrinology and Metabolism_, 325(1):E83--E98. [[Link](https://journals.physiology.org/doi/abs/10.1152/ajpendo.00310.2022)] [[PubMed](https://pubmed.ncbi.nlm.nih.gov/37224468/)]
 
-* D Kohler, __T-H Tsai__, E Verschueren, T Huang, T Hinkle, L Phu, M Choi, O Vitek (2022). MSstatsPTM: statistical relative quantification of post-translational modifications in bottom-up mass spectrometry-based proteomics. _Molecular & Cellular Proteomics_. [[Link](https://www.sciencedirect.com/science/article/pii/S1535947622002857)] [[PubMed](https://pubmed.ncbi.nlm.nih.gov/36496144/)]
+* D Kohler, M Staniak, __T-H Tsai__, T Huang, N Shulman, O M Bernhardt, B MacLean, A Nesvizhskii, L Reiter, E Sabido, M Choi, O Vitek (2023). MSstats version 4.0: statistical analyses of quantitative mass spectrometry-based proteomic experiments with chromatography-based quantification at scale. _Journal of Proteome Research_, 22(5):1466--1482. [[Link](https://pubs.acs.org/doi/full/10.1021/acs.jproteome.2c00834)] [[PubMed](https://pubmed.ncbi.nlm.nih.gov/37018319/)]
+
+* L Malinovska, V Cappelletti, D Kohler, I Piazza, __T-H Tsai__, M Pepelnjak, P Stalder, C Dörig, F Sesterhenn, F Elsässer, L Kralickova, N Beaton, L Reiter, N de Souza, O Vitek, P Picotti (2023). Proteome-wide structural changes measured with limited proteolysis-mass spectrometry: an advanced protocol for high-throughput applications. _Nature Protocols_, 18(3):659--682. [[Link](https://www.nature.com/articles/s41596-022-00771-x)] [[PubMed](https://pubmed.ncbi.nlm.nih.gov/36526727/)]
+
+* D Kohler, __T-H Tsai__, E Verschueren, T Huang, T Hinkle, L Phu, M Choi, O Vitek (2023). MSstatsPTM: statistical relative quantification of post-translational modifications in bottom-up mass spectrometry-based proteomics. _Molecular & Cellular Proteomics_, 22(1):100477. [[Link](https://www.sciencedirect.com/science/article/pii/S1535947622002857)] [[PubMed](https://pubmed.ncbi.nlm.nih.gov/36496144/)]
 
 * V Verma, D Dahal, R Radha Krishnan, B Lussem, __T-H Tsai__ (2022). Accurate and reproducible mobility estimation enables high-throughput analysis of organic field-effect transistors. _Computational Material Science_, 214:111689. [[Link](https://doi.org/10.1016/j.commatsci.2022.111689)]
 

@@ -6,6 +6,8 @@ title: "TALKS"
 
 ### Invited Talks
 
+* "_Accurate and Reproducible Mobility Estimation Enables High-throughput Analysis of Organic Field-effect Transistors_," [Department of Computer Science](https://www.kent.edu/cs), Kent State University, November 2022
+
 * "_Statistical Methods for Reproducible Mass Spectrometry-based Proteomic Research_," [Department of Computer Science](https://www.kent.edu/cs), Kent State University, February 2020
 
 * "_Statistical Methods for Quantitative Mass Spectrometry-based Proteomics_," [Department of Mathematical Sciences](https://www.kent.edu/math), Kent State University, March 2019
