@@ -1,0 +1,31 @@
+---
+title: "Statistics Seminar"
+---
+
+---
+
+## Fall 2023
+
+Thursdays, 11:00-11:50 am in MSB 213
+
+* October 12, "Deep learning in the context of statistical learning II" by Robert Silvey
+* September 28, "Deep learning in the context of statistical learning I" by Robert Silvey
+* September 21, "Regularization and variable selection via the elastic net" by Ebrima Njie
+* September 14, "Modeling approaches for cross-sectional integrative data analysis" by Ebrima Njie
+* September 7, "Towards accurate and reproducible estimation of organic electrochemical transistor parameters II" by Segun Light Jegede
+* August 31, "Towards accurate and reproducible estimation of organic electrochemical transistor parameters I" by Segun Light Jegede
+
+---
+
+## Spring 2023
+
+Thursdays, 11:00-11:50 am in MSB 213
+
+* April 20, "Deep Learning for Network Analysis: Problems, Approaches and Challenges II" by Kazi Nur Uddin
+* April 6, "Fitting Linear Mixed-Effects Models Using lme4 II" by Ebrima Njie
+* March 23, "Regularization Paths for Generalized Linear Models via Coordinate Descent II" by Segun Light Jegede
+* March 9, "Deep Learning for Network Analysis: Problems, Approaches and Challenges I" by Kazi Nur Uddin
+* March 2, "Parametric test statistics with geometric mean for testing hypotheses about population means" by Kayode Ayinde
+* February 23, "Fitting Linear Mixed-Effects Models Using lme4 I" by Ebrima Njie
+* February 9, "Regularization Paths for Generalized Linear Models via Coordinate Descent I" by Segun Light Jegede
+
