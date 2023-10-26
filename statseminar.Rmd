@@ -8,6 +8,8 @@ title: "Statistics Seminar"
 
 Thursdays, 11:00-11:50 am in MSB 213
 
+* October 26, "Introduction to causal inference" by Segun Light Jegede
+* October 19, "Deep learning in the context of statistical learning III" by Robert Silvey
 * October 12, "Deep learning in the context of statistical learning II" by Robert Silvey
 * September 28, "Deep learning in the context of statistical learning I" by Robert Silvey
 * September 21, "Regularization and variable selection via the elastic net" by Ebrima Njie
