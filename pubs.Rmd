@@ -6,6 +6,10 @@ title: "PUBLICATIONS"
 
 ### Journal Papers
 
+* C Kim, __T-H Tsai__, R Lopez, A McCullough, T Kasumov (2024). Obeticholic acid's effect on HDL function in MASH varies by diabetic status. __Lipids__ (DOI: 10.1002/lipd.12408). [[Link](https://aocs.onlinelibrary.wiley.com/doi/full/10.1002/lipd.12408)] [[PubMed](https://pubmed.ncbi.nlm.nih.gov/39014264/)]
+
+* P Perez, __T-H Tsai__, J Hawks, H Malyuk Barbone, J Pinkl, J Bao (2024). Hearing loss in the unoperated ear after high-speed drilling in otologic and skull base surgery. _Otology \& Neurotology_, 45(9):993--997. [[Link](https://doi.org/10.1097/mao.0000000000004316)] [[PubMed](https://pubmed.ncbi.nlm.nih.gov/39207294/)]
+
 * M Aghayev, A Arias-Alvarado, S Ilchenko, J Lepp, I Scott, Y-R Chen, G-F Zhang, __T-H Tsai__, T Kasumov (2023). A high-fat diet increases hepatic mitochondrial turnover through restricted acetylation in a NAFLD mouse model. _American Journal of Physiology-Endocrinology and Metabolism_, 325(1):E83--E98. [[Link](https://journals.physiology.org/doi/abs/10.1152/ajpendo.00310.2022)] [[PubMed](https://pubmed.ncbi.nlm.nih.gov/37224468/)]
 
 * D Kohler, M Staniak, __T-H Tsai__, T Huang, N Shulman, O M Bernhardt, B MacLean, A Nesvizhskii, L Reiter, E Sabido, M Choi, O Vitek (2023). MSstats version 4.0: statistical analyses of quantitative mass spectrometry-based proteomic experiments with chromatography-based quantification at scale. _Journal of Proteome Research_, 22(5):1466--1482. [[Link](https://pubs.acs.org/doi/full/10.1021/acs.jproteome.2c00834)] [[PubMed](https://pubmed.ncbi.nlm.nih.gov/37018319/)]

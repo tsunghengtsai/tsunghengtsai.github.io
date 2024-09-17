@@ -2,7 +2,7 @@
 title: "Tsung-Heng Tsai"
 ---
 
-I am an assistant professor in the [Department of Mathematical Sciences](https://www.kent.edu/math) at [Kent State University](https://www.kent.edu). I received my PhD in Electrical Engineering from Virginia Tech, and postdoctoral training in translational research at The University of Texas MD Anderson Cancer Center and statistical proteomics at Northeastern University.  My research focuses on developing statistical methods for the analysis and interpretation of complex biological datasets, with an emphasis on applications of high-throughput omics technologies.
+I am an associate professor in the [Department of Mathematical Sciences](https://www.kent.edu/math) at [Kent State University](https://www.kent.edu). I received my PhD in Electrical Engineering from Virginia Tech, and postdoctoral training in translational research at The University of Texas MD Anderson Cancer Center and statistical proteomics at Northeastern University. My research focuses on developing statistical methods for the analysis and interpretation of complex biological datasets, with an emphasis on applications of high-throughput omics technologies.
 
 ---
 E-mail: ttsai1 [AT] kent DOT edu  
