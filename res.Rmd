@@ -2,6 +2,27 @@
 title: "RESEARCH"
 ---
 
+My research concerns statistical problems in computational biology and bioinformatics. I use statistical modeling to develop expressive, effective and extendable approaches in interdisciplinary research, leading to rigorous and reproducible analyses. 
+
+### Statistical mass spectrometry-based proteomics
+
+Open-source software facilitates the transparency and reproducibility in scientific research. I was a key developer of MSstats, an open-source R/Bioconductor package for statistical relative quantification of proteins in MS-based proteomics. MSstats provides a general and flexible statistical framework, which offers both flexibility for diverse data acquisition workflows and consistency of data analysis across workflows. My most recent contributions to quantitative proteomics include the development of a feature selection approach for relative protein quantification, statistical methods and tools for quantitative characterization of post-translational modifications, and kinetic models for analyses of protein dynamics.
+
+---
+
+#### Statistical inference of protein turnover
+
+<div class="row">
+<div class="column-left">
+![](images/labeling.png)
+</div>
+<div class="column-right">
+Beyond quantitative analysis of protein abundance, PTMs and structures in steady state, the dynamic behavior of protein is characterized by protein turnover, the balance of protein synthesis and degradation. With LC-MS/MS, protein turnover can be analyzed using stable isotope labeling, where the protein kinetic is measured through the incorporation of isotopes into protein over time and the resulting time series is typically described by differential equations. We have developed a statistical approach that uses nonlinear regression to jointly model all time-series data pertaining to a protein. The joint modeling approach gives efficient estimation of turnover and improves the accuracy and sensitivity in detecting changes in turnover over conventional methods. 
+
+[Manuscript](https://pubmed.ncbi.nlm.nih.gov/37224468/)
+</div>
+</div>
+
 ---
 
 #### Selection of informative features for relative protein quantification
@@ -49,6 +70,12 @@ This study addresses three primary goals of therapeutic protein characterization
 
 ---
 
+### Bioinformatics for high-throughput omics 
+
+The development of high-throughput omics technologies has necessitated an increased reliance on computational methods and tools to extract knowledge from the vast amount of data. I made several original contributions to the development of computational and statistical methods for the analysis of mass spectrometry (MS) and gene expression microarray data. These methods enable robust and reproducible analyses by properly characterizing the variation in the raw measurements and/or deconvoluting quantitative information from multiple sources. 
+
+---
+
 #### Bayesian alignment model for analysis of LC-MS based omic data
 
 <div class="row">
@@ -76,6 +103,12 @@ This study provides methodological foundation for the Bayesian alignment model a
 [Manuscript](https://www.ncbi.nlm.nih.gov/pubmed/23929872)
 </div>
 </div>
+
+---
+
+### Biomarker discovery 
+
+Early detection of hepatocellular carcinoma (HCC) is crucial for the treatment of the disease, as rates of survival increase immensely in proportion to how early the diagnosis is made. I led or played a major role in three large-scale omics analyses (proteomics, metabolomics and glycomics) of hundreds of serum samples collected from subjects in Egyptian and US populations. These analyses have led to the identification of numerous biomolecules altered significantly in HCC cases vs. patients with liver cirrhosis.
 
 ---
 
