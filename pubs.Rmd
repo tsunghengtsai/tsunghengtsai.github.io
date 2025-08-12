@@ -6,7 +6,7 @@ title: "PUBLICATIONS"
 
 ### Journal Papers
 
-* C Kim, __T-H Tsai__, R Lopez, A McCullough, T Kasumov (2024). Obeticholic acid's effect on HDL function in MASH varies by diabetic status. __Lipids__ (DOI: 10.1002/lipd.12408). [[Link](https://aocs.onlinelibrary.wiley.com/doi/full/10.1002/lipd.12408)] [[PubMed](https://pubmed.ncbi.nlm.nih.gov/39014264/)]
+* C Kim, __T-H Tsai__, R Lopez, A McCullough, T Kasumov (2024). Obeticholic acid's effect on HDL function in MASH varies by diabetic status. __Lipids__, 59(6):221--231. [[Link]](https://aocs.onlinelibrary.wiley.com/doi/full/10.1002/lipd.12408) [[PubMed](https://pubmed.ncbi.nlm.nih.gov/39014264/)]
 
 * P Perez, __T-H Tsai__, J Hawks, H Malyuk Barbone, J Pinkl, J Bao (2024). Hearing loss in the unoperated ear after high-speed drilling in otologic and skull base surgery. _Otology \& Neurotology_, 45(9):993--997. [[Link](https://doi.org/10.1097/mao.0000000000004316)] [[PubMed](https://pubmed.ncbi.nlm.nih.gov/39207294/)]
 
