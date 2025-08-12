@@ -8,11 +8,11 @@ title: "TEACHING"
 
 * MATH 11012: Intuitive Calculus (Summer 23)
 
-* MATH 10041: Introductory Statistics (Summer 24)
+* MATH 10041: Introductory Statistics (Summer 25, Summer 24)
 
 * MATH 20011: Decision Making Under Uncertainty (Fall 24, Fall 22, Fall 21)
 
-* MATH 40011/50011: Probability Theory and Applications (Fall 20)
+* MATH 40011/50011: Probability Theory and Applications (Spring 25, Fall 20)
 
 * MATH 40015/50015: Applied Statistics (Spring 23)
 
@@ -26,7 +26,7 @@ title: "TEACHING"
 
 * MATH 60062/70062: Mathematical Statistics II (Spring 22)
 
-* MATH 70095: ST: Bayesian Analysis (Fall 22)
+* MATH 70095: ST: Bayesian Analysis (Spring 25, Fall 22)
 
 ### Short Courses
 
