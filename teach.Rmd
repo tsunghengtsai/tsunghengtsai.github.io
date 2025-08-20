@@ -16,7 +16,7 @@ title: "TEACHING"
 
 * MATH 40015/50015: Applied Statistics (Spring 23)
 
-* MATH 40024/50024: Computational Statistics (Spring 24, Fall 23, Spring 21, Fall 19)
+* MATH 40024/50024: Computational Statistics (Fall 25, Spring 24, Fall 23, Spring 21, Fall 19)
 
 * MATH 40028/50028: Statistical Learning (Fall 24, Spring 24, Spring 23)
 
